@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="34382ba">
+        <description>Created after removal of "AxKills" from Help Instance</description>
+        <accepts>AxKills.html</accepts>
+    </rule>
+    <rule id="3eadce8e">
+        <description>Created after removal of "AxMinions" from Help Instance</description>
+        <accepts>AxMinions.html</accepts>
+    </rule>
+    <rule id="bf72ccd">
+        <description>Created after removal of "BB" from Help Instance</description>
+        <accepts>BB.html</accepts>
+    </rule>
+    <rule id="77ada1ad">
+        <description>Created after removal of "A" from Artillex-Studios Documentation</description>
+        <accepts>A.html</accepts>
+    </rule>
+    <rule id="6ee1a699">
+        <description>Created after removal of "Starter" from Artillex-Studios Documentation</description>
+        <accepts>Starter.html</accepts>
+    </rule>
+    <rule id="6a869afc">
+        <description>Created after removal of "Reference" from Artillex-Studios Documentation</description>
+        <accepts>Reference.html</accepts>
+    </rule>
+</rules>
