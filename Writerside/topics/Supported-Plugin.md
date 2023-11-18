@@ -1,4 +1,5 @@
 # Supported Plugins
+
 ## Booster Hooks
 * ShopGuiPlus (sell money boost)
 * EconomyShopGui (sell money boost)
