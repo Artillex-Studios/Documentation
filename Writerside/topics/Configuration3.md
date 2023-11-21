@@ -35,3 +35,16 @@
 ### disabled-worlds
 
 * Worlds where players won't spawn a grave and the vanilla behavior will be active
+
+### rotate-head-360 (default: true)
+
+* true: the head can face in all the 360 degrees
+* false: the head can face in only 4 directions (north, east, south, west)
+
+### auto-rotation.enabled (default: false)
+
+* should the heads rotate around like items on the ground?
+
+### auto-rotation.speed (default: 10.0)
+
+* if `auto-rotation` is enabled, how fast should the heads spin?
