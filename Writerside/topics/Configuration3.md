@@ -48,3 +48,8 @@
 ### auto-rotation.speed (default: 10.0)
 
 * if `auto-rotation` is enabled, how fast should the heads spin?
+
+### blacklisted-items
+
+* Items that match will be removed when the player dies from the grave
+* You can also define a material and a name-contains subsection
