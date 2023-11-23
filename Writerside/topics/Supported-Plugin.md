@@ -11,6 +11,8 @@
 * TMMobCoins (mob coin boost)
 * EcoSkills (skill xp boost)
 * AureliumSkills (skill xp boost)
+* McMMO (skill xp boost)
+* MMOCore (skill xp boost)
 * EcoJobs (job xp boost)
 * JobsReborn (job xp boost)
 * RivalHarvesterHoes (essence boost)
