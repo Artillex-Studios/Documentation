@@ -5,6 +5,7 @@
 ### despawn-time-seconds (default: 180)
 
 * How many seconds should graves stay on the ground?
+* Set to -1 to make it only despawn after a server restart
 
 ### drop-items (default: true)
 

@@ -5,6 +5,8 @@
 * EconomyShopGui (sell money boost)
 * CMI (sell money boost)
 * AxGens (sell money boost)
+* DeluxeSellwands (sell money boost)
+* VoidChest (sell money boost)
 * AlonsoLevels (xp gain boost)
 * CyberLevels (xp gain boost) NOTE: you need [our fork](https://github.com/BenceX100/CyberLevels-with-api/releases)
 * SuperMobCoins (mob coin boost)
