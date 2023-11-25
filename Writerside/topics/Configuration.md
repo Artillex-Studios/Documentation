@@ -2,7 +2,7 @@
 
 ## config.yml
 
-### include-global-permissions: (default: false)
+### include-global-permissions (default: false)
 
 * if false: The plugin will display ONLY the permissions that have the same server [context](https://luckperms.net/wiki/Context) as the server where the meunu is opened.
 * if true: The plugin will also display ALL the permissions that does not have a [context](https://luckperms.net/wiki/Context) (so GLOBAL permissions).

@@ -12,7 +12,7 @@ maven { url 'https://repo.artillex-studios.com/releases/' }
 Add the dependency to your **dependencies** section:
 
 ```groovy
-compileOnly("com.artillexstudios:AxGensAPI:CHANGE-THIS")
+compileOnly("com.artillexstudios:AxInventoryRestore:CHANGE-THIS")
 ```
 </tab>
 
@@ -31,14 +31,20 @@ Add the following to your **dependencies** section:
 ```xml
 <dependency>
     <groupId>com.artillexstudios</groupId>
-    <artifactId>AxGensAPI</artifactId>
+    <artifactId>AxInventoryRestore</artifactId>
     <version>CHANGE-THIS</version>
     <scope>provided</scope>
 </dependency>
 ```
 </tab>
 </tabs>
-<p>Replace <b>CHANGE-THIS</b> to the latest version: <a href="https://repo.artillex-studios.com/#/releases/com/artillexstudios/AxGensAPI"><img src="https://repo.artillex-studios.com/api/badge/latest/releases/com/artillexstudios/AxGensAPI?color=40c14a&amp;name=AxGensAPI" alt=""/></a></p>
+<p>Replace <b>CHANGE-THIS</b> to the latest version: <a href="https://repo.artillex-studios.com/#/releases/com/artillexstudios/AxInventoryRestore"><img src="https://repo.artillex-studios.com/api/badge/latest/releases/com/artillexstudios/AxInventoryRestore?color=40c14a&amp;name=AxInventoryRestore" alt=""/></a></p>
 
 ## API Usage
-> You should look at the AxGensAPI and HookManager class if you want to register a new booster or team hook!
+
+### Events
+
+|-|-|
+| Event | Description |
+| InventoryBackupEvent | Called when a backup is made |
+| InventoryRestoreEvent | Called before a backup is restored |
