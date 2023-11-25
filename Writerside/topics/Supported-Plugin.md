@@ -15,6 +15,7 @@
 * AureliumSkills (skill xp boost)
 * McMMO (skill xp boost)
 * MMOCore (skill xp boost)
+* ValhallaMMO (skill xp boost)
 * EcoJobs (job xp boost)
 * JobsReborn (job xp boost)
 * RivalHarvesterHoes (essence boost)
