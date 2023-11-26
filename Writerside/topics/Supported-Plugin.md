@@ -18,6 +18,7 @@
 * ValhallaMMO (skill xp boost)
 * EcoJobs (job xp boost)
 * JobsReborn (job xp boost)
+* BattlePass (quest xp boost)
 * RivalHarvesterHoes (essence boost)
 
 ## Team Hooks
