@@ -6,6 +6,14 @@
                  start-page="Welcome.md">
 
     <toc-element topic="Welcome.md"/>
+    <toc-element topic="AxEnvoys.md">
+        <toc-element topic="Configuration-axenvoys.md">
+            <toc-element topic="Crate.md"/>
+            <toc-element topic="Envoy.md"/>
+        </toc-element>
+        <toc-element topic="Placeholders-axenvoys.md"/>
+        <toc-element topic="Commands-envoys.md"/>
+    </toc-element>
     <toc-element topic="AxMinions.md">
         <toc-element topic="Commands-Permissions.md"/>
         <toc-element topic="Minions.md"/>

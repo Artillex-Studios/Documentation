@@ -1,0 +1,73 @@
+# Envoy
+
+```yaml
+
+crates:
+  # The name of the crate:the spawn chance of the crate spawning
+  # They don't have to add up to 100%
+  common: 50
+  legendary: 10
+  rare: 40
+
+amount: "30"
+limit-predefined: true
+
+collect-cooldown: 10
+collect-global-cooldown: false
+broadcast-collect: true
+timeout-time: 300
+every: "1h"
+send-spawn-message: false
+alert-times:
+  - "30m"
+  - "10m"
+  - "5s"
+  - "3s"
+  - "2s"
+  - "1s"
+
+only-in-global: false
+
+min-players: 2
+
+random-spawn:
+  enabled: true
+  center: "world;0;100;0"
+  min-distance: 20
+  max-distance: 100
+  min-height: 10
+  max-height: 200
+  min-distance-between-crates: 0
+
+  not-on-blocks:
+    - "(?<!s)t?air(?!s)"
+    - "(leaves)"
+    - "(sign)"
+    - "diamond_block"
+
+# You can override messages from messages.yml. You need to put it exactly how it is in that file.
+messages:
+  prefix: "<#00FFAA>&lAxEnvoy &7» "
+
+rewards:
+  use-prefix: true
+
+flare:
+  enabled: true
+  cooldown: 30
+  item:
+    material: "prismarine_shard"
+    name: "&cEnvoy flare"
+    glow: true
+    custom-model-data: 0
+    lore:
+      - "&7Right click with this, to start"
+      - "&7the default envoy!"
+
+pre-defined-spawns:
+  enabled: false
+  locations:
+    - "world;1;1;1"
+
+
+```

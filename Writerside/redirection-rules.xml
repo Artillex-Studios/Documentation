@@ -30,4 +30,8 @@
         <description>Created after removal of "Reference" from Artillex-Studios Documentation</description>
         <accepts>Reference.html</accepts>
     </rule>
+    <rule id="265afaa0">
+        <description>Created after removal of "AxSellChest" from Artillex-Studios Documentation</description>
+        <accepts>AxSellChest.html</accepts>
+    </rule>
 </rules>
