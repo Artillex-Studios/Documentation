@@ -50,6 +50,11 @@
 
 * if `auto-rotation` is enabled, how fast should the heads spin?
 
+### interact-only-own (default: false)
+
+* if true: only the person who died and people with axgraves.admin can open the grave
+* if false: everyone can open the grave
+
 ### blacklisted-items
 
 * Items that match will be removed when the player dies from the grave
