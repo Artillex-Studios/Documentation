@@ -57,3 +57,7 @@
   * 1 - ticks
   * 2 - seconds
   * 3 - miliseconds
+
+### offline-generation (default: true)
+
+* Should generators work when the owner is offline?
