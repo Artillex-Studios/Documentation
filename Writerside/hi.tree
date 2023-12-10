@@ -60,6 +60,7 @@
         <toc-element topic="Developer-API5.md"/>
     </toc-element>
     <toc-element topic="AxShulkers.md">
+        <toc-element topic="How-does-it-work.md"/>
         <toc-element topic="Commands7.md"/>
         <toc-element topic="Permissions3.md"/>
         <toc-element topic="Configuration5.md"/>
