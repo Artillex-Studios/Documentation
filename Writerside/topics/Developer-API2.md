@@ -44,7 +44,7 @@ Add the following to your **dependencies** section:
 
 As an example, I will be adding a vanilla minecraft xp booster to axboosters with the API!
 
-First, don't forget to app AxBoosters to your plugin's plugin.yml, like this:
+First, don't forget to add AxBoosters to your plugin's plugin.yml, like this:
 ```yaml
 depend:
   - AxBoosters
@@ -79,7 +79,7 @@ public class AxBoostersExample implements Listener, BoosterHook {
 }
 ```
 
-Next, you will have to register the hook, like this (`this` should be the instance of your main class):
+Next, you will have to register the hook: (`this` should be the instance of your main class):
 ```Java
 final AxBoostersExample booster = new AxBoostersExample();
 // register the booster
