@@ -42,7 +42,7 @@ Add the following to your **dependencies** section:
 
 ## API Usage
 
-Don't forget to add AxBoosters to your plugin's plugin.yml, like this:
+Don't forget to add AxKoth to your plugin's plugin.yml, like this:
 ```yaml
 depend:
   - AxKoth
