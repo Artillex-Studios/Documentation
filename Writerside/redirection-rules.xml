@@ -34,4 +34,17 @@
         <description>Created after removal of "AxSellChest" from Artillex-Studios Documentation</description>
         <accepts>AxSellChest.html</accepts>
     </rule>
+    <rule id="50bbaf87">
+        <description>Created after removal of "Type Specific Configuration" from Artillex-Studios Documentation
+        </description>
+        <accepts>AxKoth-Koth-Type-Specific-Configuration.html</accepts>
+    </rule>
+    <rule id="ada07f9">
+        <description>Created after removal of "Types" from Artillex-Studios Documentation</description>
+        <accepts>Types.html</accepts>
+    </rule>
+    <rule id="1fd929d2">
+        <description><![CDATA[Created after removal of "<Time.md>" from Artillex-Studios Documentation]]></description>
+        <accepts>Time.html</accepts>
+    </rule>
 </rules>

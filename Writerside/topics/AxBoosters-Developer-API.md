@@ -42,7 +42,7 @@ Add the following to your **dependencies** section:
 
 ## API Usage
 
-As an example, I will be adding a vanilla minecraft xp booster to axboosters with the API!
+As an example, I will be adding a vanilla minecraft xp booster to AxBoosters with the API!
 
 First, don't forget to add AxBoosters to your plugin's plugin.yml, like this:
 ```yaml
