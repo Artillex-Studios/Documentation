@@ -8,7 +8,7 @@
 * Customizable: There are many options, more info on the wiki
 * Asynchronous: Almost everything is ran off the main thread to guarantee a lag free experience
 * GUI editor: You can edit the most basic settings even without stopping running koths
-* Modular: You can toggle many features and the will not use any cpu
+* Modular: You can toggle many features, and it will not use any cpu
 * Discord Webhooks on koth start, stop, capture, capture start, capture stop (optional)
 * Builtin scoreboard (optional)
 * Builtin bossbars (optional)
