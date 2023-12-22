@@ -18,3 +18,7 @@
 ### automatic-backup.minutes (default: 5)
 
 * How often should a backup be made if `automatic-backup.enabled` is true?
+
+### enable-discord-addon (default: false)
+
+* More info: [Discord Addon](AxInventoryRestore-Discord-Addon.md)

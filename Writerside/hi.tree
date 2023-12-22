@@ -56,6 +56,7 @@
         <toc-element topic="AxInventoryRestore-Commands.md"/>
         <toc-element topic="AxInventoryRestore-Permissions.md"/>
         <toc-element topic="AxInventoryRestore-Configuration.md"/>
+        <toc-element topic="AxInventoryRestore-Discord-Addon.md"/>
         <toc-element topic="AxInventoryRestore-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxShulkers.md">
