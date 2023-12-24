@@ -37,6 +37,11 @@
 * EconomyShopGUI
 * CMI
 
+### Teams:
+* SuperiorSkyblock2
+* BentoBox
+* KingdomsX
+
 ### Other:
 * [PlaceholderAPI](AxGens-Placeholders.md)
 
