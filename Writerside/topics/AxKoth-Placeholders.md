@@ -31,5 +31,11 @@
 | %axkoth_\<KOTH>_score_\<placement\>_points% | points of top # player |
 | %\axkoth_player_wins% | wins of the player |
 | %\axkoth_team_wins% | wins of a team |
-| %axkoth_top_[\[time\]](AxKoth-Time.md)_\<placement\>_player/team/wins% | leaderboard position |
-| %axkoth_top_\<placement\>_player/team/wins% | leaderboard position |
+| %axkoth_top_[\[time\]](AxKoth-Time.md)_\<placement\>_player_name% | leaderboard |
+| %axkoth_top_[\[time\]](AxKoth-Time.md)_\<placement\>_player_wins% | leaderboard |
+| %axkoth_top_[\[time\]](AxKoth-Time.md)_\<placement\>_team_name% | leaderboard |
+| %axkoth_top_[\[time\]](AxKoth-Time.md)_\<placement\>_team_wins% | leaderboard |
+| %axkoth_top_\<placement\>_player_name% | leaderboard |
+| %axkoth_top_\<placement\>_player_wins% | leaderboard |
+| %axkoth_top_\<placement\>_team_name% | leaderboard |
+| %axkoth_top_\<placement\>_team_wins% | leaderboard |
