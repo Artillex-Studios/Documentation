@@ -87,4 +87,5 @@
         </toc-element>
         <toc-element topic="AxKoth-Developer-API.md"/>
     </toc-element>
+    <toc-element topic="AxVaults.md"/>
 </instance-profile>
