@@ -5,6 +5,7 @@
 * GangsPlus
 * KingdomsX
 * FactionsUUID
+* SuperiorSkyblock2
 
 ## Other Hooks
 * PlaceholderAPI
