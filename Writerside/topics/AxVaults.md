@@ -10,4 +10,4 @@
 * Works with all items (we store items in binary, all custom items will work)
 * Blacklist system: Ban items from being put into vaults
 * Admins can edit vaults even when the player is offline
-* Ability for players to select the icon for vaults
+* Ability for players to select an icon for vaults
