@@ -2,7 +2,7 @@
 
 ### Custom generator block:
 * Oraxen
-* ItemsAdder
+* ~~ItemsAdder~~ (Currently broken)
 
 ### Protection:
 * BentoBox
@@ -44,6 +44,7 @@
 
 ### Other:
 * [PlaceholderAPI](AxGens-Placeholders.md)
+* ~~DeluxeSellwands~~ (Currently broken)
 
 > Is there a plugin that isn't supported? Open a ticket on our discord:
 <font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>

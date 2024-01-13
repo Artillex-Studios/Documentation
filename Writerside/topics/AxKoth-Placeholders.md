@@ -12,6 +12,7 @@
 | %axkoth_\<KOTH>_active%  | true or false, is the koth running? |
 | %axkoth_\<KOTH>_name% | the raw name of the koth |
 | %axkoth_\<KOTH>_displayName% | the colored display name of the koth |
+| %axkoth_\<KOTH>_world% | world of koth |
 | %axkoth_\<KOTH>_x% | x coordinate of the koth (center location) |
 | %axkoth_\<KOTH>_y% | y coordinate of the koth (center location) |
 | %axkoth_\<KOTH>_z% | z coordinate of the koth (center location) |
