@@ -6,6 +6,8 @@
 * KingdomsX
 * FactionsUUID
 * SuperiorSkyblock2
+* UltimateClans
+* SaberFactions
 
 ## Other Hooks
 * PlaceholderAPI
