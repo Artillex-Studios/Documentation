@@ -39,21 +39,35 @@
 
 ### rotate-head-360 (default: true)
 
-* true: the head can face in all the 360 degrees
-* false: the head can face in only 4 directions (north, east, south, west)
+* True: the head can face in all the 360 degrees
+* False: the head can face in only 4 directions (north, east, south, west)
 
 ### auto-rotation.enabled (default: false)
 
-* should the heads rotate around like items on the ground?
+* Should the heads rotate around like items on the ground?
 
 ### auto-rotation.speed (default: 10.0)
 
-* if `auto-rotation` is enabled, how fast should the heads spin?
+* If `auto-rotation` is enabled, how fast should the heads spin?
 
 ### interact-only-own (default: false)
 
-* if true: only the person who died and people with axgraves.admin can open the grave
-* if false: everyone can open the grave
+* If true: only the person who died and people with axgraves.admin can open the grave
+* If false: everyone can open the grave
+
+### xp-keep-percentage (default: 1.0)
+
+* How much XP should the player keep on death?
+* This is a percentage, so setting this to 0.5 will half the xp kept.
+
+### grave-item-order (values: ARMOR, HAND, OFFHAND)
+
+* What order should items go in the grave?
+* Some players prefer if they get the armor first and not the sword.
+
+### auto-equip-armor (default: true)
+
+* Should the armor be equipped when collecting the grave?
 
 ### blacklisted-items
 
