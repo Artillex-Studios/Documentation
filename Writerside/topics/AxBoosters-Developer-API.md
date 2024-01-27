@@ -63,7 +63,7 @@ public class AxBoostersExample implements Listener, BoosterHook {
 
     @Override
     public String getName() {
-        return "AxBoostersExample"; // this will be used in the messages.yml, make sure to set it to a unique string
+        return "axboosters:example"; // you can set this to anything, but the current format is pluginname:booster
     }
 
     @Override
@@ -74,7 +74,7 @@ public class AxBoostersExample implements Listener, BoosterHook {
     @EventHandler // use your listener here
     public void onEvent(@NotNull PlayerExpChangeEvent event) {
         double am = event.getAmount();
-        event.setAmount((int) Math.round(am * BoosterUtils.getMultiplier(event.getPlayer(), getName())));
+        event.setAmount((int) Math.round(am * BoosterUtils.getMultiplier(event.getPlayer(), this)));
     }
 }
 ```
@@ -88,23 +88,12 @@ HookManager.registerBoosterHook(this, booster);
 getServer().getPluginManager().registerEvents(booster, this);
 ```
 
-And If this is done, make sure to add your booster to the `messages.yml` file, like this:
+And If this is done, you can use the booster, using the name specified:
 
 <code-block lang="yaml" ignore-vars="true">
-  MY-BOOSTER1:
-    type: AxBoostersExample # use the string that you wrote to the getName() method here
-    bossbar:
-      name: '&amp;f%player%&amp;#FFDD00''s &amp;#FFDD00&amp;l%multiplier%x xᴘ ʙᴏᴏsᴛᴇʀ &amp;#DDDDDD| &amp;#FFFFFF%time% seconds'
-      color: yellow
-      style: progress
-    chat:
-      start: '&amp;f%player% &amp;#00FF00has started a &amp;#FFDD00&amp;l%multiplier%x xᴘ ʙᴏᴏsᴛᴇʀ&amp;#00FF00! It ends in &amp;#FFFFFF%time% seconds&amp;#00FF00!'
-      end: '&amp;#FF0000A &amp;#FFDD00&amp;l%multiplier%x xᴘ ʙᴏᴏsᴛᴇʀ &amp;#FF0000has ended!'
-    # item shown in guis
-    item:
-      type: EXPERIENCE_BOTTLE
-      name: '&amp;#FFDD00&amp;lXP BOOST'
+boosted:
+- axboosters:example
 </code-block>
 
 That's all! Just start the server and everything should work! Activate the booster and test it:
-`/axboosteradmin activate @s MY-BOOSTER1 global 2.0 10m`
+`/axboosteradmin activate @s <BOOSTER-FILE-NAME-HERE> global 2.0 10m`
