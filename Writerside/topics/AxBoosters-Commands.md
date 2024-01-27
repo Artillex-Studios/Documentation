@@ -10,6 +10,7 @@
 |-|-|
 | Command | Description |
 | /axboosteradmin give \<PLAYER> \<BOOSTER> \<AUDIENCE> \<MULTIPLIER> \<[LENGTH](AxBoosters-Booster-Length.md)> \<AMOUNT> | Give a booster to a player |
+| /axboosteradmin starter \<PLAYER> \<BOOSTER> \<AUDIENCE> \<MULTIPLIER> \<[LENGTH](AxBoosters-Booster-Length.md)> \<AMOUNT> | Give a booster starter to a player |
 | /axboosteradmin activate \<PLAYER> \<BOOSTER> \<AUDIENCE> \<MULTIPLIER> \<[LENGTH](AxBoosters-Booster-Length.md)> | Activate a booster for the player |
 | /axboosteradmin reload | Reload the plugin |
 | /axboosteradmin listboosters \<PLAYER> | List the unused boosters of a player (and the ability to take them) |

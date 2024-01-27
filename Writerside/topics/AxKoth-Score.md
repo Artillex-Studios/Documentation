@@ -28,8 +28,14 @@
         location1: "world;0.0;0.0;0.0;0.0;0.0"
         location2: "world;5.0;5.0;5.0;0.0;0.0"
     
+    # format:
+    # TOP:<PLACEMENT>:<COMMAND WITHOUT SLASH>
+    # or to only give rewards to the TOP1:
+    # <COMMAND WITHOUT SLASH>
     reward-commands:
-    - "give %player% diamond 1"
+    - "TOP:1:give %player% diamond 3"
+    - "TOP:2:give %player% diamond 2"
+    - "TOP:2:give %player% diamond 1"
     
     # set to -1 to make it that everyone in the world can see it
     # set to 0 to make it that everyone on the server can see it

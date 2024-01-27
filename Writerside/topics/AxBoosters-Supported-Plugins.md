@@ -1,25 +1,33 @@
 # Supported Plugins
 
 ## Booster Hooks
-* ShopGuiPlus (sell money boost)
-* EconomyShopGui (sell money boost)
-* CMI (sell money boost)
-* AxGens (sell money boost)
-* DeluxeSellwands (sell money boost)
-* VoidChest (sell money boost)
-* AlonsoLevels (xp gain boost)
-* CyberLevels (xp gain boost) NOTE: you need [our fork](https://github.com/BenceX100/CyberLevels-with-api/releases)
-* SuperMobCoins (mob coin boost)
-* TMMobCoins (mob coin boost)
-* EcoSkills (skill xp boost)
-* AureliumSkills (skill xp boost)
-* McMMO (skill xp boost)
-* MMOCore (skill xp boost)
-* ValhallaMMO (skill xp boost)
-* EcoJobs (job xp boost)
-* JobsReborn (job xp boost)
-* BattlePass (quest xp boost)
-* RivalHarvesterHoes (essence boost)
+
+```yaml
+  alonsolevels:experience
+  aureliumskills:experience
+  axgens:sell_money
+  battlepass:experience
+  cmi:sell_money
+  cyberlevels:experience # read note below
+  deluxesellwands:sell_money
+  ecojobs:experience
+  economyshopgui:sell_money
+  ecojobs:experience
+  jobsreborn:experience
+  mcmmo:experience
+  mmocore:experience
+  rivalharvesterhoes:essence
+  rivalharvesterhoes:experience
+  shopguiplus:sell_money
+  supermobcoins:mobcoin
+  tmmobcoins:mobcoin
+  tokenmanager:token
+  valhallammo:experience
+  vanilla:damage
+  vanilla:experience
+  voidchest:sell_money
+```
+* CyberLevels requires you to use [our fork](https://github.com/BenceX100/CyberLevels-with-api/releases)!
 
 ## Team Hooks
 * BentoBox
