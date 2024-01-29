@@ -41,4 +41,8 @@ Add the following to your **dependencies** section:
 <p>Replace <b>CHANGE-THIS</b> to the latest version: <a href="https://repo.artillex-studios.com/#/releases/com/artillexstudios/AxGensAPI"><img src="https://repo.artillex-studios.com/api/badge/latest/releases/com/artillexstudios/AxGensAPI?color=40c14a&amp;name=AxGensAPI" alt=""/></a></p>
 
 ## API Usage
-> You should look at the AxGensAPI and HookManager class if you want to register a new booster or team hook!
+
+This page is work in progress!
+
+### List of Events
+- [View on Github](https://github.com/Artillex-Studios/AxGensAPI/tree/master/src/main/java/com/artillexstudios/axgens/api/events)
