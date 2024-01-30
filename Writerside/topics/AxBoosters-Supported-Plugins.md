@@ -23,6 +23,7 @@
   tmmobcoins:mobcoin
   tokenmanager:token
   valhallammo:experience
+  ultimatemobcoins:mobcoin
   vanilla:damage
   vanilla:experience
   voidchest:sell_money
