@@ -3,6 +3,7 @@
 ## Team Hooks
 * BetterTeams
 * GangsPlus
+* Guilds
 * KingdomsX
 * FactionsUUID
 * SuperiorSkyblock2
