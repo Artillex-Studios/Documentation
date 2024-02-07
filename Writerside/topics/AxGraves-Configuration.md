@@ -69,6 +69,17 @@
 
 * Should the armor be equipped when collecting the grave?
 
+### grave-limit (default: -1)
+
+* How many graves can a player have at once?
+* If the player hits the limit, the oldest grave will be removed.
+
+### blacklisted-death-causes
+
+* If players die from any of the following, no graves will be spawned
+* [Link to the list of death causes. Note that some of them don't exist in older versions](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html)
+* Case sensitive
+
 ### blacklisted-items
 
 * Items that match will be removed when the player dies from the grave

@@ -35,7 +35,7 @@
     reward-commands:
     - "TOP:1:give %player% diamond 3"
     - "TOP:2:give %player% diamond 2"
-    - "TOP:2:give %player% diamond 1"
+    - "TOP:3:give %player% diamond 1"
     
     # set to -1 to make it that everyone in the world can see it
     # set to 0 to make it that everyone on the server can see it
