@@ -94,4 +94,11 @@
         <toc-element topic="AxVaults-Permissions.md"/>
         <toc-element topic="AxVaults-Developer-API.md"/>
     </toc-element>
+    <toc-element topic="AxAuctions.md">
+        <toc-element topic="AxAuctions-Commands.md"/>
+        <toc-element topic="AxAuctions-Configuration.md"/>
+        <toc-element topic="AxAuctions-Permissions.md"/>
+        <toc-element topic="AxAuctions-Placeholders.md"/>
+        <toc-element topic="AxAuctions-Supported-Plugins.md"/>
+    </toc-element>
 </instance-profile>
