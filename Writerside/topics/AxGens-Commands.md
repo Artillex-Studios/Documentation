@@ -11,3 +11,4 @@
 - /axgens slots \<set/give/take/(reset)> \<player> \<amount> - Change extra generator slot amount
 - /axgens level \<set/give/take/(reset)> \<player> \<amount> - Change player's level
 - /axgens reload - Reload plugin
+- /axgens stats - See how many generators are loaded/active statistics

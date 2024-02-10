@@ -11,6 +11,7 @@
 - axgens.sell.handall - Permission for /selldrops handall
 - axgens.sell.all - Permission for /selldrops all
 - axgens.event - Permission for /axgens event
+- axgens.stats - Permission for /axgens stats
 - axgens.list - Permission for /axgens list (DEFAULT: true)
 - axgens.remotepickup - Ability to pick up generators from /axgens list
 - axgens.sellwand - Permission for /axgens sellwand

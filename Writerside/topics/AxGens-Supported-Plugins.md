@@ -16,11 +16,6 @@
 ### Sell wands: (you can use these instead of the builtin one)
 * WildTools
 
-### Holograms:
-* DecentHolograms
-* HolographicDisplays
-* CMI
-
 ### Levels: (you can use these instead of the builtin one)
 * CyberLevels
 * AlonsoLevels
