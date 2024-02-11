@@ -44,6 +44,11 @@
 * If enabled: when you close a shulker and the plugin validated that it can be saved, then the plugin will save the items from memory to the item just like in vanilla, this makes axshulkers compatibly with everything
 * This setting force disables `enable-obsfucation`
 
+### auto-clear-in-creative (default: true)
+
+* The same as auto-clear-shulkers, however this is only for creative mode players!
+* This is highly recommended to keep enabled to avoid confusion.
+
 ### blacklisted-items
 
 * Items that match will be removed when the player dies from the grave
