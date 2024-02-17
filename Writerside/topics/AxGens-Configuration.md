@@ -47,9 +47,10 @@
 
 ### timer-format (default: 1)
 
-* This format is used for the `axgens_nextevent` placeholder. There are 2 modes:
+* This format is used for the `axgens_nextevent` placeholder. There are 3 modes:
   * 1 - HH:MM:SS, for example 01:25:35
   * 2 - short format, for example 20m
+  * 3 - text format, for example 01h 25m 35s
 
 ### speed-display (default: 1)
 

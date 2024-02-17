@@ -1,6 +1,5 @@
 # Commands
 
-
 ### Player commands:
 *permission: axauctions.use* (given by default)
 

@@ -102,4 +102,8 @@
         <toc-element topic="AxAuctions-Placeholders.md"/>
         <toc-element topic="AxAuctions-Supported-Plugins.md"/>
     </toc-element>
+    <toc-element topic="AxRewards.md">
+        <toc-element topic="AxRewards-Commands.md"/>
+        <toc-element topic="AxRewards-Configuration.md"/>
+    </toc-element>
 </instance-profile>

@@ -10,9 +10,10 @@
 
 ### timer-format (default: 1)
 
-* This format is used for all the time placeholders ending with _formatted. There are 2 modes:
-    * 1 - HH:MM:SS, for example 01:25:35
-    * 2 - short format, for example 20m
+* This format is used for all the time placeholders ending with _formatted. There are 3 modes:
+  * 1 - HH:MM:SS, for example 01:25:35
+  * 2 - short format, for example 20m
+  * 3 - text format, for example 01h 25m 35s
 
 ### capture-broadcast-every-seconds (default: 5)
 
