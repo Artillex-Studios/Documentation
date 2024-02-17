@@ -4,7 +4,7 @@
 
 ### Features:
 - 4 database types (H2, SQLite MySQL, PostgreSQL)
-- Multi server Support
+- Multi server support
 - PlaceholderAPI support
 - Auto Updating GUI
 - All database communications are handled asynchronously

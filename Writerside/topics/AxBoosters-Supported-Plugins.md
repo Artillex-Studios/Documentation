@@ -12,7 +12,8 @@
   deluxesellwands:sell_money
   ecojobs:experience
   economyshopgui:sell_money
-  ecojobs:experience
+  ecoskills:experience
+  ecoshop:sell_money
   jobsreborn:experience
   mcmmo:experience
   mmocore:experience
