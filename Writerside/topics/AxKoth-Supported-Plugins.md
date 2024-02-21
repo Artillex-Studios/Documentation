@@ -2,13 +2,14 @@
 
 ## Team Hooks
 * BetterTeams
+* FactionsUUID
 * GangsPlus
 * Guilds
 * KingdomsX
-* FactionsUUID
-* SuperiorSkyblock2
-* UltimateClans
 * SaberFactions
+* SuperiorSkyblock2
+* Towny
+* UltimateClans
 
 ## Other Hooks
 * PlaceholderAPI
