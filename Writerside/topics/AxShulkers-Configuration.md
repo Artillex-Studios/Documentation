@@ -4,7 +4,7 @@
 
 * How often should shulkers in memory be saved to the database?
 
-### enable-obsfucation (default: false)
+### enable-obfuscation (default: false)
 
 * If enabled: does not save items to the shulker item, this makes it impossible to ever see the items in a shulker box without opening it, may break other plugin's shulker viewers
 
@@ -42,7 +42,7 @@
 
 * EXPERIMENTAL: This feature may cause issues right now!
 * If enabled: when you close a shulker and the plugin validated that it can be saved, then the plugin will save the items from memory to the item just like in vanilla, this makes axshulkers compatibly with everything
-* This setting force disables `enable-obsfucation`
+* This setting force disables `enable-obfuscation`
 
 ### auto-clear-in-creative (default: true)
 

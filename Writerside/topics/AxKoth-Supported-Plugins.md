@@ -8,7 +8,7 @@
 * KingdomsX
 * SaberFactions
 * SuperiorSkyblock2
-* Towny
+* Towny Advanced
 * UltimateClans
 
 ## Other Hooks
