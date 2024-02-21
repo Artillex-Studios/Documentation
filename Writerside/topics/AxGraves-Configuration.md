@@ -11,6 +11,11 @@
 
 * Should items be dropped on the ground if a grave expires?
 
+### dropped-item-velocity (default: true)
+
+* If set to false, all items will stay on the same block, they will not fly around when a grave expires.
+* This setting only works if `drop-items` is set to true
+
 ### enable-instant-pickup (default: true)
 
 * Should any player have the ability to instantly clear all items from the grave?
