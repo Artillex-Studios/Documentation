@@ -15,6 +15,11 @@
 
 ## Economy
  - Vault
+ - PlayerPoints
+
+## Blocks
+ - ItemsAdder
+ - KGenerators
 
 ## Prices
  - ShopGUIPlus
