@@ -17,12 +17,12 @@
   jobsreborn:experience
   mcmmo:experience
   mmocore:experience
+  playerpoints:point_change
   rivalharvesterhoes:essence
   rivalharvesterhoes:experience
   shopguiplus:sell_money
   supermobcoins:mobcoin
   tmmobcoins:mobcoin
-  tokenmanager:token
   valhallammo:experience
   ultimatemobcoins:mobcoin
   vanilla:damage
