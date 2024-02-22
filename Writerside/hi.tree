@@ -96,6 +96,7 @@
         <toc-element topic="AxVaults-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxAuctions.md">
+        <toc-element topic="AxAuctions-Converters.md"/>
         <toc-element topic="AxAuctions-Commands.md"/>
         <toc-element topic="AxAuctions-Configuration.md"/>
         <toc-element topic="AxAuctions-Permissions.md"/>
