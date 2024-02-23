@@ -95,3 +95,13 @@ Leather Armors:
     color: "0, 255, 255"
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
+
+Tipped Arrows:
+
+```yaml
+    # the material must be TIPPED_ARROW
+    material: TIPPED_ARROW
+    # this value is RGB separated by colons
+    color: "255, 255, 0"
+```
+* RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
