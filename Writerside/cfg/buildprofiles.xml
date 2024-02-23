@@ -4,6 +4,7 @@
 
     <variables>
         <custom-favicons>favicon.png</custom-favicons>
+        <product-web-url>https://docs.artillex-studios.com/</product-web-url>
         <header-logo>header.png</header-logo>
     </variables>
     <build-profile instance="hi">
