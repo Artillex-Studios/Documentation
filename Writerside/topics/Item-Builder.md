@@ -2,7 +2,9 @@
 
 On this page you can find every item related configuration that is possible to create in our plugins!
 
-Note that you don't need to use all of these values at once only material is required!
+Note that you don't need to use all of these values at once, only material is required!
+
+Material:
 
 ```yaml
     material: DIAMOND
