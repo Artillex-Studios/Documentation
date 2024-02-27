@@ -8,6 +8,7 @@
 * RoyaleEconomy
 * UltraEconomy
 * KingdomsX
+* RivalHarvesterHoes
 
 ## Other Hooks
 * [PlaceholderAPI](AxAuctions-Placeholders.md)

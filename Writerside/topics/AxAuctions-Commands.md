@@ -5,7 +5,7 @@
 
 |-|-|
 | Command | Description |
-| /ah | Open vault selector |
+| /ah | Open auction house |
 | /ah sell \<price> [amount] | Sell item (opens currency selector) |
 | /ah sell \<price> [amount] [currency] | Sell item |
 | /ah search \<input> | Search items (by lore, username, item name, item type) |
