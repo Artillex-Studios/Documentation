@@ -6,6 +6,7 @@
 * CoinsEngine
 * PlayerPoints
 * RoyaleEconomy
+* SuperMobCoins
 * UltraEconomy
 * KingdomsX
 * RivalHarvesterHoes

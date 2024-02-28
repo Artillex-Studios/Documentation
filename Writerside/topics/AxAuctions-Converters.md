@@ -1,6 +1,7 @@
 # Converters
 
 - Converters can be used to move from another plugin to AxAuctions
+- Please note that some converters may not keep all values, for example currency usually defaults to vault and expired items get put back on the auction house.
 
 ### How to use?
 
@@ -13,6 +14,7 @@
 - AuctionHouse (SQLite database only)
 - CrazyAuctions
 - zAuctionHouse (JSON database only)
+- PlayerAuctions (SQLite database only)
 
 > Is there another auction plugin that you would like to have a converter for? Open a ticket on our discord:
 <font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>

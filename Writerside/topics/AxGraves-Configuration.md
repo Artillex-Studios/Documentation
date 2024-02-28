@@ -79,6 +79,10 @@
 * How many graves can a player have at once?
 * If the player hits the limit, the oldest grave will be removed.
 
+### spawn-height-limits
+
+* Allows you to define the maximum and minimum Y coordinate that a grave can spawn at in a specific world.
+
 ### blacklisted-death-causes
 
 * If players die from any of the following, no graves will be spawned
