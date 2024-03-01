@@ -29,6 +29,19 @@
 * Should locked vaults be shown in the gui?
 * This could be useful if you randomly give many vaults.
 
+### selector-item-amount-mode (default: 1)
+
+* How many items should be shown in the vault selector
+* There are 3 modes:
+* 1 - the number of the vault, it will restart once it reaches 64
+* 2 - always show 1
+* 3 - show the slots filled in the vault
+
+### max-vault-amount (default: -1)
+
+* Set a maximum vault in the selector gui
+* You can disable this by setting it to -1
+
 ### blacklisted-items
 
 * Items that match will be removed when the player dies from the grave
