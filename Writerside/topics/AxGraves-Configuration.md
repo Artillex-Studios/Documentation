@@ -89,6 +89,9 @@
 * [Link to the list of death causes. Note that some of them don't exist in older versions](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html)
 * Case sensitive
 
+### despawn-when-empty (default: true)
+* Should the grave despawn when all the items & xp is removed from it?
+
 ### blacklisted-items
 
 * Items that match will be removed when the player dies from the grave
