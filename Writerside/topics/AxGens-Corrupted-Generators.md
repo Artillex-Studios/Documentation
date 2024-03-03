@@ -1,5 +1,5 @@
 # Corrupted Generators
-* This feature is disabled by default, and it MUST be enabled in the config!
+* This feature is disabled by default, and it must be enabled in the config for it to work!
 
 ## What are corrupted generators?
 - Corrupted generators are broken generators, that don't work and they need repair. This can make your server less AFK heavy.
