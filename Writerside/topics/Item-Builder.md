@@ -54,7 +54,7 @@ Note that you don't need to use all of these values at once, only material is re
   # you can add as many enchants as you want
   # the format is enchant_name:enchant_level
   enchants:
-    - PROTECTION:4
+    - PROTECTION_ENVIRONMENTAL:4
 ```
 * List of enchantments: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html)
 
