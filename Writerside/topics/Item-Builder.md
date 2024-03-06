@@ -4,20 +4,20 @@ On this page you can find every item related configuration that is possible to c
 
 Note that you don't need to use all of these values at once, only material is required!
 
-Material:
+### Material:
 
 ```yaml
     material: DIAMOND
 ```
 * List of materials: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
 
-Item Name:
+### Item Name:
 
 ```yaml
   name: "<red>Name"
 ```
 
-Item Lore:
+### Item Lore:
 
 ```yaml
   # you can define as many lines as minecraft allows
@@ -26,7 +26,7 @@ Item Lore:
     - "&eline 2"
 ```
 
-Item Amount:
+### Item Amount:
 
 ```yaml
   # amount can be a number between 1 and 64
@@ -34,21 +34,21 @@ Item Amount:
   amount: 1
 ```
 
-Glowing Items:
+### Glowing Items:
 
 ```yaml
   # should the item be enchanted? can be true of false
   glow: true
 ```
 
-Custom Model Data:
+### Custom Model Data:
 
 ```yaml
   # this value is used to display textured items, can be any integer
   custom-model-data: 1
 ```
 
-Enchants:
+### Enchants:
 
 ```yaml
   # you can add as many enchants as you want
@@ -58,7 +58,7 @@ Enchants:
 ```
 * List of enchantments: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html)
 
-Item Flags:
+### Item Flags:
 
 ```yaml
   # you can add as many item flags as you want
@@ -67,7 +67,7 @@ Item Flags:
 ```
 * List of item flags: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html)
 
-Player Heads:
+### Player Heads:
 
 ```yaml
     # the material must be PLAYER_HEAD
@@ -76,7 +76,7 @@ Player Heads:
     texture: "base64-here"
 ```
 
-Potions:
+### Potions:
 
 ```yaml
     # the material must be POTION
@@ -86,7 +86,7 @@ Potions:
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
 
-Leather Armors:
+### Leather Armors:
 
 ```yaml
     # the material must be a leather armor piece
@@ -96,7 +96,7 @@ Leather Armors:
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
 
-Tipped Arrows:
+### Tipped Arrows:
 
 ```yaml
     # the material must be TIPPED_ARROW

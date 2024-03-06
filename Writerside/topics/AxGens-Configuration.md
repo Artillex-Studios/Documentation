@@ -32,6 +32,11 @@
 * Should the `/selldrops` command be enabled?
 * You should disable this if you are using another plugin for the prices
 
+### force-register-sell (default: false)
+
+* Forces the /sell command to be the /selldrops
+* This is only recommended if you can't disable other plugins' /sell
+
 ### level-requirements (default: true)
 
 * Should the level system be active?
@@ -62,3 +67,7 @@
 ### offline-generation (default: true)
 
 * Should generators work when the owner is offline?
+
+### prevent-drop-usage (default: false)
+
+* If enabled, it will add an extra NBT tag to all drops, and pevents the dropped items from being placed or crafted.
