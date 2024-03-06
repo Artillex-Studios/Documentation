@@ -71,3 +71,8 @@
 ### prevent-drop-usage (default: false)
 
 * If enabled, it will add an extra NBT tag to all drops, and pevents the dropped items from being placed or crafted.
+
+### generator-limit-hard-cap (default: -1)
+
+* Allows you to set a hard cap to generator slots, that is not bypassable not even with permissions.
+* Set to -1 to disable.
