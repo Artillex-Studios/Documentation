@@ -54,9 +54,9 @@ Note that you don't need to use all of these values at once, only material is re
   # you can add as many enchants as you want
   # the format is enchant_name:enchant_level
   enchants:
-    - PROTECTION_ENVIRONMENTAL:4
+    - protection:4
 ```
-* List of enchantments: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html)
+* List of enchantments: [CLICK](https://www.digminecraft.com/lists/enchantment_list_pc.php) - use the 'Minecraft ID Name' parts
 
 ### Item Flags:
 
