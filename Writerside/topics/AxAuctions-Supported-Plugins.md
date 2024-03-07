@@ -10,6 +10,7 @@
 * UltraEconomy
 * KingdomsX
 * RivalHarvesterHoes
+* TheOnly-MobCoins
 
 ## Other Hooks
 * [PlaceholderAPI](AxAuctions-Placeholders.md)
