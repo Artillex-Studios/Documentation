@@ -22,7 +22,7 @@ Add the following to your **repositories** section:
 ```xml
 <repository>
     <id>Artillex-Studios</id>
-    <url>https://repo.artillex-studios.com/snapshots/</url>
+    <url>https://repo.artillex-studios.com/releases/</url>
 </repository>
 ```
 

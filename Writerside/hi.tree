@@ -132,5 +132,6 @@
         </toc-element>
         <toc-element topic="AxQuestBoard-Configuration.md"/>
         <toc-element topic="Triggers.md"/>
+        <toc-element topic="AxQuestBoard-Developer-API.md"/>
     </toc-element>
 </instance-profile>
