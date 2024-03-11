@@ -20,6 +20,7 @@
   playerpoints:point_change
   rivalharvesterhoes:essence
   rivalharvesterhoes:experience
+  sellwand:sell_money
   shopguiplus:sell_money
   supermobcoins:mobcoin
   tmmobcoins:mobcoin

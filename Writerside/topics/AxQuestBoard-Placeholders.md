@@ -1,5 +1,7 @@
 # Placeholders
 
+* Requires [PlaceholderAPI](https://placeholderapi.com/)
+
 |-|-|
 | Placeholder | Description |
 | %\axquestboard_points_raw% | Points of the player |
