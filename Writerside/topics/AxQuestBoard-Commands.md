@@ -10,6 +10,7 @@
 | /axquestboard forceopen \<player> | Open the menu for a player | axquestboard.forceopen (default: op) |
 | /axquestboard points set/give/take \<player> \<amount> | Modify points of player | axquestboard.points (default: op) |
 | /axquestboard points reset \<player> | Reset points of player | axquestboard.points (default: op) |
+| /axquestboard resetboard | Reset the quest board | axquestboard.resetboard (default: op) |
 
 |-|-|
 | Command | Description | Permission |
