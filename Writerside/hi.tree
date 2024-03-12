@@ -41,6 +41,7 @@
     <toc-element topic="AxGens.md">
         <toc-element topic="AxGens-Commands.md"/>
         <toc-element topic="AxGens-Sell-wands.md"/>
+        <toc-element topic="AxGens-Change-Based-Drops.md"/>
         <toc-element topic="AxGens-Events.md"/>
         <toc-element topic="AxGens-Corrupted-Generators.md"/>
         <toc-element topic="AxGens-Break-Mode.md"/>
