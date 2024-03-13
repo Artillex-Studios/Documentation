@@ -29,6 +29,7 @@
   vanilla:damage
   vanilla:experience
   voidchest:sell_money
+  wildchests:sell_money
 ```
 * CyberLevels requires you to use [our fork](https://github.com/BenceX100/CyberLevels-with-api/releases)!
 
