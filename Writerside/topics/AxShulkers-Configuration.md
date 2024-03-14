@@ -40,7 +40,7 @@
 
 ### auto-clear-shulkers (default: false)
 
-* EXPERIMENTAL: This feature may cause issues right now!
+* EXPERIMENTAL: This feature may cause issues
 * If enabled: when you close a shulker and the plugin validated that it can be saved, then the plugin will save the items from memory to the item just like in vanilla, this makes axshulkers compatibly with everything
 * This setting force disables `enable-obfuscation`
 
@@ -48,6 +48,19 @@
 
 * The same as auto-clear-shulkers, however this is only for creative mode players!
 * This is highly recommended to keep enabled to avoid confusion.
+
+### delete-invalid-items (default: true)
+
+* If enabled and somehow a shulker has a uuid, but it is not in the database, the contents of that shulker will be removed
+* This also required to prevent incompatibility with third party plugins
+* The only reason you should disable this is if you decided to delete the axshulkers database without resetting players' shulkers
+
+### nbt-tag (default: AxShulkers-UUID)
+
+* What should the nbt that the plugin places on shulkers be named?
+* Note that the plugin will not clean up old ones, so changing this is not recommended
+* Changing this while the server is running can lead to dupes
+* If you have deleted the axshulkers database without deleting the items, it is recommended to change this to avoid item loss
 
 ### blacklisted-items
 
