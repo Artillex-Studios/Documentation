@@ -112,6 +112,7 @@
         <toc-element topic="AxAuctions-Permissions.md"/>
         <toc-element topic="AxAuctions-Placeholders.md"/>
         <toc-element topic="AxAuctions-Supported-Plugins.md"/>
+        <toc-element topic="AxAuctions-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxRewards.md">
         <toc-element topic="AxRewards-Commands.md"/>
