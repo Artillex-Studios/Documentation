@@ -111,6 +111,7 @@
         <toc-element topic="AxAuctions-Configuration.md"/>
         <toc-element topic="AxAuctions-Permissions.md"/>
         <toc-element topic="AxAuctions-Placeholders.md"/>
+        <toc-element topic="AxAuctions-Custom-Currencies.md"/>
         <toc-element topic="AxAuctions-Supported-Plugins.md"/>
         <toc-element topic="AxAuctions-Developer-API.md"/>
     </toc-element>

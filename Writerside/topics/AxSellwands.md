@@ -7,7 +7,8 @@
 
 ### Features:
 - Ability to inspect price of container by left clicking
-- Easy to configure (less than 100 lines of config)
+- Easy to configure
+- Ability to sell items from ender chests
 - It is possible to add an unlimited number of sell wands
 - Sell wand sell multipliers
 - Unbreakable sell wands

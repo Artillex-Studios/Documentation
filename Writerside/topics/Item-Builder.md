@@ -72,7 +72,7 @@ Note that you don't need to use all of these values at once, only material is re
 ```yaml
     # the material must be PLAYER_HEAD
     material: PLAYER_HEAD
-    # replace base64-here here with the base64 of the skull
+    # replace base64-here with the base64 of the skull
     texture: "base64-here"
 ```
 
