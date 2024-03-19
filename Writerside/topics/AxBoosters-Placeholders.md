@@ -4,6 +4,7 @@
 
 |-|-|
 | Placeholder | Description |
+| %axboosters_multiplier_[\<booster hook>](https://docs.artillex-studios.com/axboosters-supported-plugins.html#booster-hooks)% | Get the highest multiplier of a certain booster type |
 | %axboosters_active_#_audience% | Audience of the booster |
 | %axboosters_active_#_type% | Type of the booster |
 | %axboosters_active_#_multiplier% | Multiplier of the booster (example: 0.5) |

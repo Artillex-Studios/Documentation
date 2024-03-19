@@ -4,8 +4,10 @@
 * You must stay in the koth zone for x seconds without getting knocked out. The winner is the player, who can stay in for the whole capture time.
 
 ### Default Capture Koth Config:
-<code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
-    <![CDATA[display-name: "&#FF0000CAPTURE KOTH"
+<code-block lang="yaml" ignore-vars="true" collapsible="false" show-white-spaces="true">
+    <![CDATA[
+        
+    display-name: "&#FF0000CAPTURE KOTH"
     
     # which koth mode should be active? modes:
     # CAPTURE - requires a player to be in the koth zone without getting knocked out for a set time
@@ -29,7 +31,7 @@
       location2: "world;5.0;5.0;5.0;0.0;0.0"
     
     reward-commands:
-    - "give %player% diamond 1"
+      - "give %player% diamond 1"
     
     # set to -1 to make it that everyone in the world can see it
     # set to 0 to make it that everyone on the server can see it
@@ -51,9 +53,14 @@
         - "&#FF0000ᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ"
     
     # automatically start the koth at certain times
-    # this uses the cron format:
-    # https://crontab.cronhub.io/
+    # this uses quartz scheduler's cron format:
+    # https://www.quartz-scheduler.org/documentation/quartz-2.3.0/tutorials/crontrigger.html?
     # you can add multiple lines
+    # the format is:
+    # <SECONDS> <MINUTES> <HOURS> <DAY OF MONTH> <MONTH> <DAY OF WEEK>
+    # * means every, so putting a * for seconds will mean what it will run every second as long as the other parts are right too
+    # note: it is really important that either the MONTH or the DAY OF WEEK part must be a ?
+    # here is an example, this will run at 6pm every day, at 0 seconds, 0 minutes, hour 18, every day and every month:
     schedules:
       - "0 0 18 * * ?"
     
@@ -61,6 +68,7 @@
     # this is ONLY checked on schedule start & starter use
     minimum-players: 0
     
+    # requires 1.18+
     hologram:
       enabled: true
       location-offset:
@@ -104,6 +112,26 @@
         - " "
         - "&#FF0000play.yourserver.com"
     
+    ## in this section you can override parts from the messages.yml, for example if you don't want a start message for this koth, set start here to ""
+    ## note: you must uncomment this section for it to work, so remove 1 hashtag from in front of the rows that you want to override, also uncommment the next line
+    #broadcasts:
+    #  start: "&#FFFF00The &#FFCC00%displayName% &#FFFF00koth has started! &7(%timeLeft_formatted%)"
+    #  started-with-starter: "&#FFFF00The &#FFCC00%displayName% &#FFFF00koth has been started by &#FFCC00%starter%&#FFFF00! &7(%timeLeft_formatted%)"
+    #  stop: "&#FFFF00The &#FFCC00%displayName% &#FFFF00koth has been stopped! &7(%timeTaken_formatted%)"
+    #  capture-start: "&#FFCC00%capturer% &#FFFF00has started capturing the &#FFCC00%displayName% &#FFFF00koth! &7(%timeLeft_formatted%)"
+    #  capture-status: "&#FFCC00%capturer% &#FFFF00is capturing the &#FFCC00%displayName% &#FFFF00koth! &7(%timeLeft_formatted%)"
+    #  capture-lost: "&#FFCC00%capturer% &#FFFF00has lost control of the &#FFCC00%displayName% &#FFFF00koth! &7(%timeLeft_formatted%)"
+    #  captured: "&#FFCC00%capturer% &#FFFF00has captured the &#FFCC00%displayName% &#FFFF00koth! &7(%timeTaken_formatted%)"
+    #  out-of-time: "&#FFFF00The &#FFCC00%displayName% &#FFFF00koth has ended without a winner! &7(%timeTaken_formatted%)"
+    
+    # to enable this remove the [] and the # from the next line
+    start-commands: []
+    #  - "say Koth started!"
+    
+    end-commands: []
+    #  - "say Koth ended"
+    
+    # requires 1.18+
     # These are all the options that you can use in the webhook section: (most of them are optional, you can remove them)
     #    # the message before the embed, you can put a ping here in the <@&1234567890123456789> format
     #    content: "<@&1234567890123456789>"
@@ -211,5 +239,6 @@
           3:
             inline: true
             name: "Time"
-            value: "%timeTaken_formatted%"]]>
+            value: "%timeTaken_formatted%"
+    ]]>
 </code-block>

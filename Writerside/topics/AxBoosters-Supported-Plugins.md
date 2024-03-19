@@ -4,6 +4,7 @@
 
 ```yaml
   alonsolevels:experience
+  auraskills:experience
   aureliumskills:experience
   axgens:sell_money
   battlepass:experience

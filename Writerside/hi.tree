@@ -91,9 +91,9 @@
         <toc-element topic="AxKoth-Supported-Plugins.md"/>
         <toc-element topic="AxKoth-Configuration.md"/>
         <toc-element topic="AxKoth-Types.md">
-            <toc-element topic="AxKoth-Score.md"/>
             <toc-element topic="AxKoth-Capture.md">
             </toc-element>
+            <toc-element topic="AxKoth-Score.md"/>
         </toc-element>
         <toc-element topic="AxKoth-Developer-API.md"/>
     </toc-element>
