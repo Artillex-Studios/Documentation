@@ -18,6 +18,11 @@
 
 * How many accounts from one ip can claim a day's present?
 
+### command-aliases
+
+* You can add or edit the command aliases here
+* The first element of the list will be used as the "main" command
+
 ### claim-requirements
 
 * Should the player need these to claim presents?

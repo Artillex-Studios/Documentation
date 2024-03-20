@@ -1,5 +1,10 @@
-# Commands
+#    Commands
 
 |-|-|
-| Command | Description | Permission |
-| /axcalendar reload | Reload config & messages | axcalendar.reload |
+| Command | Description |
+| /axcalendar | Open menu |
+| /axcalendar help | Show plugin usage |
+| /axcalendar reload | Reload configuration |
+| /axcalendar reset \<player> | Reset calendar of player |
+| /axcalendar debuginfo | Displays some useful information |
+* Admin commands use the `axcalendar.admin` permission
