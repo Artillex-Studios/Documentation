@@ -98,6 +98,7 @@
         <toc-element topic="AxKoth-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxVaults.md">
+        <toc-element topic="AxVaults-Converters.md"/>
         <toc-element topic="AxVaults-Commands.md">
         </toc-element>
         <toc-element topic="AxVaults-Add-To-Block.md"/>

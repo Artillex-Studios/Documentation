@@ -13,4 +13,6 @@
 | /axvaultsadmin reload | Reload plugin |
 | /axvaultsadmin forceopen \<player> | Open selector to a player |
 | /axvaultsadmin set \[number] | Add a vault to a block |
-| /axvaultsadmin view \<player> \<number> | View an offline/online player's vault |
+| /axvaultsadmin view \<player> \<number> | View vault of a player |
+| /axvaultsadmin delete \<player> \<number> | Delete vault of a player |
+| /axvaultsadmin converter \<plugin> | Convert from another plugin |
