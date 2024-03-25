@@ -1,8 +1,5 @@
 # AxMines
 
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
-
 ## Features:
 - Fast, doesn't affect tps
   - Get chunk sections and modify them in parallel then sync back to main thread

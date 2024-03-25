@@ -4,5 +4,5 @@
 
 |-|-|
 | Command | Description |
-| /axquestboard reload | Reload plugin |
-| /axquestboard give \<player> \<sellwand> [amount] | List commands |
+| /axsellwands reload | Reload plugin |
+| /axsellwands give \<player> \<sellwand> [amount] | Give sellwands |

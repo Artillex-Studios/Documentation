@@ -1,8 +1,5 @@
 # AxQuestBoard
 
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
-
 * Race with other players to complete quests on the quest board, 50+ builtin quest types.
 
 ### Features:

@@ -1,8 +1,5 @@
 # AxSellwands
 
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
-
 * A feature rich sell wand plugin with a simple configuration.
 
 ### Features:
