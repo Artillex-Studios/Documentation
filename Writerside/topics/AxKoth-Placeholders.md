@@ -4,7 +4,7 @@
 
 |-|-|
 | PlaceholderAPI | Builtin |
-| %axkoth_\<KOTH>active\% | %\active\% |
+| %axkoth_\<KOTH>_active\% | %\active\% |
 
 ## List of placeholders:
 |-|-|
@@ -16,7 +16,7 @@
 | %axkoth_\<KOTH>_x% | x coordinate of the koth (center location) |
 | %axkoth_\<KOTH>_y% | y coordinate of the koth (center location) |
 | %axkoth_\<KOTH>_z% | z coordinate of the koth (center location) |
-| %axkoth_\<KOTH>_next% | next koth schedule run time, in miliseconds |
+| %axkoth_\<KOTH>_next% | next koth schedule run time, in seconds |
 | %axkoth_\<KOTH>_next_formatted% | time until next koth, formatted |
 | %axkoth_\<KOTH>_capturer% | name and team of the capturer |
 | %axkoth_\<KOTH>_capturer_name% | name of the capturer |
