@@ -147,8 +147,9 @@
     </toc-element>
     <toc-element topic="AxSumo.md">
         <toc-element topic="AxSumo-Commands.md"/>
-        <toc-element topic="AxSumo-Time.md"/>
         <toc-element topic="AxSumo-Placeholders.md"/>
+        <toc-element topic="AxSumo-Time.md"/>
+        <toc-element topic="AxSumo-Supported-Plugins.md"/>
         <toc-element topic="AxSumo-Configuration.md"/>
     </toc-element>
 </instance-profile>

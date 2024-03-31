@@ -5,6 +5,7 @@ Explanation:
   * Extra: if you set this value in the config, the trigger will only increase the score when it equals to the called trigger
   * Score: how much progress does this trigger add at once?
 
+## Builtin Triggers
 | Trigger               | Extra                                                                                                                                         | Description                                                              | Score                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------|
 | ADVANCEMENT_COMPLETED | ---                                                                                                                                           | When the player completes an advancement                                 | 1                             |
@@ -63,3 +64,18 @@ Explanation:
 | TELEPORT              | [The cause of the teleport](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/player/PlayerTeleportEvent.TeleportCause.html)          | When the player teleports                                                | 1                             |
 | WALK                  | ---                                                                                                                                           | When the player walks                                                    | Distance in blocks            |
 | WORLD_CHANGE          | The name of the new world                                                                                                                     | When the player changes world                                            | 1                             |
+
+## Supported Plugin Triggers
+| Required Plugin | Trigger                 | Extra                                                                                         | Description                                      | Score                        |
+|:----------------|:------------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------|------------------------------|
+| AxKoth          | AXKOTH:WIN              | The name of the koth                                                                          | When the player wins a koth event                | 1                            |
+| AxKoth          | AXKOTH:GAIN             | The name of the koth                                                                          | When the player is capturing a koth for a second | 1                            |
+| BattlePass      | BATTLEPASS:TIERUP       | ---                                                                                           | When the player reaches a new tier               | 1                            |
+| BattlePass      | BATTLEPASS:PROGRESS     | The name of the quest                                                                         | When the player progresses in a quest            | The amount of added progress |
+| ExcellentCrates | EXCELLENTCRATES:OPEN    | The id of the crate                                                                           | When the player opens a create                   | 1                            |
+| ShopGuiPlus     | SHOPGUIPLUS:SELL        | [The material of the item](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) | When the player sells items                      | The price                    |
+| ShopGuiPlus     | SHOPGUIPLUS:SELL_AMOUNT | [The material of the item](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) | When the player sells items                      | The amount of items sold     |
+| ShopGuiPlus     | SHOPGUIPLUS:BUY         | [The material of the item](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) | When the player buys items                       | The price                    |
+| ShopGuiPlus     | SHOPGUIPLUS:BUY_AMOUNT  | [The material of the item](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) | When the player buys items                       | The amount of items bought   |
+| CrazyVouchers   | CRAZYVOUCHERS:REDEEM    | The name of the voucher                                                                       | When the player redeems a voucher                | 1                            |
+* Note: if the trigger name has a : in it, you must place it in a ""
