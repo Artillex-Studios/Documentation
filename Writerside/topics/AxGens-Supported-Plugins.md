@@ -12,6 +12,7 @@
 * SuperiorSkyblock2
 * Lands
 * WorldGuard
+* HuskTowns
 
 ### Sell wands: (you can use these instead of the builtin one)
 * WildTools

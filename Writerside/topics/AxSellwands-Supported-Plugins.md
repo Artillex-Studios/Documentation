@@ -8,6 +8,7 @@
 * SuperiorSkyblock2
 * Lands
 * WorldGuard
+* HuskTowns
 
 ### Economy:
 * Vault
