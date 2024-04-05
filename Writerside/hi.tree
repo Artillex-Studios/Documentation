@@ -152,4 +152,12 @@
         <toc-element topic="AxSumo-Supported-Plugins.md"/>
         <toc-element topic="AxSumo-Configuration.md"/>
     </toc-element>
+    <toc-element topic="AxTrade.md">
+        <toc-element topic="AxTrade-Commands.md">
+        </toc-element>
+        <toc-element topic="AxTrade-Configuration.md"/>
+        <toc-element topic="AxTrade-Supported-Plugins.md">
+        </toc-element>
+        <toc-element topic="AxTrade-Custom-Currencies.md"/>
+    </toc-element>
 </instance-profile>

@@ -16,7 +16,7 @@
 
 ### number-formatting.formatted (default: #,###.##)
 
-* https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html
+* [https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html](https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html)
 
 ### number-formatting.short (default: en_US)
 

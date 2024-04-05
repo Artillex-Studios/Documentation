@@ -64,5 +64,5 @@
 
 ### blacklisted-items
 
-* Items that match will be removed when the player dies from the grave
+* Disallowed/Blacklisted items
 * You can also define a material and a name-contains subsection
