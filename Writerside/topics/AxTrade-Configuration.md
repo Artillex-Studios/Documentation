@@ -41,7 +41,7 @@
 
 ### disallowed-gamemodes (default: SPECTATOR)
 
-* List of gamemodes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/GameMode.html
+* List of gamemodes: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/GameMode.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/GameMode.html)
 * You can't trade in these gamemodes
 
 ### blacklisted-worlds (default: example_world)

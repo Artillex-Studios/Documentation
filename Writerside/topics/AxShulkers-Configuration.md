@@ -24,15 +24,19 @@
 
 ### disable-shulker-opening (default: false)
 
-* Safety feature, let's you disable shulker opening if needed.
+* Lets you disable shulker opening if needed.
 
 ### disable-shulker-placing (default: false)
 
-* Safety feature, let's you disable shulker placing if needed.
+* Lets you disable shulker placing if needed.
 
 ### disable-shulker-dispensing (default: false)
 
-* Safety feature, makes it that dispensers and droppers can't dispense shulkers if needed.
+* Makes it that dispensers and droppers can't dispense shulkers if needed.
+
+### disable-moving-while-open (default: false)
+
+* If this is true, the shulker will be closed if the player moves
 
 ### undestoryable-shulkers (default: false)
 

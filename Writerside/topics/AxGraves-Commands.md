@@ -1,5 +1,8 @@
 # Commands
 
+* All the commands require the `axgraves.admin` permission.
+
 |-|-|
-| Command | Description | Permission |
-| /axgraves reload | Reload config & messages | axgraves.reload |
+| Command | Description |
+| /axgraves reload | Reload config & messages |
+| /axgraves list | List spawned graves |

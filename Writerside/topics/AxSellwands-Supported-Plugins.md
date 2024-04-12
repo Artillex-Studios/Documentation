@@ -22,6 +22,7 @@
 * ShopGuiPlus
 * Essentials
 * EconomyShopGUI
+* ExcellentShop
 * CMI
 * DynamicShop3
 
