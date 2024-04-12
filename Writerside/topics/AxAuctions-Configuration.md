@@ -3,73 +3,80 @@
 <procedure title="config.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[prefix: "&#00DDFF&lAxAuctions &7» "
-    
+
     database:
-    # h2, mysql, postgresql
-    type: "h2"
-    prefix: "axauctions"
-    
-    # you only need to touch these when using mysql/postgresql
-    address: 127.0.0.1
-    port: 3306
-    database: admin
-    username: admin
-    password: 'admin'
-    pool:
-    maximum-pool-size: 10
-    minimum-idle: 10
-    maximum-lifetime: 1800000
-    keepalive-time: 0
-    connection-timeout: 5000
-    
+      # h2, mysql, postgresql
+      type: "h2"
+      prefix: "axauctions"
+
+      # you only need to touch these when using mysql/postgresql
+      address: 127.0.0.1
+      port: 3306
+      database: admin
+      username: admin
+      password: 'admin'
+      pool:
+        maximum-pool-size: 10
+        minimum-idle: 10
+        maximum-lifetime: 1800000
+        keepalive-time: 0
+        connection-timeout: 5000
+
+    # format: language_COUNTRY
+    # after changing this, the server will download the default item names
+    language: en_US
+
     # when using mysql/postgresql, how should data be sent between servers?
     # values: none, sql
     # if you don't need multi server support, set to none to disable
     multi-server-support: "sql"
-    
+
     # should sellers get their money only when they join?
     # with some currency plugins this option is automatically enabled
     # the sellers will still be notified about sold items even if this is false
     # if you change this while the plugin is used, some players may get their money twice or lose their money
     only-give-money-on-join: false
-    
+
     # https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html
     # how money should be formatted?
     number-format: "#,###.##"
-    
+
     # used to show the length of boosters
     # in bossbars you have to use the %time_formatted% placeholder for these to be used
     # 1 - HH:MM:SS, for example 01:25:35
     # 2 - short format, for example 20m
     # 3 - text format, for example 01h 25m 35s
     timer-format: 1
-    
+
     # after how long should items expire?
     # in seconds
     item-expire-time: 86400
-    
+
     # after how long should items get deleted?
     # only starts if the item have expired
     # in seconds
     item-deletion-time: 604800
-    
+
     # the minimum price for an item
     # do not set below 0.01
     min-price: 10.0
-    
-    # the minimum price for an item
+
+    # the maximum price for an item
     # set to -1 to disable
     max-price: -1
-    
+
+    # if true, even if there is only 1 loaded currency, the selector will show
+    force-currency-selector: false
+
     # list of items that CAN'T be sold in the auction house
     # note: the name-contains string shouldn't include any color codes
     blacklisted-items:
-    "1":
-    material: "barrier"
-    name-contains: "Banned item's name"
-    
+      "1":
+        material: "barrier"
+        name-contains: "Banned item's name"
+
     # do not change this
-    version: 1]]>
+    version: 3]]>
 </code-block></step>
 </procedure>
 
