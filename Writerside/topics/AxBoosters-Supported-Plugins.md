@@ -7,6 +7,7 @@
   auraskills:experience
   aureliumskills:experience
   axgens:sell_money
+  axsellwands:sell_money
   battlepass:experience
   cmi:sell_money
   cyberlevels:experience # read note below
