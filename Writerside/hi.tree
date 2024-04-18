@@ -160,4 +160,10 @@
         </toc-element>
         <toc-element topic="AxTrade-Custom-Currencies.md"/>
     </toc-element>
+    <toc-element topic="AxVouchers.md">
+        <toc-element topic="Commands-axvouchers.md"/>
+        <toc-element topic="Configuration-axvouchers.md"/>
+        <toc-element topic="Actions.md"/>
+        <toc-element topic="Requirements.md"/>
+    </toc-element>
 </instance-profile>
