@@ -37,9 +37,16 @@
     # if you change this while the plugin is used, some players may get their money twice or lose their money
     only-give-money-on-join: false
 
-    # https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html
-    # how money should be formatted?
-    number-format: "#,###.##"
+    number-formatting:
+      # modes:
+      # 0 - formatted (customizable, look at the formatted part)
+      # 1 - short (1K)
+      # 2 - raw (1000.4242421412)
+      mode: 0
+      # https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html
+      formatted: "#,###.##"
+      # format: language_COUNTRY
+      short: "en_US"
 
     # used to show the length of boosters
     # in bossbars you have to use the %time_formatted% placeholder for these to be used
@@ -76,7 +83,7 @@
         name-contains: "Banned item's name"
 
     # do not change this
-    version: 3]]>
+    version: 4]]>
 </code-block></step>
 </procedure>
 
