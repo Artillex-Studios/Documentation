@@ -12,7 +12,7 @@
 - Hologram support (you can disable it)
 
 ## Extra (toggleable) features:
-- Sell wands (all of them are customizeable and you can add as much as you want)
+- Sell wands (all of them are customizable, and you can add as much as you want)
 - Price system (and a sell command)
 - 4 builtin Events (sell price, drop amount, drop tier, generator speed)
 - Level System (used as upgrade requirements)

@@ -83,6 +83,10 @@
     broadcasts:
         chat: true
         actionbar: false
+
+    # if enabled, the plugin try to find a quest that is not on the board when refreshing
+    # you probably shouldn't enable this if you have set less quests than the maximum board size
+    force-unique-quests: false
     
     # do not change this
     version: 1]]>

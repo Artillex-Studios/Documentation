@@ -1,4 +1,4 @@
-# Change Based Drops
+# Chance-Based Drops
 
 ### Normal single drop:
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
@@ -14,7 +14,7 @@
         - ""]]>
 </code-block>
 
-### Chance based multi-drops:
+### Chance-based multi-drops:
 - The chances don't have to add up to 100%
 - You can add as many as you wish
 - Currently, ONLY the first item is used in placeholders, but ofc you don't have to use placeholders like %\drop-name% and %\drop-material%
