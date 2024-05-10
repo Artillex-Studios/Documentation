@@ -11,6 +11,26 @@ so for example:
 * `auction.sell.5` with a `server=survival` context will be shown as long as you are on the survival no matter the setting
 * `auction.sell.5` without context will only be shown if you set it to true
 
+### prevent-downgrading (default: true)
+
+* The plugin will stop players from buying worse ranks than their current one
+* You must set every rank a WEIGHT (weight.&lt;VALUE> permission) to enable
+
+### discount-ranks (default: false)
+
+* If true: every rank's price will be calculated like this: new rank's price - current rank's price 
+* NOTE: unless prevent-downgrading is true this will mean what players can freely downgrade their ranks
+
+### force-buy-order.enabled (default: false)
+
+* The plugin will not let the player buy ranks out of order
+* This uses the builtin track system of luckperms, you must define one to use it
+
+### command-aliases
+
+* You can add or edit the command aliases here
+* The first element of the list will be used as the "main" command
+
 ## lang.yml
 
 You can define translations for the permissions with the `permissions` section. Examples:

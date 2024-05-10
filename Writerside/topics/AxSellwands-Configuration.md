@@ -8,6 +8,9 @@
 * 1 - add durability of 2 sell wands together
 * 2 - ignore, not recommended
 
+### allow-going-over-limit (default: false)
+* If enabled: when merging two sell wands, their usage limit can go over the limit
+
 ### number-formatting.mode (default: 0)
 
 * 0 - formatted (customizable, look at the formatted part)
