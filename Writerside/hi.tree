@@ -120,6 +120,7 @@
     <toc-element topic="AxRewards.md">
         <toc-element topic="AxRewards-Commands.md"/>
         <toc-element topic="AxRewards-Configuration.md"/>
+        <toc-element topic="AxRewards-Placeholders.md"/>
     </toc-element>
     <toc-element topic="AxSellChest.md">
         <toc-element topic="Commands.md"/>
