@@ -1,8 +1,5 @@
 # AxTrade
 
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
-
 * A lightweight multi-currency trade plugin with a simple configuration.
 
 ### Features:
