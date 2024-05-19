@@ -25,6 +25,10 @@
 * How far apart the two players can be from each other?
 * Set to -1 to disable
 
+### shift-click-send-request (default: true)
+
+* Should shift + right clicking on another player send them a trade request?
+
 ### number-formatting.mode (default: 0)
 
 * 0 - formatted (customizable, look at the formatted part)
