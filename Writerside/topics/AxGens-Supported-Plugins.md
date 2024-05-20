@@ -2,7 +2,7 @@
 
 ### Custom generator block:
 * Oraxen
-* ~~ItemsAdder~~ (Currently broken)
+* ItemsAdder
 
 ### Protection:
 * BentoBox
