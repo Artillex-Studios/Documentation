@@ -1,6 +1,7 @@
 # Permissions
 
 - axgens.limit.\<AMOUNT> - Change generator limit
+- axgens.multiplier.\<AMOUNT> - Add bonus sell multiplier
 - axgens.admin - Bypasses generator protection
 - axgens.slots - Permission for /axgens slots
 - axgens.level - Permission for /axgens level
