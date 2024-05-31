@@ -161,6 +161,7 @@
         <toc-element topic="AxTrade-Configuration.md"/>
         <toc-element topic="AxTrade-Supported-Plugins.md">
         </toc-element>
+        <toc-element topic="AxTrade-Multi-Currency-Plugins.md"/>
         <toc-element topic="AxTrade-Custom-Currencies.md"/>
     </toc-element>
     <toc-element topic="AxVouchers.md">
