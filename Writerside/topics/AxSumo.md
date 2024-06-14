@@ -1,13 +1,11 @@
 # AxSumo
 
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
-
 * The ultimate ALL-IN-ONE sumo plugin!
 
 ### Features:
 * 4 Databases supported: H2, SQLite, MySQL, PostgreSQL
 * Customizable: There are many options, more info on the wiki
+* Ingame Editor
 * Easy to setup: It only takes 6 commands to create a functional sumo arena
 * Builtin scoreboard system (optional)
 * Sumo match ups are randomly selected
