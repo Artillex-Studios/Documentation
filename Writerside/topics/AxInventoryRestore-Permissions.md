@@ -1,11 +1,11 @@
 # Permissions
 
-* axir.admin or axir.* - Gives permission to everything
-* axir.view - Access to viewing backups
-* axir.modify - Ability to take items from backups
-* axir.teleport - Access to teleport to backup location
-* axir.restore - Access to use the quick restore feature
-* axir.export - Access to export items in a shulker box
-* axir.reload - Permission to use /axir reload
-* axir.manualbackup - Permission to use /axir save \<player\> or /axir save *
-* axir.cleanup - Permission to use /axir cleanup
+* axinventoryrestore.* - Gives permission to everything
+* axinventoryrestore.view - Access to viewing backups
+* axinventoryrestore.modify - Ability to take items from backups
+* axinventoryrestore.teleport - Access to teleport to backup location
+* axinventoryrestore.restore - Access to use the quick restore feature
+* axinventoryrestore.export - Access to export items in a shulker box
+* axinventoryrestore.reload - Permission to use /axir reload
+* axinventoryrestore.manualbackup - Permission to use /axir save \<player\> or /axir save *
+* axinventoryrestore.cleanup - Permission to use /axir cleanup

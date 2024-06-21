@@ -3,7 +3,6 @@
 ## What is AxInventoryRestore?
 * This plugin is a tool for server admins that logs player's inventories and lets staff restore it with 1 click or export it as a shulker. An inventory backup is made when a player dies, joins, quits, changes world, a backup is also taken every few minutes, (customizeable) and even manually.
 
-
 ## Features:
 * Support for databases (SQLite, H2, MySQL, PostgreSQL)
 * Multi server support (when using MySQL or PostgreSQL)

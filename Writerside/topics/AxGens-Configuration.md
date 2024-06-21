@@ -37,6 +37,15 @@
 * Forces the /sell command to be the /selldrops
 * This is only recommended if you can't disable other plugins' /sell
 
+### simple-sell-command.enabled (default: false)
+
+* Enabling this will remove the help from /selldrops and makes it run a sell action if it is used without any arguments
+* For example if it is enabled and the action is set to all, when the player runs /selldrops, it will default to /selldrops all
+
+### simple-sell-command.action (default: all)
+
+* Possible options: all, hand, handall
+
 ### level-requirements (default: true)
 
 * Should the level system be active?
