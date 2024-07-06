@@ -54,6 +54,19 @@ random-actions:
       - "[player] I like the taste of water!"
 ```
 
+### placeholders
+
+* Placeholders can come really handy when using the plugin
+* You can create vouchers that have placeholders that are resolved in the lore,
+name type of the item, or in the actions.
+
+```yaml
+
+placeholders:
+  - "name"
+
+```
+
 ### requirements
 
 * Refer to [the requirements configuration](Requirements.md)
@@ -107,14 +120,9 @@ items:
   type: "stone_sword"
   name: "<red>Sword"
 
-placeholders:
-- id: name
-  default: 1
-
 actions:
-
 - "[player] spawn"
-- "[console] say %player% has got some serious weapons now!"
+- "[console] say %player% has got some serious weapons now! <name>" # The name placeholder is used here
 - "[firework] #ff0000,ball"
 - "[sound] entity_player_levelup,0.5,0.2"
 - "[item] 1" # You can check the items a bit further down!
@@ -123,6 +131,9 @@ random-actions:
 - chance: 25
   actions:
     - "[player] I like oreos!"
+
+placeholders:
+  - "name"
 
 requirements:
 - "[permission] your.permission.node"
