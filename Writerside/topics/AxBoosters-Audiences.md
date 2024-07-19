@@ -1,6 +1,6 @@
 # Audiences
 
-"Audiences" specify the player group that a certain booster can affect.
+"Audiences" specify the group of players that a certain booster affects.
 
 |-|-|
 | Name | Description |

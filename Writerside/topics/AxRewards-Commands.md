@@ -2,7 +2,7 @@
 
 |-|-|
 | Command | Description | Permission |
-| /axrewards | Open reward gui | axrewards.open (given by default) |
+| /axrewards open [menu] | Open reward gui | axrewards.open.&lt;menu> (given by default) |
 | /axrewards reload | Reload plugin | axrewards.reload |
-| /axrewards reset \<player> [reward] | Reset cooldown of player | axrewards.reset |
-| /axrewards forceopen \<player> | Open the gui for a player | axrewards.forceopen |
+| /axrewards reset &lt;player> [menu] [reward] | Reset cooldown of player | axrewards.reset |
+| /axrewards forceopen &lt;player> [menu] [bypass] | Open the gui for a player | axrewards.forceopen |

@@ -5,14 +5,19 @@
 | /axboosters | (default) |
 | /axboosteradmin | axboosters.admin |
 
-# Subcommands
+## Subcommands
 
 |-|-|
 | Command | Description |
-| /axboosteradmin give \<PLAYER> \<BOOSTER> \<AUDIENCE> \<MULTIPLIER> \<[LENGTH](AxBoosters-Booster-Length.md)> \<AMOUNT> | Give a booster to a player |
-| /axboosteradmin starter \<PLAYER> \<BOOSTER> \<AUDIENCE> \<MULTIPLIER> \<[LENGTH](AxBoosters-Booster-Length.md)> \<AMOUNT> | Give a booster starter to a player |
-| /axboosteradmin activate \<PLAYER> \<BOOSTER> \<AUDIENCE> \<MULTIPLIER> \<[LENGTH](AxBoosters-Booster-Length.md)> | Activate a booster for the player |
+| /axboosteradmin editor | Open Editor |
+| /axboosteradmin give &lt;PLAYER> &lt;BOOSTER TYPE> &lt;AUDIENCE> &lt;MULTIPLIER> &lt;[LENGTH](AxBoosters-Booster-Length.md)> &lt;AMOUNT> | Give a booster to a player |
+| /axboosteradmin starter &lt;PLAYER> &lt;BOOSTER TYPE> &lt;AUDIENCE> &lt;MULTIPLIER> &lt;[LENGTH](AxBoosters-Booster-Length.md)> &lt;AMOUNT> | Give a booster starter to a player |
+| /axboosteradmin activate &lt;PLAYER> &lt;BOOSTER TYPE> &lt;AUDIENCE> &lt;MULTIPLIER> &lt;[LENGTH](AxBoosters-Booster-Length.md)> | Activate a booster for the player |
+| /axboosteradmin activateserver &lt;BOOSTER TYPE> &lt;MULTIPLIER> &lt;[LENGTH](AxBoosters-Booster-Length.md)> | Activate a server booster |
 | /axboosteradmin reload | Reload the plugin |
-| /axboosteradmin listboosters \<PLAYER> | List the unused boosters of a player (and the ability to take them) |
-| /axboosteradmin stop \<PLAYER> | Stop all boosters of a player |
+| /axboosteradmin listboosters &lt;PLAYER> | List the unused boosters of a player (and optionally remove them) |
+| /axboosteradmin stop &lt;PLAYER> | Stop all boosters of a player |
 | /axboosteradmin stopall | Stop all boosters |
+| /axboosteradmin apply hand/offhand/armor/inventory &lt;BOOSTER TYPE> &lt;MULTIPLIER> | Apply a booster to an item |
+| /axboosteradmin unapply [BOOSTER TYPE] | Remove a booster from an item |
+| /axboosteradmin debug | Prints some information about enabled booster types and tries to find common problems |

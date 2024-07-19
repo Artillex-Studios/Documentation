@@ -6,4 +6,9 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="79c09552">
+        <description>Created after removal of "Explanation of some words" from Artillex-Studios Documentation
+        </description>
+        <accepts>Explanation-of-some-words.html</accepts>
+    </rule>
 </rules>

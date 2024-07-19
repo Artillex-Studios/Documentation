@@ -7,9 +7,10 @@
 - Multi server support
 - PlaceholderAPI support
 - Auto Updating GUI
-- All database communications are handled asynchronously
+- Multiple Menus
+- Lightweight, the plugin will not cause any lag
+- One time rewards
 - Lock rewards behind permissions
-- Claiming cooldown can be defined in seconds
 - Simple configuration: it only takes a few minutes to set up
-- You can add decorative slots
+- You can add extra items to the gui
 - Supports all popular color formats (minimessage, legacy, etc)

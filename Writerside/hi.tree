@@ -31,13 +31,23 @@
         </toc-element>
     </toc-element>
     <toc-element topic="AxBoosters.md">
+        <toc-element topic="AxBoosters-Updating-to-V3.md"/>
+        <toc-element topic="AxBoosters-How-Multiplier-Works.md">
+        </toc-element>
+        <toc-element topic="AxBoosters-Explanation-of-some-words.md"/>
+        <toc-element topic="AxBoosters-Creating-New-Boosters.md"/>
+        <toc-element topic="AxBoosters-Types.md"/>
         <toc-element topic="AxBoosters-Commands.md">
             <toc-element topic="AxBoosters-Booster-Length.md"/>
         </toc-element>
+        <toc-element topic="AxBoosters-Inventory-Actions.md"/>
         <toc-element topic="AxBoosters-Audiences.md"/>
         <toc-element topic="AxBoosters-Placeholders.md"/>
         <toc-element topic="AxBoosters-Supported-Plugins.md"/>
-        <toc-element topic="AxBoosters-Developer-API.md"/>
+        <toc-element topic="AxBoosters-Developer-API.md">
+            <toc-element topic="AxBoosters-Registering-API-Boosters.md"/>
+            <toc-element topic="AxBoosters-Adding-Booster-Hooks.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="AxGens.md">
         <toc-element topic="AxGens-Commands.md"/>
