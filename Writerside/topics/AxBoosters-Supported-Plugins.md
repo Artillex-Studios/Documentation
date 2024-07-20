@@ -8,21 +8,23 @@
   vanilla:flight
   vanilla:flyspeed
   vanilla:maxhealth
-  vanilla:walkspeed
   vanilla:experience
-  # \ the following ones require mc 1.21 or higher /
-  vanilla:block_break_speed
-  vanilla:mining_efficiency
-  vanilla:scale
-  vanilla:underwater_mining_speed
 ```
 
-**Potion boosters:**
+**Potion effect booster hooks:**
 
 `vanilla:potion_<name>`
-- all the vanilla potions work
+- all the vanilla potions work (from /effects)
 - instead of multipliers, they are amplifiers
 - for example, a potion with +200% multiplier will be a lvl 3 potion (because +0-99% is lvl 1)
+- examples: Night Vision, Jump Boost, Speed, Haste & many more
+
+**Attribute booster hooks:**
+
+`vanilla:attribute_<name>`
+- all the attributes work (from /attribute)
+- https://minecraft.wiki/w/Attribute (note that a lot of attributes are only available on 1.21)
+- examples: Mining Speed, Walking Speed, Player Scale & many more
 
 ### Third party
 ```yaml
