@@ -4,10 +4,21 @@ On this page you can find every item related configuration that is possible to c
 
 Note that you don't need to use all of these values at once, only material is required!
 
+### Example:
+
+```yaml
+    material: STICK
+    custom-model-data: 100
+    glow: true
+    lore:
+    - "&fthis is a lore,"
+    - "&eit can be multiple lines!"
+```
+
 ### Material:
 
 ```yaml
-    material: DIAMOND
+  material: DIAMOND
 ```
 * List of materials: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
 

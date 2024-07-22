@@ -69,6 +69,7 @@
         <toc-element topic="AxRankMenu-Supported-Plugins.md"/>
     </toc-element>
     <toc-element topic="AxGraves.md">
+        <toc-element topic="AxGraves-How-to-Edit-the-Configuration.md"/>
         <toc-element topic="AxGraves-Commands.md"/>
         <toc-element topic="AxGraves-Permissions.md"/>
         <toc-element topic="AxGraves-Configuration.md"/>
@@ -129,6 +130,8 @@
         <toc-element topic="AxAuctions-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxRewards.md">
+        <toc-element topic="AxRewards-Creating-new-menus.md"/>
+        <toc-element topic="AxRewards-Adding-new-rewards.md"/>
         <toc-element topic="AxRewards-Commands.md"/>
         <toc-element topic="AxRewards-Configuration.md"/>
         <toc-element topic="AxRewards-Placeholders.md"/>

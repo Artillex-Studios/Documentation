@@ -4,7 +4,7 @@
 - Try the updating process first on a test/local server.
 - Take a backup of the axboosters folder.
 - Check the console for errors, if you see any concerning AxBoosters errors, contact us.
-- If you run a seasonal server, I would just recommend waiting with this update and starting clean, reconfiguring everything. Why? The new files are much cleaner and have some extra placeholders that you will not be able to see if you are updating from an old version. Of course, if this is not a problems for you, you can update.
+- If you run a seasonal server, I would just recommend waiting with this update and starting clean, reconfiguring everything. Why? The new files are much cleaner and have some extra placeholders that you will not be able to see if you are updating from an old version. Of course, if this is not a problem for you, you can update.
 
 ### Updating process
 - Stop the server

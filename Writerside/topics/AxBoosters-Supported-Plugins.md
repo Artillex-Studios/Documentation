@@ -15,6 +15,7 @@
 
 `vanilla:potion_<name>`
 - all the vanilla potions work (from /effects)
+- [https://minecraft.wiki/w/Potion#ID](https://minecraft.wiki/w/Potion#ID)
 - instead of multipliers, they are amplifiers
 - for example, a potion with +200% multiplier will be a lvl 3 potion (because +0-99% is lvl 1)
 - examples: Night Vision, Jump Boost, Speed, Haste & many more
@@ -23,7 +24,7 @@
 
 `vanilla:attribute_<name>`
 - all the attributes work (from /attribute)
-- https://minecraft.wiki/w/Attribute (note that a lot of attributes are only available on 1.21)
+- [https://minecraft.wiki/w/Attribute](https://minecraft.wiki/w/Attribute) (note that a lot of attributes are only available on 1.21)
 - examples: Mining Speed, Walking Speed, Player Scale & many more
 
 ### Third party
