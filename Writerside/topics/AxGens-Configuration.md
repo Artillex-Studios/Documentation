@@ -99,3 +99,16 @@
 
 * Allows you to set a hard cap to generator slots, that is not bypassable not even with permissions.
 * Set to -1 to disable.
+
+### generator-price-calculation (default: %\next-price% - %\current-price%)
+
+* You can customize the formula of generator upgrade prices, for example if don't want to allow people to save money on upgrades, you can set it to simply `%\next-price%`
+* It is possible to use math for this, for example `(%\next-price% - %\current-price%) * 0.8` will make it cheaper to upgrade gens, while the shop prices will be unaffected.
+
+### break-mode (default: false)
+
+* Allows you to enable [break mode](AxGens-Break-Mode.md)!
+
+### corrupted-generators
+
+* Settings related to [corrupted generators](AxGens-Corrupted-Generators.md)!
