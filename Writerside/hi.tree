@@ -184,4 +184,10 @@
         <toc-element topic="Actions.md"/>
         <toc-element topic="Requirements.md"/>
     </toc-element>
+    <toc-element topic="AxAFKZone.md">
+        <toc-element topic="AxAFKZone-Commands.md"/>
+        <toc-element topic="AxAFKZone-Configuration.md"/>
+        <toc-element topic="AxAFKZone-Creating-Zones.md"/>
+        <toc-element topic="AxAFKZone-Adding-Rewards.md"/>
+    </toc-element>
 </instance-profile>

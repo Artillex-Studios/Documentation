@@ -10,6 +10,7 @@
 ### Admin commands:
 |-|-|
 | Command | Description | Permission |
+| /axvaultsadmin [help] | Shows help | axvaults.admin |
 | /axvaultsadmin reload | Reload plugin | axvaults.admin.reload |
 | /axvaultsadmin forceopen \<player> | Open selector to a player | axvaults.admin.forceopen |
 | /axvaultsadmin set \[number] | Add a vault to a block | axvaults.admin.set |
