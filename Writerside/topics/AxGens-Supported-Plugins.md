@@ -16,6 +16,7 @@
 
 ### Sell wands: (you can use these instead of the builtin one)
 * WildTools
+* ~~DeluxeSellwands~~ (Currently broken)
 
 ### Levels: (you can use these instead of the builtin one)
 * CyberLevels
@@ -26,6 +27,7 @@
 * PlayerPoints
 * CoinsEngine
 * RoyaleEconomy
+* EcoBits
 
 ### Price provider: (you can use these instead of the builtin one)
 * ShopGuiPlus
@@ -40,7 +42,6 @@
 
 ### Other:
 * [PlaceholderAPI](AxGens-Placeholders.md)
-* ~~DeluxeSellwands~~ (Currently broken)
 
 > Is there a plugin that isn't supported? Open a ticket on our discord:
 <font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>

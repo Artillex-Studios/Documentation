@@ -50,7 +50,9 @@
         </toc-element>
     </toc-element>
     <toc-element topic="AxGens.md">
-        <toc-element topic="AxGens-Common-Questions.md"/>
+        <toc-element topic="AxGens-Common-Questions.md">
+        </toc-element>
+        <toc-element topic="AxGens-Supported-Plugins.md"/>
         <toc-element topic="AxGens-Commands.md"/>
         <toc-element topic="AxGens-Sell-wands.md"/>
         <toc-element topic="AxGens-Change-Based-Drops.md"/>
@@ -60,7 +62,6 @@
         <toc-element topic="AxGens-Configuration.md"/>
         <toc-element topic="AxGens-Permissions.md"/>
         <toc-element topic="AxGens-Placeholders.md"/>
-        <toc-element topic="AxGens-Supported-Plugins.md"/>
         <toc-element topic="AxGens-Custom-Blocks.md"/>
         <toc-element topic="AxGens-Developer-API.md"/>
     </toc-element>
