@@ -37,6 +37,10 @@
     # if you change this while the plugin is used, some players may get their money twice or lose their money
     only-give-money-on-join: false
 
+    # if only-give-money-on-join is enabled, this will delay giving the money by X seconds
+    # this can be useful if you're waiting for a plugin to load player data or if the chat is too spammy on join
+    delay-money-give-seconds: 3
+
     number-formatting:
       # modes:
       # 0 - formatted (customizable, look at the formatted part)
