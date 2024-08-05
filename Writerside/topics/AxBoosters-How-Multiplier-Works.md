@@ -19,7 +19,7 @@ Example: old multiplier is 1.5, you subtract 1, you get 0.5, you multiply it by 
 
 | Goal                        | Percentage (**current**) | Decimal (old) |
 |-----------------------------|--------------------------|---------------|
-| 5 times booster             | +500%                    | 5x            |
+| 5 times booster             | +400%                    | 5x            |
 | negative 15 percent booster | -15%                     | 0.85x         |
 | 30 percent booster          | +30%                     | 1.3x          |
 
