@@ -43,6 +43,8 @@
   ecoskills:experience
   ecoshop:sell_money
   jobsreborn:experience
+  jobsreborn:money
+  jobsreborn:points
   mcmmo:experience
   mmocore:experience
   playerpoints:point_change
