@@ -50,6 +50,8 @@
   playerpoints:point_change
   rivalharvesterhoes:essence
   rivalharvesterhoes:experience
+  rivalpickaxes:essence
+  rivalpickaxes:experience
   sellwand:sell_money
   shopguiplus:sell_money # read note #2 below
   supermobcoins:mobcoin
@@ -60,7 +62,7 @@
   wildchests:sell_money
 ```
 * #1 CyberLevels requires you to use [our fork](https://github.com/BenceX100/CyberLevels-with-api/releases)!
-* #2 The ShopGui SellGui extension does NOT work with this booster; however, we can provide you a modified jar that will work, on our discord.
+* #2 The ShopGui SellGui extension does NOT work with this booster; however, we can provide you a modified jar that will work, on our discord. Why? The sellgui does not call the ShopGuiPlus API sell event, which is what AxBoosters is listening for.
 
 ## Team Hooks
 * BentoBox

@@ -20,4 +20,5 @@
 | /axboosteradmin stopall | Stop all boosters |
 | /axboosteradmin apply hand/offhand/armor/inventory &lt;BOOSTER TYPE> &lt;MULTIPLIER> | Apply a booster to an item |
 | /axboosteradmin unapply [BOOSTER TYPE] | Remove a booster from an item |
+| /axboosteradmin item &lt;name> [player] [amount] | Give boosted item |
 | /axboosteradmin debug | Prints some information about enabled booster types and tries to find common problems |
