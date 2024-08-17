@@ -52,6 +52,13 @@ Note that you don't need to use all of these values at once, only material is re
   glow: true
 ```
 
+### Unbreakable Items:
+
+```yaml
+  # make the item unbreakable
+  unbreakable: true
+```
+
 ### Custom Model Data:
 
 ```yaml
@@ -116,3 +123,42 @@ Note that you don't need to use all of these values at once, only material is re
     color: "255, 255, 0"
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
+
+## Advanced
+
+### SNBT
+
+1.20.4 and older:
+```yaml
+    snbt: |-
+        {
+            DataVersion: 3578,
+            Count: 1b,
+            id: "minecraft:turtle_helmet",
+            tag: {
+                Damage: 0,
+                axboosters-item: "flying-helmet",
+                display: {
+                    Lore: [],
+                    Name: '{"italic":false,"extra":[{"bold":true,"color":"#0099FF","text":"F"},{"bold":true,"color":"#009CFF","text":"l"},{"bold":true,"color":"#009FFF","text":"y"},{"bold":true,"color":"#00A2FF","text":"i"},{"bold":true,"color":"#00A4FF","text":"n"},{"bold":true,"color":"#00A7FF","text":"g"},{"bold":true,"color":"#00AAFF","text":" "},{"bold":true,"color":"#00ADFF","text":"h"},{"bold":true,"color":"#00B0FF","text":"e"},{"bold":true,"color":"#00B3FF","text":"l"},{"bold":true,"color":"#00B5FF","text":"m"},{"bold":true,"color":"#00B8FF","text":"e"},{"bold":true,"color":"#00BBFF","text":"t"}],"text":""}'
+                }
+            }
+        }
+```
+1.20.5 and newer:
+```yaml
+    snbt: |-
+        {
+           DataVersion: 3955,
+           components: {
+               "minecraft:custom_data": {
+                   axboosters-item: "flying-helmet"
+               },
+               "minecraft:custom_name": '{"extra":[{"bold":true,"color":"#0099FF","text":"F"},{"bold":true,"color":"#009CFF","text":"l"},{"bold":true,"color":"#009FFF","text":"y"},{"bold":true,"color":"#00A2FF","text":"i"},{"bold":true,"color":"#00A4FF","text":"n"},{"bold":true,"color":"#00A7FF","text":"g"},{"bold":true,"color":"#00AAFF","text":" "},{"bold":true,"color":"#00ADFF","text":"h"},{"bold":true,"color":"#00B0FF","text":"e"},{"bold":true,"color":"#00B3FF","text":"l"},{"bold":true,"color":"#00B5FF","text":"m"},{"bold":true,"color":"#00B8FF","text":"e"},{"bold":true,"color":"#00BBFF","text":"t"}],"italic":false,"text":""}',
+               "minecraft:enchantment_glint_override": 1b
+           },
+           count: 1,
+           id: "minecraft:turtle_helmet"
+        }
+```
+* SNBT is the best format to use for complex (custom) items, it can store all nbt that minecraft supports, however, it is much more complicated than our item builder.

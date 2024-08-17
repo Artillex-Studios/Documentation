@@ -73,3 +73,9 @@
 
 > Is there a plugin that isn't supported? Open a ticket on our discord:
 <font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>
+
+**Some plugins that we will never be able to add:** (there are some exceptions to these)
+- economy plugin like vault, as they only manage the economy, not give currency to players (however, we can add other plugins, like shop plugins)
+- we can't boost commands, (what could command * 1.5 look like?) time based things (like reward cooldowns)
+- closed source plugins without a public API jar
+- plugins that only have give/pay commands, because we can't prevent abusing boosts by paying currency to each other
