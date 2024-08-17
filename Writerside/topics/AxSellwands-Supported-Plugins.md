@@ -17,7 +17,8 @@
 * CoinsEngine
 * RoyaleEconomy
 
-### Price provider: (you can use these instead of the builtin one)
+### Price provider:
+_(you can use these instead of the builtin one)_
 * AxGens
 * ShopGuiPlus
 * Essentials
