@@ -1,5 +1,8 @@
 # Permissions
 
-* axshulkers.reload
-* axshulkers.clear
-* axshulkers.modify (defaults to true, set to false if you only want to make shulker preview read-only)
+| Permission        | Default | Explanation                                       |
+|-------------------|---------|---------------------------------------------------|
+| axshulkers.reload | op      | /axshulkers reload                                |
+| axshulkers.clear  | op      | /axshulkers clear                                 |
+| axshulkers.open   | true    | Ability to open shulkers by right clicking them   |
+| axshulkers.modify | true    | Ability to take out items from previewed shulkers |

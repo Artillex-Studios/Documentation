@@ -42,6 +42,7 @@
   economyshopgui:sell_money
   ecoskills:experience
   ecoshop:sell_money
+  essentials:sell_money
   jobsreborn:experience
   jobsreborn:money
   jobsreborn:points
@@ -70,6 +71,7 @@
 * SuperiorSkyBlock
 * KingdomsX
 * BetterTeams
+* UltimateClans
 
 > Is there a plugin that isn't supported? Open a ticket on our discord:
 <font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>
