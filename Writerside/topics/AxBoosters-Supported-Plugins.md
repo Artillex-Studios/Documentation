@@ -7,7 +7,6 @@
   vanilla:damage
   vanilla:flight
   vanilla:flyspeed
-  vanilla:maxhealth
   vanilla:experience
 ```
 
