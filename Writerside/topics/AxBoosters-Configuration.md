@@ -75,7 +75,7 @@ prevent-booster-stacking: false
 booster-max-multiplier: -1
 
 # used to show the length of boosters
-# in bossbars you have to use the %time_formatted% placeholder for these to be used
+# in bossbars you have to use the %\time_formatted% placeholder for these to be used
 # 1 - HH:MM:SS, for example 01:25:35
 # 2 - short format, for example 20m
 # 3 - text format, for example 01h 25m 35s
