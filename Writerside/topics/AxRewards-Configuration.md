@@ -12,3 +12,8 @@
 
 * You can add or edit the command aliases here
 * The first element of the list will be used as the "main" command
+
+### update-gui-title (default: false)
+
+* If enabled, this will update the placeholders in the gui titles
+* This is disabled by default, as this can cause the gui to be quite glitchy at times

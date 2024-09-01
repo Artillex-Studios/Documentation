@@ -10,6 +10,7 @@
 * WorldGuard
 * HuskTowns
 * Towny
+* SaberFactions
 
 ### Economy:
 * Vault

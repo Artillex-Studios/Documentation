@@ -10,6 +10,10 @@
 
 * How many rows should the /axvault selector menu have?
 
+### item-picker-rows (default: 6)
+
+* How many rows should the vault icon picker have?
+
 ### vault-storage-rows (default: 6)
 
 * How many rows should vaults have?
