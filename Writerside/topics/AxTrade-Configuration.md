@@ -56,3 +56,7 @@
 
 * Disallowed/Blacklisted items
 * You can also define a material and a name-contains subsection
+
+### enable-trade-summaries (default: true)
+
+* The trade summaries will not be sent after trades end to players if disabled
