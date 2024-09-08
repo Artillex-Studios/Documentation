@@ -52,6 +52,10 @@
   rivalharvesterhoes:experience
   rivalpickaxes:essence
   rivalpickaxes:experience
+  rivalfishingrods:essence
+  rivalfishingrods:experience
+  rivalmobswords:essence
+  rivalmobswords:experience
   sellwand:sell_money
   shopguiplus:sell_money # read note #2 below
   supermobcoins:mobcoin
