@@ -9,6 +9,7 @@
     <toc-element topic="ALL-Plugins.md">
         <toc-element topic="Colors.md"/>
         <toc-element topic="Item-Builder.md"/>
+        <toc-element topic="Message-Utilities.md"/>
     </toc-element>
     <toc-element topic="AxEnvoys.md">
         <toc-element topic="Configuration-axenvoys.md">
@@ -37,6 +38,7 @@
         <toc-element topic="AxBoosters-Configuration.md"/>
         <toc-element topic="AxBoosters-Explanation-of-some-words.md"/>
         <toc-element topic="AxBoosters-Creating-New-Boosters.md"/>
+        <toc-element topic="AxBoosters-Common-Questions.md"/>
         <toc-element topic="AxBoosters-Types.md"/>
         <toc-element topic="AxBoosters-Commands.md">
             <toc-element topic="AxBoosters-Booster-Length.md"/>
@@ -139,11 +141,6 @@
         <toc-element topic="AxRewards-Configuration.md"/>
         <toc-element topic="AxRewards-Placeholders.md"/>
     </toc-element>
-    <toc-element topic="AxSellChest.md">
-        <toc-element topic="Commands.md"/>
-        <toc-element topic="Configuration.md"/>
-        <toc-element topic="Supported-plugins_axsc.md"/>
-    </toc-element>
     <toc-element topic="AxMines.md">
         <toc-element topic="Commands_axmines.md"/>
         <toc-element topic="Configuration_axmines.md"/>
@@ -181,6 +178,11 @@
         </toc-element>
         <toc-element topic="AxTrade-Multi-Currency-Plugins.md"/>
         <toc-element topic="AxTrade-Custom-Currencies.md"/>
+    </toc-element>
+    <toc-element topic="AxSellChest.md">
+        <toc-element topic="Commands.md"/>
+        <toc-element topic="Configuration.md"/>
+        <toc-element topic="Supported-plugins_axsc.md"/>
     </toc-element>
     <toc-element topic="AxVouchers.md">
         <toc-element topic="Commands-axvouchers.md"/>
