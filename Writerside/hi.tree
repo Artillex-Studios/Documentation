@@ -66,6 +66,7 @@
         <toc-element topic="AxGens-Permissions.md"/>
         <toc-element topic="AxGens-Placeholders.md"/>
         <toc-element topic="AxGens-Custom-Blocks.md"/>
+        <toc-element topic="AxGens-ShopGuiPlus-Support.md"/>
         <toc-element topic="AxGens-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxRankMenu.md">
