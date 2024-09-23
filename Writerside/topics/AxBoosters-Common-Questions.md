@@ -12,6 +12,12 @@
 - Double check if you are using the booster correctly! Did you activate it? (in the /booster menu) Is this booster even supposed to do that? (for example most mobcoin boosters will only boost the mob kill mobcoins)
 - If this still doesn't work, report this issue on our [discord server](https://dc.artillex-studios.com/) (and tell us the plugin that use use and it's version)
 
+### Why is there not a setting to prevent two of the same booster from being started?
+- It is not possible to implement this. Why?
+- Think about it. User A starts a personal booster, if User B start a global one, what are we supposed to do? We can't say that "hey, you can't start a global booster, because someone has a personal booster running", so this issue is not really resolvable.
+- Instead, either keep the `multiplier-stacking-mode` on mode 0 or set a limit with the `booster-max-multiplier` setting to prevent abuse!
+- Also, we do provide a setting that prevents multiple of the same personal boosters from being started, so if you only give players personal boosters, enable the `prevent-booster-stacking` setting and it should work.
+
 ### How can I make different lores for all boosters?
 - In the booster's configuration file, you need to add this to the `override-lore` section:
 <procedure title="Example" collapsible="true"><step>
