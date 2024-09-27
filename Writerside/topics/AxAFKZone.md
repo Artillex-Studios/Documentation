@@ -1,8 +1,5 @@
 # AxAFKZone
 
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
-
 ## What is AxAFKZone?
 - A lightweight AFK zone/pool plugin that rewards players for AFK-ing in a zone
 

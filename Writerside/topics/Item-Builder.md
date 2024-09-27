@@ -99,7 +99,7 @@ Note that you don't need to use all of these values at once, only material is re
 ```yaml
     # the material must be POTION
     material: POTION
-    # this value is RGB separated by colons
+    # this value is RGB separated by commas
     color: "255, 0, 0"
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
@@ -109,7 +109,7 @@ Note that you don't need to use all of these values at once, only material is re
 ```yaml
     # the material must be a leather armor piece
     material: LEATHER_HELMET
-    # this value is RGB separated by colons
+    # this value is RGB separated by commas
     color: "0, 255, 255"
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
@@ -119,7 +119,7 @@ Note that you don't need to use all of these values at once, only material is re
 ```yaml
     # the material must be TIPPED_ARROW
     material: TIPPED_ARROW
-    # this value is RGB separated by colons
+    # this value is RGB separated by commas
     color: "255, 255, 0"
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
