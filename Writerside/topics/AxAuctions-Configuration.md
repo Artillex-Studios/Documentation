@@ -362,7 +362,7 @@
 </code-block></step>
 </procedure>
 
-*There are many GUI configs, here is the most complex one:*
+**There are many GUI configs, here is one:**
 <procedure title="guis/main-gui.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[title: "&0Auction House (%current_page%/%max_page%)"
