@@ -89,6 +89,7 @@
         <toc-element topic="AxInventoryRestore-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxShulkers.md">
+        <toc-element topic="AxShulkers-Important-Read-before-using-plugin.md"/>
         <toc-element topic="AxShulkers-How-does-it-work.md"/>
         <toc-element topic="AxShulkers-Commands.md"/>
         <toc-element topic="AxShulkers-Permissions.md"/>
