@@ -18,3 +18,9 @@
 - Yes, if you want to use custom blocks, check: [Custom Blocks](AxGens-Custom-Blocks.md)
 - If you want to make items have a custom texture, check: [Item Builder](Item-Builder.md#custom-model-data)
 - (and if you don't know what a custom model data is, ask the ItemsAdder/Oraxen support, and they should be able to help you find it)
+
+### What are levels and how can I gain levels?
+- Levels are currently not possible to gain.
+- You can disable levels in the config or it is also possible to give levels with the /axgen level command.
+- We recommend disabling it OR using a supported level plugin and enabling that in the hooks.yml.
+- The only reason why it is enabled so people know how to use the placeholders, it is much easier to remove them if you don't need them.
