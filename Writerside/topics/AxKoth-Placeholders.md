@@ -16,11 +16,10 @@
 | %axkoth_\<KOTH>_x% | x coordinate of the koth (center location) |
 | %axkoth_\<KOTH>_y% | y coordinate of the koth (center location) |
 | %axkoth_\<KOTH>_z% | z coordinate of the koth (center location) |
-| %\axkoth_next% | next koth to start, in seconds |
-| %\axkoth_next_formatted% | next koth to start, formatted |
-| %\axkoth_next_name% | name of the next koth to start |
+| %\axkoth_next_\<SCHEDULE NAME>% | next time the schedule starts, in seconds |
+| %\axkoth_next_\<SCHEDULE NAME>_formatted% | next time the schedule starts, formatted |
 | %axkoth_\<KOTH>_next% | next koth schedule run time, in seconds |
-| %axkoth_\<KOTH>_next_formatted% | time until next koth, formatted |
+| %axkoth_\<KOTH>_next_formatted% | time until next start, formatted |
 | %axkoth_\<KOTH>_capturer% | name and team of the capturer |
 | %axkoth_\<KOTH>_capturer_name% | name of the capturer |
 | %axkoth_\<KOTH>_capturer_team% | team of the capturer |
