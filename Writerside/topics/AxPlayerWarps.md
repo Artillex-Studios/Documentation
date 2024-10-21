@@ -1,8 +1,5 @@
 # AxPlayerWarps
 
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
-
 ## What is AxPlayerWarps?
 - A modern, feature rich player warp plugin. 
 

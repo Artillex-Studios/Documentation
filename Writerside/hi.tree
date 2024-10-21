@@ -206,6 +206,7 @@
         <toc-element topic="AxDarkAuctions-Configuration.md"/>
     </toc-element>
     <toc-element topic="AxPlayerWarps.md">
+        <toc-element topic="AxPlayerWarps-Converters.md"/>
         <toc-element topic="AxPlayerWarps-Commands.md"/>
         <toc-element topic="AxPlayerWarps-Permissions.md">
         </toc-element>
