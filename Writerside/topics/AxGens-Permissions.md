@@ -1,6 +1,7 @@
 # Permissions
 
 - axgens.limit.\<AMOUNT> - Change generator limit
+<warning>If any team plugin is enabled in the hooks.yml, permission limits will not work!</warning>
 - axgens.multiplier.\<AMOUNT> - Add bonus sell multiplier
 - axgens.admin - Bypasses generator protection
 - axgens.slots - Permission for /axgens slots

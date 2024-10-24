@@ -4,9 +4,10 @@
 
 ### default-max-generators: (default: 5)
 
-* The starting generator amount that a player will have.
-
-<warning>Setting an 'axgens.limit.AMOUNT' permission will override this value! It does not add to it!</warning>
+* The starting generator limit
+* Note: the `axgens.limit.<AMOUNT>` permission will be added on top of this
+* In team mode, this setting is only applied once (not for every member)
+* You can give more with the /axgens slots give <\player> <\amount> command
 
 ### generator-min-distance (default: 0.0)
 
