@@ -6,4 +6,3 @@
 | axplayerwarps.delay-bypass | Remove the few second delay/wait before teleporting | op |
 
 * Commands permissions can be found at [**Commands**](AxPlayerWarps-Commands.md)!
-

@@ -184,29 +184,11 @@
         <toc-element topic="AxTrade-Multi-Currency-Plugins.md"/>
         <toc-element topic="AxTrade-Custom-Currencies.md"/>
     </toc-element>
-    <toc-element topic="AxSellChest.md">
-        <toc-element topic="Commands.md"/>
-        <toc-element topic="Configuration.md"/>
-        <toc-element topic="Supported-plugins_axsc.md"/>
-    </toc-element>
-    <toc-element topic="AxVouchers.md">
-        <toc-element topic="Commands-axvouchers.md"/>
-        <toc-element topic="Configuration-axvouchers.md"/>
-        <toc-element topic="Actions.md"/>
-        <toc-element topic="Requirements.md"/>
-    </toc-element>
     <toc-element topic="AxAFKZone.md">
         <toc-element topic="AxAFKZone-Commands.md"/>
         <toc-element topic="AxAFKZone-Configuration.md"/>
         <toc-element topic="AxAFKZone-Creating-Zones.md"/>
         <toc-element topic="AxAFKZone-Adding-Rewards.md"/>
-    </toc-element>
-    <toc-element topic="AxDarkAuctions.md">
-        <toc-element topic="AxDarkAuctions-How-to-create-a-dark-auction.md"/>
-        <toc-element topic="AxDarkAuctions-Supported-Plugins.md"/>
-        <toc-element topic="AxDarkAuctions-Custom-Currencies.md"/>
-        <toc-element topic="AxDarkAuctions-Commands.md"/>
-        <toc-element topic="AxDarkAuctions-Configuration.md"/>
     </toc-element>
     <toc-element topic="AxPlayerWarps.md">
         <toc-element topic="AxPlayerWarps-Converters.md"/>
@@ -217,5 +199,35 @@
         <toc-element topic="AxPlayerWarps-Placeholders.md"/>
         <toc-element topic="AxPlayerWarps-Supported-Plugins.md"/>
         <toc-element topic="AxPlayerWarps-Custom-Currencies.md"/>
+    </toc-element>
+    <toc-element topic="Work-In-Progress.md">
+        <toc-element topic="AxSellChest.md">
+            <toc-element topic="Commands.md"/>
+            <toc-element topic="Configuration.md"/>
+            <toc-element topic="Supported-plugins_axsc.md"/>
+        </toc-element>
+        <toc-element topic="AxVouchers.md">
+            <toc-element topic="Commands-axvouchers.md"/>
+            <toc-element topic="Configuration-axvouchers.md"/>
+            <toc-element topic="Actions.md"/>
+            <toc-element topic="Requirements.md"/>
+        </toc-element>
+        <toc-element topic="AxDarkAuctions.md">
+            <toc-element topic="AxDarkAuctions-How-to-create-a-dark-auction.md"/>
+            <toc-element topic="AxDarkAuctions-Supported-Plugins.md"/>
+            <toc-element topic="AxDarkAuctions-Custom-Currencies.md"/>
+            <toc-element topic="AxDarkAuctions-Commands.md"/>
+            <toc-element topic="AxDarkAuctions-Configuration.md"/>
+        </toc-element>
+        <toc-element topic="AxParties.md">
+            <toc-element topic="AxParties-Supported-Plugins.md"/>
+            <toc-element topic="AxParties-Commands.md"/>
+            <toc-element topic="AxParties-Permissions.md"/>
+            <toc-element topic="AxParties-Developer-API.md"/>
+        </toc-element>
+        <toc-element topic="AxCoupons.md">
+            <toc-element topic="AxCoupons-Commands.md"/>
+            <toc-element topic="AxCoupons-Configuration.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>

@@ -79,6 +79,11 @@
     # if true, even if there is only 1 loaded currency, the selector will show
     force-currency-selector: false
 
+    # how often should people be able to refresh the gui?
+    # if you use mysql this is probably a good idea to keep high
+    # on local databases, (like h2) you can set this to any number really
+    gui-refresh-cooldown-milliseconds: 250
+
     # list of items that CAN'T be sold in the auction house
     # note: the name-contains string shouldn't include any color codes
     blacklisted-items:
