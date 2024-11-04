@@ -10,6 +10,7 @@
         <toc-element topic="Colors.md"/>
         <toc-element topic="Item-Builder.md"/>
         <toc-element topic="Message-Utilities.md"/>
+        <toc-element topic="Discord-Webhook-Builder.md"/>
     </toc-element>
     <toc-element topic="AxEnvoys.md">
         <toc-element topic="Configuration-axenvoys.md">
@@ -107,6 +108,7 @@
         <toc-element topic="AxCalendar-Configuration.md"/>
     </toc-element>
     <toc-element topic="AxKoth.md">
+        <toc-element topic="AxKoth-Creating-a-Koth.md"/>
         <toc-element topic="AxKoth-Commands.md">
         </toc-element>
         <toc-element topic="AxKoth-Placeholders.md"/>
@@ -118,6 +120,7 @@
             </toc-element>
             <toc-element topic="AxKoth-Score.md"/>
         </toc-element>
+        <toc-element topic="AxKoth-Enabling-Features.md"/>
         <toc-element topic="AxKoth-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxVaults.md">

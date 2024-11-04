@@ -1,4 +1,4 @@
-# Adding new rewards
+# Adding New Rewards
 
 ### Adding rewards is simple:
 - Go to the menu where you want to add/edit rewards. (the menus can be found at plugins/AxRewards/menus)

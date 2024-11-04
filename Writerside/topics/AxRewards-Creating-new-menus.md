@@ -1,4 +1,4 @@
-# Creating new menus
+# Creating New Menus
 
 You can find all the menus in the plugins/AxRewards/menus folder.
 
