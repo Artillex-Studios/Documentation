@@ -126,7 +126,9 @@
 
 <procedure title="lang.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
-    <![CDATA[help:
+    <![CDATA[
+    
+    help:
       - " "
       - "<gradient:#AAFF00:#77FF44><b>AxQuestBoard</b></gradient> &7»"
       - " &7- &f/axqb &7| &#AAFF00Open menu"
@@ -167,93 +169,100 @@
 
 <procedure title="shop.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
-    <![CDATA[# in the shop you can buy items from points
-    
-    title: "&0Quest Shop"
-    # a gui can only have 1-6 rows
-    rows: 5
-    # how many item should be shown on a single page?
-    page-size: 36
-    
-    buy-sounds:
-        # list of sounds: https://www.digminecraft.com/lists/sound_list_pc.php
-        not-enough-money: "entity.experience_bottle.throw"
-        success: "entity.experience_orb.pickup"
-    
-    # ----- ITEMS -----
-    
-    buyable-items:
-        1:
-            price: 1000
-            display:
-            material: DIAMOND_SWORD
-            name: "&#AAFF00A very cool diamond sword!"
-            lore:
-                - " "
-                - " &7- &fPrice: &#AAFF00%price% points"
-                - " &7- &fYour points: &#AAFF00%points%"
-                - " "
-                - "&#AAFF00&l(!) &#AAFF00Click here to buy!"
-            # commands to run when buying, optional
-            buy-commands:
-                - "give %player% diamond 1"
-            # items to give when buying, optional
-            buy-items:
-            1:
-                material: DIAMOND_SWORD
-                name: "&#AAFF00A very cool diamond sword!"
-        2:
-            price: 500
-            display:
-                amount: 3
-                material: diamond
-                name: "&#AAFF00A shiny diamond!"
-            lore:
-                - " "
-                - " &7- &fPrice: &#AAFF00%price% points"
-                - " &7- &fYour points: &#AAFF00%points%"
-                - " "
-                - "&#AAFF00&l(!) &#AAFF00Click here to buy!"
-            # items to give when buying, optional
-            buy-items:
-                1:
-                    material: DIAMOND
-                    amount: 3
-        
-    previous-page:
-        slot: 39
-        material: "ARROW"
-        name: "&#AAFF00&lᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ"
-        lore:
-            - " "
-            - " &fClick here to go back"
-            - " &fto the previous page!"
-            - " "
-            - "&#AAFF00&lClick &#DDDDDD» &#CCFFAAPrevious Page"
-        # list of sounds: https://www.digminecraft.com/lists/sound_list_pc.php
-        # the sound played when clicking this item
-        # set to "" to disable
-        sound: "ui.button.click"
-    
-    next-page:
-        slot: 41
-        material: "ARROW"
-        name: "&#AAFF00&lɴᴇxᴛ ᴘᴀɢᴇ"
-        lore:
-            - " "
-            - " &fClick here to go"
-            - " &fto the next page!"
-            - " "
-            - "&#AAFF00&lClick &#DDDDDD» &#CCFFAANext Page"
-        sound: "ui.button.click"
-    
-    filler:
-        slot: [36, 37, 38, 40, 42, 43, 44]
-        material: "LIME_STAINED_GLASS_PANE"
-        name: " "
-    
-    # do not change this
-    version: 1]]>
+    <![CDATA[
+	# DOCUMENTATION: https://docs.artillex-studios.com/axquestboard.html
+	# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+	# in the shop you can buy items from points
+
+	title: "&0Quest Shop"
+	# a gui can only have 1-6 rows
+	rows: 5
+	# how many item should be shown on a single page?
+	page-size: 36
+
+	buy-sounds:
+	  # list of sounds: https://www.digminecraft.com/lists/sound_list_pc.php
+	  not-enough-money: "entity.experience_bottle.throw"
+	  success: "entity.experience_orb.pickup"
+
+	# ----- ITEMS -----
+
+	buyable-items:
+	  1:
+		# you can also set the slot
+		slot: 0
+		price: 1000
+		display:
+		  material: DIAMOND_SWORD
+		  name: "&#AAFF00A very cool diamond sword!"
+		  lore:
+			- " "
+			- " &7- &fPrice: &#AAFF00%price% points"
+			- " &7- &fYour points: &#AAFF00%points%"
+			- " "
+			- "&#AAFF00&l(!) &#AAFF00Click here to buy!"
+		# commands to run when buying, optional
+		buy-commands:
+		  - "give %player% diamond 1"
+		# items to give when buying, optional
+		buy-items:
+		  1:
+			material: DIAMOND_SWORD
+			name: "&#AAFF00A very cool diamond sword!"
+	  2:
+		price: 500
+		display:
+		  amount: 3
+		  material: diamond
+		  name: "&#AAFF00A shiny diamond!"
+		  lore:
+			- " "
+			- " &7- &fPrice: &#AAFF00%price% points"
+			- " &7- &fYour points: &#AAFF00%points%"
+			- " "
+			- "&#AAFF00&l(!) &#AAFF00Click here to buy!"
+		# items to give when buying, optional
+		buy-items:
+		  1:
+			material: DIAMOND
+			amount: 3
+
+	previous-page:
+	  slot: 39
+	  material: "ARROW"
+	  name: "&#AAFF00&lᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ"
+	  lore:
+		- " "
+		- " &fClick here to go back"
+		- " &fto the previous page!"
+		- " "
+		- "&#AAFF00&lClick &#DDDDDD» &#CCFFAAPrevious Page"
+	  # list of sounds: https://www.digminecraft.com/lists/sound_list_pc.php
+	  # the sound played when clicking this item
+	  # set to "" to disable
+	  sound: "ui.button.click"
+
+	next-page:
+	  slot: 41
+	  material: "ARROW"
+	  name: "&#AAFF00&lɴᴇxᴛ ᴘᴀɢᴇ"
+	  lore:
+		- " "
+		- " &fClick here to go"
+		- " &fto the next page!"
+		- " "
+		- "&#AAFF00&lClick &#DDDDDD» &#CCFFAANext Page"
+	  sound: "ui.button.click"
+
+	filler:
+	  slot: [36, 37, 38, 40, 42, 43, 44]
+	  material: "LIME_STAINED_GLASS_PANE"
+	  name: " "
+
+	# do not change this
+	version: 1
+    ]]>
 </code-block></step>
 </procedure>
 
@@ -261,6 +270,7 @@
 <procedure title="quests.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[
+    
     quests:
       1:
         # example #1 has ALL the possible customizations, you don't have to use most of them
@@ -280,6 +290,23 @@
           prevent-cheating: true
           # how many points can they win?
           win-points: 3
+          # optionally, you can also give items / run commands, not just points
+          # note: the number is the placement, so section 1 will give the rewards to the number 1 player
+          rewards:
+            1:
+              commands:
+                - "say %player% won!"
+              items:
+                - material: diamond
+                  amount: 1
+                  name: "&#00FFFFShiny diamond"
+            2:
+              commands:
+                - "say %player% is second!"
+              items:
+                - material: gold_ingot
+                  amount: 1
+                  name: "&#FFCC00Shiny gold"
         display-item:
           material: CREEPER_HEAD
           name: "&#EE3333&l%title%"
@@ -318,6 +345,7 @@
               - "&#00CCFF&lʀᴇᴡᴀʀᴅ: &f%points% points"
     
     # do not change this
-    version: 1]]>
+    version: 1
+    ]]>
 </code-block></step>
 </procedure>
