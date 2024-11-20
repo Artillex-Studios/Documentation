@@ -65,6 +65,11 @@
 * How much XP should the player keep on death?
 * This is a percentage, so setting this to 0.5 will half the xp kept.
 
+### store-xp (default: true)
+
+* Should the plugin store XP in graves?
+* If disabled, XP will be dropped on the ground
+
 ### grave-item-order (values: ARMOR, HAND, OFFHAND)
 
 * What order should items go in the grave?
