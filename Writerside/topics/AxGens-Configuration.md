@@ -52,6 +52,12 @@
 * Should the level system be active?
 * Note: you will also have to delete some lines from the `tiers.yml` if you don't want levels to show up
 
+### require-level-for-placement (default: false)
+
+* NOTE: if level-requirements is disabled, this will be ignored
+* If enabled, players will need the required level not only to buy the generators, but also to place them down
+* If disabled, levels will only the used to purchase generators from the generator shop
+
 ### right-click-upgrading (default: true)
 
 * Should generators get upgraded when you shift right click on it?
