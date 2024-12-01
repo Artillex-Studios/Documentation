@@ -10,6 +10,8 @@
 * SuperiorSkyblock2
 * Towny Advanced
 * UltimateClans
+* Parties
+* AxParties
 
 ## Other Hooks
 * PlaceholderAPI
