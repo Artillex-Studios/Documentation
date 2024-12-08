@@ -63,7 +63,8 @@ Note that you don't need to use all of these values at once, only material is re
 
 ```yaml
   # set the item model to a diamond
-  item-model: "diamond"
+  # format: namespace:key (namespace defaults to minecraft)
+  item-model: "minecraft:diamond"
 ```
 
 ### Custom Model Data:
