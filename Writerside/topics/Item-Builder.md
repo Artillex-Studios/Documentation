@@ -59,12 +59,68 @@ Note that you don't need to use all of these values at once, only material is re
   unbreakable: true
 ```
 
+### Item Model (1.21.4+)
+
+```yaml
+  # set the item model to a diamond
+  item-model: "diamond"
+```
+
 ### Custom Model Data:
+
+<tabs>
+<tab title="Old (1.18.2-1.21.3)">
 
 ```yaml
   # this value is used to display textured items, can be any integer
   custom-model-data: 1
 ```
+
+</tab>
+
+<tab title="New (1.21.4+)">
+
+In 1.21.4, mojang reworked how custom model datas work and they made it significantly more difficult to use, however if you still need them, you can find all the types here.
+
+**Old**
+
+The item builder works with legacy custom model datas, if they are used, the plugin will put as the first "floats" value
+```yaml
+  custom-model-data: 1
+```
+
+**Floats**
+```yaml
+  custom-model-data:
+    floats: # flag list, values can be any number
+      - 1.0
+      - 5
+```
+
+**Strings**
+```yaml
+  custom-model-data:
+    strings: # string list, any string can be used
+      - example
+```
+
+**Flags**
+```yaml
+  custom-model-data:
+    flags: # flag list, values can be true or false
+      - true
+      - false
+```
+
+**Colors**
+```yaml
+  custom-model-data:
+    colors: # color list, format: RRR, GGG, BBB
+      - "255, 200, 150"
+```
+
+</tab>
+</tabs>
 
 ### Enchants:
 
