@@ -62,21 +62,38 @@ public class AxBoostersExample implements Listener, BoosterHook {
 }
 ```
 
-Next, you will have to register the hook: (`instance` should be your main class):
+Next, you will have to register the hook! (`instance` should be your main class' instance)
+You can only load booster hooks right when the plugin is being loaded, so make sure to listen to the AxBoostersLoadEvent event.
 ```Java
-final AxBoostersExample booster = new AxBoostersExample();
-// register the booster
-AxBoostersAPI.registerBoosterHook(instance, booster);
-// if you use a listener, you will have to register it
-getServer().getPluginManager().registerEvents(booster, instance);
+public class AxBoostersHook implements Listener {
+
+    @EventHandler
+    public void onLoad(AxBoostersLoadEvent event) {
+        final AxBoostersExample booster = new AxBoostersExample();
+        // register the booster
+        AxBoostersAPI.registerBoosterHook(instance, booster);
+        // if you use a listener, you will have to register it
+        getServer().getPluginManager().registerEvents(booster, instance);
+    }
+}
 ```
 
-And If this is done, you can use the booster, using the name specified:
+Make sure to register the listener, you should set up the listener in your onEnable() method, so it works right when your plugin loads, this is very important!
+```Java
+    @Override
+    public void onEnable() { // it also might be a good idea to make sure that axboosters is loaded
+        getServer().getPluginManager().registerEvents(new AxBoostersHook(), this);
+    }
+```
+
+And If this is done, restart the server and you can use the booster, using the name specified:
 
 <code-block lang="yaml" ignore-vars="true">
 boosted:
 - myplugin:experience
 </code-block>
+
+You can also customize some other stuff in the `plugins/AxBoosters/hooks.yml` file, your hook should be automatically added if it was registered successfully.
 
 That's all! Just start the server and everything should work! Activate the booster and test it:
 `/axboosteradmin activateserver <BOOSTER TYPE> 100 10m`
