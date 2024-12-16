@@ -11,6 +11,8 @@
 * KingdomsX
 * RivalHarvesterHoes
 * TheOnly-MobCoins
+* EcoBits
+* RedisEconomy
 
 ## Other Hooks
 * [PlaceholderAPI](AxAuctions-Placeholders.md)
