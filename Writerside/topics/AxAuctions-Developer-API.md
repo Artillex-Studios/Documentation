@@ -69,7 +69,8 @@ public class ExampleCurrency implements CurrencyHook {
 
     @Override
     public String getName() {
-        // the name of your hook, make sure to use this in the currencies.yml
+        // the name of your hook, used for the currencies.yml
+        // this should not contain any special characters - underscores (_) and dashes (-) are fine
         return "ExampleCurrency";
     }
 
@@ -87,7 +88,7 @@ public class ExampleCurrency implements CurrencyHook {
 
     @Override
     public boolean isPersistent() {
-        // should the plugin unregister the hook when it gets reloaded?
+        // should the plugin unregister the hook when the AxAuctions gets reloaded?
         // you should keep this on true
         return true;
     }
@@ -99,23 +100,28 @@ public class ExampleCurrency implements CurrencyHook {
     }
 
     @Override
-    public void giveBalance(@NotNull UUID player, double amount) {
+    public CompletableFuture<Boolean> giveBalance(@NotNull UUID player, double amount) {
+        CompletableFuture<Boolean> cf = new CompletableFuture<>();
         // your code here
+        cf.complete(true); // make sure to return true if the transaction the successfully completed! (or false if it failed) if your plugin doesn't use async tasks, just complete with a true value
+        return cf;
     }
 
     @Override
-    public void takeBalance(Consumer<Boolean> successful, @NotNull UUID player, double amount) {
+    public CompletableFuture<Boolean> takeBalance(Consumer<Boolean> successful, @NotNull UUID player, double amount) {
+        CompletableFuture<Boolean> cf = new CompletableFuture<>();
         // your code here
-        // the Consumer is meant to be used for async plugins, for example if your async sql query fails, return false to prevent giving the item
-        successful.accept(true); // it is VERY IMPORTANT to accept the consumer if everything worked!!!
+        cf.complete(true); // make sure to return true if the transaction the successfully completed! (or false if it failed) if your plugin doesn't use async tasks, just complete with a true value
+        return cf;
     }
 }
 ```
 
-> Double-check, that in the **takeBalance** method you always accept the consumer (`successful.accept()`)
+> Double-check, that you always complete the CompletableFuture transactions. (`cf.complete(true or false)`)
+> If this is not done, the plugin will not respond to purchases using your currency.
 {style="warning"}
 
-Next is, you will have to create a section in the `currencies.yml`, copy paste one of the other currencies, for example, like this:
+Next is, check the `currencies.yml`, there should be something like this generated for your own currency:
 ```yaml
   ExampleCurrency: # < the name of your currency
     register: true
