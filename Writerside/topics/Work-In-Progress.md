@@ -10,7 +10,7 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 
 **Status Symbols:**
 
-⭐ Under testing or waiting for page design\
+⭐ Under testing or working on page design\
 🐛 There are some bugs that need fixing\
 🔎 Most features are ready, but still missing a few key things\
 🔨 In development\

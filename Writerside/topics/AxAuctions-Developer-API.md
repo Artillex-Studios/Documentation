@@ -53,6 +53,15 @@ softdepend:
   - AxAuctions
 ```
 
+### Events:
+
+|-|-|
+| Event | Description |
+| AxAuctionsLoadEvent | Called when the plugin is loaded (!! all hooks must be registered at this event) |
+| AxAuctionsPurchaseEvent | Called when someone buys an item |
+| AxAuctionsPreSellEvent | Called before the player puts something on the auction house |
+| AxAuctionsSellEvent | When a player puts something on the auction house |
+
 ### Adding your own currency:
 
 > It is highly recommended that you register hooks right when the server starts to prevent possible errors.
@@ -142,5 +151,10 @@ Next is, check the `currencies.yml`, there should be something like this generat
 
 Create your implementation for all these methods, after that is done, you will have to register it by using the
 `com.artillexstudios.axauctions.hooks.HookManager.registerCurrencyHook()` method, for the plugin parameter give the instance of your plugin's main class.
+
+> You should register it in the `AxAuctionsLoadEvent` api event with a listener to guarantee that the plugin can use your currency.
+{style="warning"}
+
+
 
 And if all of this is done, congratulations, you have added a new currency to AxAuctions!
