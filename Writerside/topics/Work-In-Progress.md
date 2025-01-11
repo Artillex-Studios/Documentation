@@ -21,10 +21,10 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 | Plugin                 | Status |
 |------------------------|--------|
 | AxSellChest            | 🔨     |
-| AxVouchers             | ⭐      |
-| AxDarkAuctions         | 🐛     |
+| AxVouchers             | 🔎      |
+| AxDarkAuctions         | ⭐     |
 | AxParties              | ⭐      |
 | AxCoupons              | ⭐      |
 | AxDungeons             | 🔎     |
-| AxCustomBlocks         | 🔎     |
+| AxCustomBlocks         | 🔨     |
 | AxMinions V2 (rewrite) | 🔨     |

@@ -76,7 +76,7 @@
 * BetterTeams
 * UltimateClans
 
-> Is there a plugin that isn't supported? Open a ticket on our discord:
+> Is there a plugin that isn't supported? Suggest it in the #ideas channel on our discord server:
 <font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>
 
 **Some plugins that we will never be able to add:** (there are some exceptions to these)
