@@ -4,5 +4,5 @@
 |-------------------|---------|---------------------------------------------------|
 | axshulkers.reload | op      | /axshulkers reload                                |
 | axshulkers.clear  | op      | /axshulkers clear                                 |
-| axshulkers.open   | true    | Ability to open shulkers by right clicking them   |
+| axshulkers.use    | true    | Ability to open shulkers by right clicking them   |
 | axshulkers.modify | true    | Ability to take out items from previewed shulkers |
