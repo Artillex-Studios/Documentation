@@ -1,6 +1,7 @@
 # Supported Plugins
 
 ### Custom generator block:
+* Nexo
 * Oraxen
 * ItemsAdder
 

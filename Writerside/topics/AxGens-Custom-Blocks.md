@@ -1,6 +1,6 @@
 # Custom Blocks
 
-You can use textured blocks instead of vanilla minecraft blocks, note that this requires external plugins (Oraxen or ItemsAdder) as of right now!
+You can use textured blocks instead of vanilla minecraft blocks, note that this requires external plugins (Nexo, Oraxen or ItemsAdder) as of right now!
 
 <tabs>
 
