@@ -4,6 +4,56 @@ You can use textured blocks instead of vanilla minecraft blocks, note that this 
 
 <tabs>
 
+<tab title="Nexo">
+
+<b>Adding Nexo custom blocks:</b>
+* Go to the plugins/AxGens/tiers.yml file and find the tier that you want to edit
+<br></br>
+
+Example tier configuration:
+
+```yaml
+tiers:
+  '1':
+    generator-item:
+      material: HAY_BLOCK # material is only used for the item
+      # add this section \/
+      custom-block-id: my_block # change the amethyst_block to your own custom block
+      custom-model-data: 1000 # you may also want to add a custom-model-data, but it is not required
+```
+
+> The following parts of this documentation might not be accurate!
+{style='warning'}
+
+<br></br>
+<b>Where can I get the name of the custom block from?</b>
+* go to `plugins/Nexo/items/blocks.yml`
+
+This is how the block I am using looks like: (this is from the default config of oraxen, you can use your own)
+```yaml
+my_block: # <<< THIS IS THE custom-block-id THAT YOU NEED
+  itemname: "My block"
+  material: DIAMOND
+  Pack:
+    parent_model: "block/cube_all"
+    textures:
+      - my_block_texture.png
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation: 2
+      model: my_block
+      hardness: 20 # this makes it really hard to mine
+      drop:
+        silktouch: false
+        minimal_type: STONE
+        best_tool: PICKAXE
+        loots:
+          - { nexo_item: caveblock, probability: 1.0 }
+```
+
+</tab>
+
 <tab title="Oraxen">
 
 <b>Adding Oraxen custom blocks:</b>

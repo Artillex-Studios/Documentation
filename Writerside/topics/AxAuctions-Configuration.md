@@ -600,6 +600,7 @@
 	page-size: 45
 	# auto update the menu?
 	# in ticks, 20 ticks = 1 second
+    # set to -1 to disable auto updater
 	auto-update-ticks: -1
 
 	# ----- ITEMS -----
