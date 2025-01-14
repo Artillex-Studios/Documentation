@@ -11,6 +11,7 @@
 | /koth stop \<KOTH\> | Stop koth |
 | /koth stopall | Stop all running koths |
 | /koth editor \<KOTH\> | Open GUI editor |
+| /koth schedulers \<KOTH\> | Open scheduler editor |
 | /koth tp \<KOTH\> | Teleport to koth |
 | /koth list | List koths |
 | /koth givestarter \<KOTH\> \<player\> \[amount\] | Give koth starter to player |
