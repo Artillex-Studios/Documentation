@@ -10,6 +10,10 @@
     <build-profile instance="hi">
         <variables>
             <noindex-content>false</noindex-content>
+            <algolia-id>I9JI1KX7TM</algolia-id>
+            <algolia-index>docs</algolia-index>
+            <algolia-api-key>1b669870ee103d11336d31e61691aa05</algolia-api-key>
+            <algolia-show-logo>true</algolia-show-logo>
         </variables>
     </build-profile>
 
