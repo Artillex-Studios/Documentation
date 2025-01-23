@@ -1,7 +1,4 @@
-# AxDarkAuctions 🛠️
-
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
+# AxDarkAuctions
 
 ## What is AxDarkAuctions?
 - Create automatic auction events where players can bid for valuable items.
@@ -18,9 +15,8 @@
   ![image_28.png](image_28.png)
 * **Multi Currency Support**: Allows players to select which currency to use
 * **Auction Scheduler**: Create very customizable schedules using the cron format
-![image_38.png](image_38.png)
-![image_30.png](image_30.png)
 ![image_29.png](image_29.png)
+![image_30.png](image_30.png)
 * **Create Bidding Steps**: Make it that bidding gets more expensive if it takes longer, so no auction can go on forever
 ![image_31.png](image_31.png)
 ![image_32.png](image_32.png)
@@ -36,4 +32,4 @@
 * **Join at Any time**: You can make it that players can join or leave auctions during bidding, the plugin can handle it
 * **Random Items Selected**: You can give items a chance, also you can set a random range of how many items will be rolled in a single dark auction
 ![image_39.png](image_39.png)
-  * **Minimum and Maximum Players**: If there are not enough players, the auction will not start, if is full, players will not be able to join
+* **Minimum and Maximum Players**: If there are not enough players, the auction will not start, if is full, players will not be able to join

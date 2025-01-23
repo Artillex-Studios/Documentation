@@ -1,7 +1,5 @@
 # Commands
 
-* You can change the commands in the config, this is based off the default config.
-
 |-|-|
 | Command | Description | Permission |
 | /axquestboard | Open quest board | axquestboard.open (default: true) |
