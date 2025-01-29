@@ -13,7 +13,7 @@ I will also implement the Listener class, because we want to boost XP gained.
 public class AxBoostersExample implements Listener, BoosterHook {
 
     @Override
-    public Key getKey() {
+    public Key getKey() { // make sure to use the com.artillexstudios.axboosters.libs.kyori.adventure.key.Key class
         return Key.key("myplugin", "experience");
     }
 
@@ -98,3 +98,7 @@ You can also customize some other stuff in the `plugins/AxBoosters/hooks.yml` fi
 That's all! Just start the server and everything should work! Activate the booster and test it:
 `/axboosteradmin activateserver <BOOSTER TYPE> 100 10m`
 (this command starts +100% global server booster for 10 minutes, you can use other commands)
+
+### Full example source code
+* This is not the same as in the tutorial below, however it should help if you need further help!
+* Link: [**https://github.com/Artillex-Studios/AxBoostersExampleHook**](https://github.com/Artillex-Studios/AxBoostersExampleHook)
