@@ -1,4 +1,4 @@
-# Welcome
+# 👋 Welcome
 
 ## Welcome to the Artillex-Studios documentation!
 

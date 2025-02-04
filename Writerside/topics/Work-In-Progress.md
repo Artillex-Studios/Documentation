@@ -1,4 +1,4 @@
-# ️Work In Progress
+# ️🔧 Work In Progress
 
 **Some plugins are still in development, but they already have a wiki page.**
 
@@ -22,7 +22,6 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 |------------------------|--------|
 | AxSellChest            | 🔨     |
 | AxVouchers             | 🔎     |
-| AxDarkAuctions         | ⭐      |
 | AxParties              | ⭐      |
 | AxCoupons              | ⭐      |
 | AxDungeons             | 🔎     |
