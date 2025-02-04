@@ -262,5 +262,9 @@
             <toc-element topic="AxLobby-Commands.md"/>
             <toc-element topic="AxLobby-Permissions.md"/>
         </toc-element>
+        <toc-element topic="AxPearls.md">
+            <toc-element topic="AxPearls-Configuration.md"/>
+            <toc-element topic="AxPearls-Supported-Plugins.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>

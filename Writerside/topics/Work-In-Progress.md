@@ -14,7 +14,7 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 🐛 There are some bugs that need fixing\
 🔎 Most features are ready, but still missing a few key things\
 🔨 In development\
-❌ Development paused or not started
+❌ Development paused
 
 *This list might include some plugins that have never even been mentioned publicly, so note that these plugins might never release, or it may take months. There is no ETA.*
 
@@ -25,6 +25,7 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 | AxParties              | ⭐      |
 | AxCoupons              | ⭐      |
 | AxDungeons             | 🔎     |
-| AxCustomBlocks         | 🔨     |
+| AxCustomBlocks         | ❌      |
 | AxMinions V2 (rewrite) | 🔨     |
-| AxLobby                | 🔎     |
+| AxLobby                | ⭐      |
+| AxPearls               | ⭐      |
