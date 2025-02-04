@@ -16,5 +16,5 @@
 - Towny
 - UltimateClans
 
-> If you add support for AxParties in your own plugin, we can add it to this page, contact us:
+> Is there a plugin that isn't supported? Suggest it in the #ideas channel on our discord server:
 <font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>
