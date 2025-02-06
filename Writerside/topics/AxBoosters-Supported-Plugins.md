@@ -62,7 +62,6 @@
   tmmobcoins:mobcoin
   valhallammo:experience
   ultimatemobcoins:mobcoin
-  voidchest:sell_money
   wildchests:sell_money
 ```
 * #1 CyberLevels requires you to use [our fork](https://github.com/BenceX100/CyberLevels-with-api/releases)!
