@@ -60,3 +60,7 @@
 ### enable-trade-summaries (default: true)
 
 * The trade summaries will not be sent after trades end to players if disabled
+
+### prevent-adding-items-when-inventory-full (default: true)
+
+* When one of the player's inventory can't hold any more items, the plugin will not allow adding more items to the trade gui
