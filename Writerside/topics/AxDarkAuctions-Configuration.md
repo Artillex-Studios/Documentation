@@ -40,6 +40,18 @@
 	  # set to -1 to make it unlimited
 	  maximum: -1
 
+	# this is a way to set per auction times
+	# go to the config.yml for the global settings
+	# uncomment lines that you want to override for the auction
+	times:
+	#  start-wait-time: 60
+	#  show-time: 5
+	#  bid-time: 15
+	#  extend-bid-time: true
+	#  extend-time: 8
+	#  time-between-bids: 5
+	#  end-wait-time: 30
+
 	display:
 	  enabled: true
 	  block:

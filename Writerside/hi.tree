@@ -214,6 +214,8 @@
         <toc-element topic="AxDarkAuctions-Custom-Currencies.md"/>
         <toc-element topic="AxDarkAuctions-Commands.md"/>
         <toc-element topic="AxDarkAuctions-Configuration.md"/>
+        <toc-element topic="AxDarkAuctions-Placeholders.md"/>
+        <toc-element topic="AxDarkAuctions-Enabling-Features.md"/>
     </toc-element>
     <toc-element topic="Work-In-Progress.md">
         <toc-element topic="AxSellChest.md">
