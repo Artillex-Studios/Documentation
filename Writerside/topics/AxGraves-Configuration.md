@@ -83,6 +83,7 @@
 
 * How many graves can a player have at once?
 * If the player hits the limit, the oldest grave will be removed.
+* You can override this by giving players the axgraves.limit.<amount> permissions
 
 ### spawn-height-limits
 
