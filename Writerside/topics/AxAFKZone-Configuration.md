@@ -20,6 +20,12 @@
 * How many players can gain rewards at once from a single ip at one zone?
 * Set to -1 for unlimited
 
+### bossbar-direction (default: 0)
+* Should the bossbar progress start from full or empty?
+* Directions:
+  * 0 - decreasing value (starts filled)
+  * 1 - increasing value (starts empty)
+
 ## Zone configuration files
 
 ### reward-time-seconds (default: 60)
