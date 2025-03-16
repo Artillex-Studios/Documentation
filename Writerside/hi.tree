@@ -176,6 +176,7 @@
         <toc-element topic="AxSellwands-Developer-API.md"/>
     </toc-element>
     <toc-element topic="AxSumo.md">
+        <toc-element topic="AxSumo-Creating-Schedulers.md"/>
         <toc-element topic="AxSumo-Commands.md"/>
         <toc-element topic="AxSumo-Placeholders.md"/>
         <toc-element topic="AxSumo-Time.md"/>

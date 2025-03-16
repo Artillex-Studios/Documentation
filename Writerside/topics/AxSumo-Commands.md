@@ -16,6 +16,7 @@
 | /sumo givestarter &lt;arena> &lt;player> [amount] | Give sumo starter | axsumo.admin.givestarter |
 | /sumo create &lt;name> | Create arena | axsumo.admin.create |
 | /sumo editor &lt;arena> | Open sumo arena editor | axsumo.admin.editor |
+| /sumo schedulers | Open scheduler editor | axsumo.admin.schedulers |
 | /sumo delete &lt;arena> | Delete arena | axsumo.admin.delete |
 | /sumo start &lt;arena> | Start arena | axsumo.admin.start |
 | /sumo setup &lt;option> &lt;arena> [other] | Change settings of arena | axsumo.admin.setup |
