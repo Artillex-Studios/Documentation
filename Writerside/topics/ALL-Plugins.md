@@ -1,4 +1,4 @@
-# 🌌 ALL Plugins
+# 🌌 Features In All Plugins
 
 [COLORS](Colors.md)
 

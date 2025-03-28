@@ -6,217 +6,208 @@
                  start-page="Welcome.md">
 
     <toc-element topic="Welcome.md"/>
-    <toc-element topic="Integrations.md"/>
+    <toc-element topic="Supported-Versions.md"/>
+    <toc-element topic="Integrations.md">
+    </toc-element>
     <toc-element topic="ALL-Plugins.md">
         <toc-element topic="Colors.md"/>
         <toc-element topic="Item-Builder.md"/>
         <toc-element topic="Message-Utilities.md"/>
         <toc-element topic="Discord-Webhook-Builder.md"/>
     </toc-element>
-    <toc-element topic="AxEnvoys.md">
-        <toc-element topic="Configuration-axenvoys.md">
-            <toc-element topic="Crate.md"/>
-            <toc-element topic="Envoy.md"/>
+    <toc-element topic="Plugin-Documentations.md">
+        <toc-element topic="AxAFKZone.md">
+            <toc-element topic="AxAFKZone-Commands.md"/>
+            <toc-element topic="AxAFKZone-Configuration.md"/>
+            <toc-element topic="AxAFKZone-Creating-Zones.md"/>
+            <toc-element topic="AxAFKZone-Adding-Rewards.md"/>
         </toc-element>
-        <toc-element topic="Placeholders-axenvoys.md"/>
-        <toc-element topic="Commands-envoys.md"/>
-    </toc-element>
-    <toc-element topic="AxMinions.md">
-        <toc-element topic="Permissions.md"/>
-        <toc-element topic="Commands-Permissions.md"/>
-        <toc-element topic="Minions.md">
+        <toc-element topic="AxAuctions.md">
+            <toc-element topic="AxAuctions-Converters.md"/>
+            <toc-element topic="AxAuctions-Commands.md"/>
+            <toc-element topic="AxAuctions-Configuration.md"/>
+            <toc-element topic="AxAuctions-Permissions.md"/>
+            <toc-element topic="AxAuctions-Placeholders.md"/>
+            <toc-element topic="AxAuctions-Inventory-Actions.md"/>
+            <toc-element topic="AxAuctions-Multi-Currency-Plugins.md"/>
+            <toc-element topic="AxAuctions-Custom-Currencies.md"/>
+            <toc-element topic="AxAuctions-Supported-Plugins.md"/>
+            <toc-element topic="AxAuctions-Developer-API.md"/>
         </toc-element>
-        <toc-element topic="Supported-Plugins.md"/>
-        <toc-element topic="Developer-API.md">
-            <toc-element topic="Usage.md"/>
-            <toc-element topic="Creating-a-new-minion.md"/>
-            <toc-element topic="Source-code.md"/>
-        </toc-element>
-    </toc-element>
-    <toc-element topic="AxBoosters.md">
-        <toc-element topic="AxBoosters-Updating-to-V3.md"/>
-        <toc-element topic="AxBoosters-How-Multiplier-Works.md">
-        </toc-element>
-        <toc-element topic="AxBoosters-Configuration.md"/>
-        <toc-element topic="AxBoosters-Explanation-of-some-words.md"/>
-        <toc-element topic="AxBoosters-Creating-New-Boosters.md"/>
-        <toc-element topic="AxBoosters-Common-Questions.md"/>
-        <toc-element topic="AxBoosters-Types.md"/>
-        <toc-element topic="AxBoosters-Commands.md">
-            <toc-element topic="AxBoosters-Booster-Length.md"/>
-        </toc-element>
-        <toc-element topic="AxBoosters-Inventory-Actions.md"/>
-        <toc-element topic="AxBoosters-Audiences.md"/>
-        <toc-element topic="AxBoosters-Placeholders.md"/>
-        <toc-element topic="AxBoosters-Supported-Plugins.md"/>
-        <toc-element topic="AxBoosters-Developer-API.md">
-            <toc-element topic="AxBoosters-Registering-API-Boosters.md"/>
-            <toc-element topic="AxBoosters-Adding-Booster-Hooks.md"/>
-        </toc-element>
-    </toc-element>
-    <toc-element topic="AxGens.md">
-        <toc-element topic="AxGens-Common-Questions.md">
-        </toc-element>
-        <toc-element topic="AxGens-Supported-Plugins.md"/>
-        <toc-element topic="AxGens-Commands.md"/>
-        <toc-element topic="AxGens-Sell-wands.md"/>
-        <toc-element topic="AxGens-Change-Based-Drops.md"/>
-        <toc-element topic="AxGens-Events.md"/>
-        <toc-element topic="AxGens-Corrupted-Generators.md"/>
-        <toc-element topic="AxGens-Break-Mode.md"/>
-        <toc-element topic="AxGens-Configuration.md"/>
-        <toc-element topic="AxGens-Permissions.md"/>
-        <toc-element topic="AxGens-Placeholders.md"/>
-        <toc-element topic="AxGens-Custom-Blocks.md"/>
-        <toc-element topic="AxGens-ShopGuiPlus-Support.md"/>
-        <toc-element topic="AxGens-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxRankMenu.md">
-        <toc-element topic="AxRankMenu-Commands.md"/>
-        <toc-element topic="AxRankMenu-Configuration.md"/>
-        <toc-element topic="AxRankMenu-Supported-Plugins.md"/>
-    </toc-element>
-    <toc-element topic="AxGraves.md">
-        <toc-element topic="AxGraves-How-to-Edit-the-Configuration.md"/>
-        <toc-element topic="AxGraves-Commands.md"/>
-        <toc-element topic="AxGraves-Permissions.md"/>
-        <toc-element topic="AxGraves-Configuration.md"/>
-        <toc-element topic="AxGraves-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxInventoryRestore.md">
-        <toc-element topic="AxInventoryRestore-Commands.md"/>
-        <toc-element topic="AxInventoryRestore-Permissions.md"/>
-        <toc-element topic="AxInventoryRestore-Configuration.md"/>
-        <toc-element topic="AxInventoryRestore-Discord-Addon.md"/>
-        <toc-element topic="AxInventoryRestore-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxShulkers.md">
-        <toc-element topic="AxShulkers-Important-Read-before-using-plugin.md"/>
-        <toc-element topic="AxShulkers-Incompatibilties.md"/>
-        <toc-element topic="AxShulkers-How-does-it-work.md"/>
-        <toc-element topic="AxShulkers-Commands.md"/>
-        <toc-element topic="AxShulkers-Permissions.md"/>
-        <toc-element topic="AxShulkers-Configuration.md">
-        </toc-element>
-        <toc-element topic="AxShulkers-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxKills.md">
-        <toc-element topic="AxKills-Commands.md"/>
-        <toc-element topic="AxKills-Configuration.md"/>
-    </toc-element>
-    <toc-element topic="AxCalendar.md">
-        <toc-element topic="AxCalendar-Commands.md"/>
-        <toc-element topic="AxCalendar-Configuration.md"/>
-    </toc-element>
-    <toc-element topic="AxKoth.md">
-        <toc-element topic="AxKoth-Creating-a-Koth.md"/>
-        <toc-element topic="AxKoth-Creating-Schedulers.md"/>
-        <toc-element topic="AxKoth-Commands.md">
-        </toc-element>
-        <toc-element topic="AxKoth-Placeholders.md"/>
-        <toc-element topic="AxKoth-Time.md"/>
-        <toc-element topic="AxKoth-Supported-Plugins.md"/>
-        <toc-element topic="AxKoth-Configuration.md"/>
-        <toc-element topic="AxKoth-Types.md">
-            <toc-element topic="AxKoth-Capture.md">
+        <toc-element topic="AxBoosters.md">
+            <toc-element topic="AxBoosters-Updating-to-V3.md"/>
+            <toc-element topic="AxBoosters-How-Multiplier-Works.md"/>
+            <toc-element topic="AxBoosters-Configuration.md"/>
+            <toc-element topic="AxBoosters-Explanation-of-some-words.md"/>
+            <toc-element topic="AxBoosters-Creating-New-Boosters.md"/>
+            <toc-element topic="AxBoosters-Common-Questions.md"/>
+            <toc-element topic="AxBoosters-Types.md"/>
+            <toc-element topic="AxBoosters-Commands.md">
+                <toc-element topic="AxBoosters-Booster-Length.md"/>
             </toc-element>
-            <toc-element topic="AxKoth-Score.md"/>
+            <toc-element topic="AxBoosters-Inventory-Actions.md"/>
+            <toc-element topic="AxBoosters-Audiences.md"/>
+            <toc-element topic="AxBoosters-Placeholders.md"/>
+            <toc-element topic="AxBoosters-Supported-Plugins.md"/>
+            <toc-element topic="AxBoosters-Developer-API.md">
+                <toc-element topic="AxBoosters-Registering-API-Boosters.md"/>
+                <toc-element topic="AxBoosters-Adding-Booster-Hooks.md"/>
+            </toc-element>
         </toc-element>
-        <toc-element topic="AxKoth-Enabling-Features.md"/>
-        <toc-element topic="AxKoth-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxVaults.md">
-        <toc-element topic="AxVaults-Converters.md"/>
-        <toc-element topic="AxVaults-Commands.md">
+        <toc-element topic="AxCalendar.md">
+            <toc-element topic="AxCalendar-Commands.md"/>
+            <toc-element topic="AxCalendar-Configuration.md"/>
         </toc-element>
-        <toc-element topic="AxVaults-Permissions.md"/>
-        <toc-element topic="AxVaults-Add-To-Block.md"/>
-        <toc-element topic="AxVaults-Configuration.md"/>
-        <toc-element topic="AxVaults-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxAuctions.md">
-        <toc-element topic="AxAuctions-Converters.md"/>
-        <toc-element topic="AxAuctions-Commands.md"/>
-        <toc-element topic="AxAuctions-Configuration.md"/>
-        <toc-element topic="AxAuctions-Permissions.md"/>
-        <toc-element topic="AxAuctions-Placeholders.md"/>
-        <toc-element topic="AxAuctions-Inventory-Actions.md"/>
-        <toc-element topic="AxAuctions-Multi-Currency-Plugins.md"/>
-        <toc-element topic="AxAuctions-Custom-Currencies.md"/>
-        <toc-element topic="AxAuctions-Supported-Plugins.md"/>
-        <toc-element topic="AxAuctions-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxRewards.md">
-        <toc-element topic="AxRewards-Creating-new-menus.md"/>
-        <toc-element topic="AxRewards-Adding-new-rewards.md"/>
-        <toc-element topic="AxRewards-Commands.md"/>
-        <toc-element topic="AxRewards-Configuration.md"/>
-        <toc-element topic="AxRewards-Placeholders.md"/>
-    </toc-element>
-    <toc-element topic="AxMines.md">
-        <toc-element topic="Commands_axmines.md"/>
-        <toc-element topic="Configuration_axmines.md"/>
-        <toc-element topic="Placeholders_axmines.md"/>
-    </toc-element>
-    <toc-element topic="AxQuestBoard.md">
-        <toc-element topic="AxQuestBoard-Commands.md">
+        <toc-element topic="AxDarkAuctions.md">
+            <toc-element topic="AxDarkAuctions-How-to-create-a-dark-auction.md"/>
+            <toc-element topic="AxDarkAuctions-Supported-Plugins.md"/>
+            <toc-element topic="AxDarkAuctions-Custom-Currencies.md"/>
+            <toc-element topic="AxDarkAuctions-Commands.md"/>
+            <toc-element topic="AxDarkAuctions-Configuration.md"/>
+            <toc-element topic="AxDarkAuctions-Placeholders.md"/>
+            <toc-element topic="AxDarkAuctions-Enabling-Features.md"/>
         </toc-element>
-        <toc-element topic="AxQuestBoard-Placeholders.md">
+        <toc-element topic="AxEnvoys.md">
+            <toc-element topic="Configuration-axenvoys.md">
+                <toc-element topic="Crate.md"/>
+                <toc-element topic="Envoy.md"/>
+            </toc-element>
+            <toc-element topic="Placeholders-axenvoys.md"/>
+            <toc-element topic="Commands-envoys.md"/>
         </toc-element>
-        <toc-element topic="AxQuestBoard-Configuration.md"/>
-        <toc-element topic="Triggers.md"/>
-        <toc-element topic="AxQuestBoard-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxSellwands.md">
-        <toc-element topic="AxSellwands-Setting-price-provider.md"/>
-        <toc-element topic="AxSellwands-Commands.md">
+        <toc-element topic="AxGens.md">
+            <toc-element topic="AxGens-Common-Questions.md"/>
+            <toc-element topic="AxGens-Supported-Plugins.md"/>
+            <toc-element topic="AxGens-Commands.md"/>
+            <toc-element topic="AxGens-Sell-wands.md"/>
+            <toc-element topic="AxGens-Change-Based-Drops.md"/>
+            <toc-element topic="AxGens-Events.md"/>
+            <toc-element topic="AxGens-Corrupted-Generators.md"/>
+            <toc-element topic="AxGens-Break-Mode.md"/>
+            <toc-element topic="AxGens-Configuration.md"/>
+            <toc-element topic="AxGens-Permissions.md"/>
+            <toc-element topic="AxGens-Placeholders.md"/>
+            <toc-element topic="AxGens-Custom-Blocks.md"/>
+            <toc-element topic="AxGens-ShopGuiPlus-Support.md"/>
+            <toc-element topic="AxGens-Developer-API.md"/>
         </toc-element>
-        <toc-element topic="AxSellwands-Configuration.md"/>
-        <toc-element topic="AxSellwands-Supported-Plugins.md"/>
-        <toc-element topic="AxSellwands-Developer-API.md"/>
-    </toc-element>
-    <toc-element topic="AxSumo.md">
-        <toc-element topic="AxSumo-Creating-Schedulers.md"/>
-        <toc-element topic="AxSumo-Commands.md"/>
-        <toc-element topic="AxSumo-Placeholders.md"/>
-        <toc-element topic="AxSumo-Time.md"/>
-        <toc-element topic="AxSumo-Supported-Plugins.md"/>
-        <toc-element topic="AxSumo-Configuration.md"/>
-    </toc-element>
-    <toc-element topic="AxTrade.md">
-        <toc-element topic="AxTrade-Commands.md">
+        <toc-element topic="AxGraves.md">
+            <toc-element topic="AxGraves-How-to-Edit-the-Configuration.md"/>
+            <toc-element topic="AxGraves-Commands.md"/>
+            <toc-element topic="AxGraves-Permissions.md"/>
+            <toc-element topic="AxGraves-Configuration.md"/>
+            <toc-element topic="AxGraves-Developer-API.md"/>
         </toc-element>
-        <toc-element topic="AxTrade-Configuration.md"/>
-        <toc-element topic="AxTrade-Supported-Plugins.md">
+        <toc-element topic="AxInventoryRestore.md">
+            <toc-element topic="AxInventoryRestore-Commands.md"/>
+            <toc-element topic="AxInventoryRestore-Permissions.md"/>
+            <toc-element topic="AxInventoryRestore-Configuration.md"/>
+            <toc-element topic="AxInventoryRestore-Discord-Addon.md"/>
+            <toc-element topic="AxInventoryRestore-Developer-API.md"/>
         </toc-element>
-        <toc-element topic="AxTrade-Multi-Currency-Plugins.md"/>
-        <toc-element topic="AxTrade-Custom-Currencies.md"/>
-    </toc-element>
-    <toc-element topic="AxAFKZone.md">
-        <toc-element topic="AxAFKZone-Commands.md"/>
-        <toc-element topic="AxAFKZone-Configuration.md"/>
-        <toc-element topic="AxAFKZone-Creating-Zones.md"/>
-        <toc-element topic="AxAFKZone-Adding-Rewards.md"/>
-    </toc-element>
-    <toc-element topic="AxPlayerWarps.md">
-        <toc-element topic="AxPlayerWarps-Converters.md"/>
-        <toc-element topic="AxPlayerWarps-Commands.md"/>
-        <toc-element topic="AxPlayerWarps-Permissions.md">
+        <toc-element topic="AxKills.md">
+            <toc-element topic="AxKills-Commands.md"/>
+            <toc-element topic="AxKills-Configuration.md"/>
         </toc-element>
-        <toc-element topic="AxPlayerWarps-Configuration.md"/>
-        <toc-element topic="AxPlayerWarps-Placeholders.md"/>
-        <toc-element topic="AxPlayerWarps-Supported-Plugins.md"/>
-        <toc-element topic="AxPlayerWarps-Custom-Currencies.md"/>
-        <toc-element topic="AxPlayerWarps-Input-Types.md"/>
-    </toc-element>
-    <toc-element topic="AxDarkAuctions.md">
-        <toc-element topic="AxDarkAuctions-How-to-create-a-dark-auction.md"/>
-        <toc-element topic="AxDarkAuctions-Supported-Plugins.md"/>
-        <toc-element topic="AxDarkAuctions-Custom-Currencies.md"/>
-        <toc-element topic="AxDarkAuctions-Commands.md"/>
-        <toc-element topic="AxDarkAuctions-Configuration.md"/>
-        <toc-element topic="AxDarkAuctions-Placeholders.md"/>
-        <toc-element topic="AxDarkAuctions-Enabling-Features.md"/>
+        <toc-element topic="AxKoth.md">
+            <toc-element topic="AxKoth-Creating-a-Koth.md"/>
+            <toc-element topic="AxKoth-Creating-Schedulers.md"/>
+            <toc-element topic="AxKoth-Commands.md"/>
+            <toc-element topic="AxKoth-Placeholders.md"/>
+            <toc-element topic="AxKoth-Time.md"/>
+            <toc-element topic="AxKoth-Supported-Plugins.md"/>
+            <toc-element topic="AxKoth-Configuration.md"/>
+            <toc-element topic="AxKoth-Types.md">
+                <toc-element topic="AxKoth-Capture.md"/>
+                <toc-element topic="AxKoth-Score.md"/>
+            </toc-element>
+            <toc-element topic="AxKoth-Enabling-Features.md"/>
+            <toc-element topic="AxKoth-Developer-API.md"/>
+        </toc-element>
+        <toc-element topic="AxMines.md">
+            <toc-element topic="Commands_axmines.md"/>
+            <toc-element topic="Configuration_axmines.md"/>
+            <toc-element topic="Placeholders_axmines.md"/>
+        </toc-element>
+        <toc-element topic="AxMinions.md">
+            <toc-element topic="Permissions.md"/>
+            <toc-element topic="Commands-Permissions.md"/>
+            <toc-element topic="Minions.md"/>
+            <toc-element topic="Supported-Plugins.md"/>
+            <toc-element topic="Developer-API.md">
+                <toc-element topic="Usage.md"/>
+                <toc-element topic="Creating-a-new-minion.md"/>
+                <toc-element topic="Source-code.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="AxPlayerWarps.md">
+            <toc-element topic="AxPlayerWarps-Converters.md"/>
+            <toc-element topic="AxPlayerWarps-Commands.md"/>
+            <toc-element topic="AxPlayerWarps-Permissions.md"/>
+            <toc-element topic="AxPlayerWarps-Configuration.md"/>
+            <toc-element topic="AxPlayerWarps-Placeholders.md"/>
+            <toc-element topic="AxPlayerWarps-Supported-Plugins.md"/>
+            <toc-element topic="AxPlayerWarps-Custom-Currencies.md"/>
+            <toc-element topic="AxPlayerWarps-Input-Types.md"/>
+        </toc-element>
+        <toc-element topic="AxQuestBoard.md">
+            <toc-element topic="AxQuestBoard-Commands.md"/>
+            <toc-element topic="AxQuestBoard-Placeholders.md"/>
+            <toc-element topic="AxQuestBoard-Configuration.md"/>
+            <toc-element topic="Triggers.md"/>
+            <toc-element topic="AxQuestBoard-Developer-API.md"/>
+        </toc-element>
+        <toc-element topic="AxRankMenu.md">
+            <toc-element topic="AxRankMenu-Commands.md"/>
+            <toc-element topic="AxRankMenu-Configuration.md"/>
+            <toc-element topic="AxRankMenu-Supported-Plugins.md"/>
+        </toc-element>
+        <toc-element topic="AxRewards.md">
+            <toc-element topic="AxRewards-Creating-new-menus.md"/>
+            <toc-element topic="AxRewards-Adding-new-rewards.md"/>
+            <toc-element topic="AxRewards-Commands.md"/>
+            <toc-element topic="AxRewards-Configuration.md"/>
+            <toc-element topic="AxRewards-Placeholders.md"/>
+        </toc-element>
+        <toc-element topic="AxSellwands.md">
+            <toc-element topic="AxSellwands-Setting-price-provider.md"/>
+            <toc-element topic="AxSellwands-Commands.md"/>
+            <toc-element topic="AxSellwands-Configuration.md"/>
+            <toc-element topic="AxSellwands-Supported-Plugins.md"/>
+            <toc-element topic="AxSellwands-Developer-API.md"/>
+        </toc-element>
+        <toc-element topic="AxShulkers.md">
+            <toc-element topic="AxShulkers-Important-Read-before-using-plugin.md"/>
+            <toc-element topic="AxShulkers-Incompatibilties.md"/>
+            <toc-element topic="AxShulkers-How-does-it-work.md"/>
+            <toc-element topic="AxShulkers-Commands.md"/>
+            <toc-element topic="AxShulkers-Permissions.md"/>
+            <toc-element topic="AxShulkers-Configuration.md"/>
+            <toc-element topic="AxShulkers-Developer-API.md"/>
+        </toc-element>
+        <toc-element topic="AxSumo.md">
+            <toc-element topic="AxSumo-Creating-Schedulers.md"/>
+            <toc-element topic="AxSumo-Commands.md"/>
+            <toc-element topic="AxSumo-Placeholders.md"/>
+            <toc-element topic="AxSumo-Time.md"/>
+            <toc-element topic="AxSumo-Supported-Plugins.md"/>
+            <toc-element topic="AxSumo-Configuration.md"/>
+        </toc-element>
+        <toc-element topic="AxTrade.md">
+            <toc-element topic="AxTrade-Commands.md"/>
+            <toc-element topic="AxTrade-Configuration.md"/>
+            <toc-element topic="AxTrade-Supported-Plugins.md"/>
+            <toc-element topic="AxTrade-Multi-Currency-Plugins.md"/>
+            <toc-element topic="AxTrade-Custom-Currencies.md"/>
+        </toc-element>
+        <toc-element topic="AxVaults.md">
+            <toc-element topic="AxVaults-Converters.md"/>
+            <toc-element topic="AxVaults-Commands.md"/>
+            <toc-element topic="AxVaults-Permissions.md"/>
+            <toc-element topic="AxVaults-Add-To-Block.md"/>
+            <toc-element topic="AxVaults-Configuration.md"/>
+            <toc-element topic="AxVaults-Developer-API.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="Work-In-Progress.md">
         <toc-element topic="AxSellChest.md">
@@ -257,8 +248,7 @@
                 <toc-element topic="AxLobby-Modules-Protection.md"/>
                 <toc-element topic="AxLobby-Modules-Scoreboard.md"/>
                 <toc-element topic="AxLobby-Modules-Tablist.md"/>
-                <toc-element topic="AxLobby-Modules-Title-Actionbar.md">
-                </toc-element>
+                <toc-element topic="AxLobby-Modules-Title-Actionbar.md"/>
                 <toc-element topic="AxLobby-Modules-Void-Spawn.md"/>
             </toc-element>
             <toc-element topic="AxLobby-Common-Questions.md"/>

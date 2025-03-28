@@ -2,6 +2,9 @@
 
 ## Welcome to the Artillex-Studios documentation!
 
+### Check out our website!
+- [https://www.artillex-studios.com/](https://www.artillex-studios.com/)
+
 ### How to use the wiki?
 - Look on the left side of the website.
 - Pick the plugin that you want to know more about. (check the [_all plugins page_](ALL-Plugins.md) for generic information)
