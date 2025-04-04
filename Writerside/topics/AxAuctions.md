@@ -7,7 +7,8 @@
 - Multiserver Support (No redis needed)
 - Most efficient database of any auction house plugin (items are stored in bytes, all custom items are saved properly)
 - Dupe proof (all the known macro dupes are patched, the plugin has been heavily tested)
-- Fast (no cooldown on refreshing/changing menus)
+- Fast (async database fetching & gui loading)
+- Categories (optional)
 - Item blacklisting
 - Discord webhooks
 - Multi currency support

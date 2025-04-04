@@ -3,6 +3,7 @@
 <procedure title="config.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[
+	
 	# DOCUMENTATION: https://docs.artillex-studios.com/axauctions.html
 
 	prefix: "<gradient:#00BBFF:#00DDFF><b>AxAuctions</b></gradient> &7» "
@@ -55,8 +56,6 @@
 	  # format: language_COUNTRY
 	  short: "en_US"
 
-	# used to show the length of boosters
-	# in bossbars you have to use the %time_formatted% placeholder for these to be used
 	# 1 - HH:MM:SS, for example 01:25:35
 	# 2 - short format, for example 20m
 	# 3 - text format, for example 01h 25m 35s
@@ -82,10 +81,12 @@
 	# if true, even if there is only 1 loaded currency, the selector will show
 	force-currency-selector: false
 
+	# if disabled, the currency selector will never show
+	enable-currency-selector: true
+
 	# how often should people be able to refresh the gui?
-	# if you use mysql this is probably a good idea to keep high
-	# on local databases, (like h2) you can set this to any number really
-	gui-refresh-cooldown-milliseconds: 250
+	# all items are stored in memory which should be fast, so this value won't hurt performance unless it is set very low
+	gui-refresh-cooldown-milliseconds: 150
 
 	# in the /ah history gui, how many items should be shown at most?
 	# note that this doesn't delete any data, it will just not request more than the selected amount
@@ -93,11 +94,24 @@
 	max-history-length: -1
 
 	# list of items that CAN'T be sold in the auction house
-	# note: the name-contains string shouldn't include any color codes
-	blacklisted-items:
-	  "1":
-		material: "barrier"
-		name-contains: "Banned item's name"
+	#
+	# supported regex: (optional)
+	# - 'name' #  only 'name' is disallowed
+	# - 'name*' #  disallows text starting with 'name'
+	# - '*name' #  disallows text ending with 'name'
+	# - '*name*' #  disallows text containing 'name'
+	#
+	# you can use some sections from our item builder: (https://docs.artillex-studios.com/item-builder.html)
+	#  > name
+	#  > material / type
+	#  > custom-model-data (only the old variant)
+	blacklist-items:
+	  - custom-model-data: 100
+		material: BARRIER
+		name: "*Some custom item*"
+	  - custom-model-data: 150
+		material: BARRIER
+		name: "*Another custom item*"
 
 	# should be plugin notify you if there is a new update?
 	update-notifier:
@@ -107,102 +121,105 @@
 	  on-join: true
 
 	# prints out a lot of random information about the plugin in the console
-	# only use if the developers ask you for this
+	# this can cause a lot of spam
 	debug: false
 
 	# do not change this
-	version: 9
-	
+	version: 10
 	]]>
 </code-block></step>
 </procedure>
 
 <procedure title="discord.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
-    <![CDATA[# These are all the options that you can use in the webhook section: (most of them are optional, you can remove them)
-    #    # the message before the embed, you can put a ping here in the <@&1234567890123456789> format
-    #    content: "<@&1234567890123456789>"
-    #    # color in hex
-    #    color: "#FF6600"
-    #    description: "Your description"
-    #    title:
-    #      # required
-    #      text: "Title!"
-    #      icon: ""
-    #    author:
-    #      # required
-    #      name: "Author name"
-    #      icon-url: ""
-    #      url: ""
-    #    footer:
-    #      # required
-    #      text: "Footer"
-    #      icon: ""
-    #    image-url: ""
-    #    thumbnail-url: ""
-    #    fields:
-    #      1:
-    #        # required
-    #        inline: false
-    #        # required
-    #        name: "Field1"
-    #        # required
-    #        value: "Value1"
+    <![CDATA[
+	
+	# DOCUMENTATION: https://docs.artillex-studios.com/axauctions.html
 
-    # REQUIRED
-    url: ""
-    
-    auction-start:
-    enabled: true
-    color: "#00DDFF"
-    title:
-    text: "New Auction"
-    fields:
-    "1":
-    inline: false
-    name: Seller
-    value: "%player%"
-    "2":
-    inline: false
-    name: Item
-    value: "%amount%x %item%"
-    "3":
-    inline: false
-    name: Price
-    value: "%price%"
-    
-    auction-buy:
-    enabled: true
-    color: "#00DDFF"
-    title:
-    text: "Item Purchased"
-    fields:
-    "1":
-    inline: true
-    name: Buyer
-    value: "%player%"
-    "2":
-    inline: true
-    name: Seller
-    value: "%seller%"
-    "3":
-    inline: false
-    name: Item
-    value: "%amount%x %item%"
-    "4":
-    inline: true
-    name: Price
-    value: "%price%"
-    
-    # do not change this
-    version: 1]]>
+	# These are all the options that you can use in the webhook section: (most of them are optional, you can remove them)
+	#    # the message before the embed, you can put a ping here in the <@&1234567890123456789> format
+	#    content: "<@&1234567890123456789>"
+	#    # color in hex
+	#    color: "#FF6600"
+	#    description: "Your description"
+	#    title:
+	#      # required
+	#      text: "Title!"
+	#      icon: ""
+	#    author:
+	#      # required
+	#      name: "Author name"
+	#      icon-url: ""
+	#      url: ""
+	#    footer:
+	#      # required
+	#      text: "Footer"
+	#      icon: ""
+	#    image-url: ""
+	#    thumbnail-url: ""
+	#    fields:
+	#      1:
+	#        # required
+	#        inline: false
+	#        # required
+	#        name: "Field1"
+	#        # required
+	#        value: "Value1"
+
+	# REQUIRED
+	url: ""
+
+	auction-start:
+	  enabled: true
+	  color: "#00DDFF"
+	  title:
+		text: "New Auction"
+	  fields:
+		"1":
+		  inline: false
+		  name: Seller
+		  value: "%player%"
+		"2":
+		  inline: false
+		  name: Item
+		  value: "%amount%x %item%"
+		"3":
+		  inline: false
+		  name: Price
+		  value: "%price%"
+
+	auction-buy:
+	  enabled: true
+	  color: "#00DDFF"
+	  title:
+		text: "Item Purchased"
+	  fields:
+		"1":
+		  inline: true
+		  name: Buyer
+		  value: "%player%"
+		"2":
+		  inline: true
+		  name: Seller
+		  value: "%seller%"
+		"3":
+		  inline: false
+		  name: Item
+		  value: "%amount%x %item%"
+		"4":
+		  inline: true
+		  name: Price
+		  value: "%price%"
+
+	# do not change this
+	version: 1
+	]]>
 </code-block></step>
 </procedure>
 
 <procedure title="currencies.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[
-	
 	# DOCUMENTATION: https://docs.artillex-studios.com/axauctions.html
 
 	# you can create your own currencies by using placeholders
@@ -217,8 +234,7 @@
 		uses-double: true
 		# if the placeholder gets parsed even for offline players, enable this
 		works-offline: false
-		# in percentage
-		# for example set it to 0.9 for 10% tax
+		# optional: tax (example: 5 is 5% tax)
 		tax: 0
 		settings:
 		  raw-placeholder: "%vault_eco_balance_fixed%"
@@ -238,8 +254,7 @@
 	currencies:
 	  Experience:
 		register: true
-		# in percentages, set to 0 to disable
-		# for example set it to 0.9 for 10% tax
+		# optional: tax (example: 5 is 5% tax)
 		tax: 0
 		display:
 		  raw: "Experience"
@@ -445,9 +460,21 @@
 			  lore:
 				- " "
 				- "&#00DDFF&l(!) &#00DDFFClick here to select!"
+	  RivalCredits:
+		register: true
+		tax: 0
+		display:
+		  raw: "RivalCredits"
+		  gui: "&f%price% &#AAFFFFcredits"
+		  item:
+			material: GOLD_INGOT
+			name: "&#00DDFFRivalCredits"
+			lore:
+			  - " "
+			  - "&#00DDFF&l(!) &#00DDFFClick here to select!"
 
 	# do not change this
-	version: 6
+	version: 7
 	
 	]]>
 </code-block></step>
@@ -456,7 +483,6 @@
 <procedure title="lang.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[
-	
 	# DOCUMENTATION: https://docs.artillex-studios.com/axauctions.html
 
 	help:
@@ -524,9 +550,16 @@
 	  - " &#999999» &#00DDFFSold Time: &#AAFFFF%time%"
 	  - "&#999999&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 
+	time:
+	  second: "s"
+	  minute: "m"
+	  hour: "h"
+	  day: "d"
+
 	sell:
 	  limit-reached: "&#FF0000You have reached the auction limit! &7(%current%/%limit%)"
 	  no-item: "&#FF0000Hold something in your hand to sell it!"
+	  no-currency: "&#FF0000You must give a currency parameter!"
 	  price-too-low: "&#FF0000The price you have set is below the minimum of &f%amount%&#FF0000!"
 	  price-too-high: "&#FF0000The price you have set is above the maximum of &f%amount%&#FF0000!"
 	  invalid-price: "&#FF0000The price you have set is not a valid number!"
@@ -541,7 +574,14 @@
 	  item-not-found: "&#FF0000The item is not found! Somebody must have bought it or the seller cancelled it!"
 	  inventory-full: "&#FF0000Your inventory is full!"
 	  success: "&#33FF33You have purchased &f%amount%x %item% &#33FF33from the auction house for &f%price%&#33FF33!"
+	  # this will be used when there is 0% tax set for the currency
 	  notify-seller: "&#00DDFF%player% &fhave purchased your &#00DDFF%amount%x &#00DDFF%item% &ffor &#00DDFF%price% &ffrom the auction house!"
+	  # this will be used when a tax is set for the currency
+	  #  %amount% (the original amount)
+	  #  %tax-amount% (amount after tax)
+	  #  %tax-percent% (the % of tax on the currency)
+	  #  %tax-fee% (amount taken because of tax)
+	  notify-seller-tax: "&#00DDFF%player% &fhave purchased your &#00DDFF%amount%x &#00DDFF%item% &ffor &#00DDFF%price% &#DDDDDD(%tax-amount% after taxes) &ffrom the auction house!"
 	  # set to "" to disable
 	  # these will be shown to all players
 	  action-bar-purchase: "&#00DDFF%player% &fhas purchased &#00DDFF%amount% &fof &#00DDFF%item% &ffrom &#00DDFF%seller% &ffor &#00DDFF%price%&f! &#DDDDDD/ah"
@@ -579,8 +619,94 @@
 	update-notifier: "&#88CCFFThere is a new version of AxAuctions available! &#DDDDDD(&#FFFFFFcurrent: &#FF0000%current% &#DDDDDD| &#FFFFFFlatest: &#00FF00%latest%&#DDDDDD)"
 
 	# do not change this
-	version: 6
+	version: 9
 	
+	]]>
+</code-block></step>
+</procedure>
+
+<procedure title="categories.yml" collapsible="true"><step>
+<code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
+    <![CDATA[
+	
+	# DOCUMENTATION: https://docs.artillex-studios.com/axauctions.html
+	#
+	# some supported regex: (optional)
+	# - 'name' #  only 'name' is disallowed
+	# - 'name*' #  disallows text starting with 'name'
+	# - '*name' #  disallows text ending with 'name'
+	# - '*name*' #  disallows text containing 'name'
+	#
+	# you can use some sections from our item builder: (https://docs.artillex-studios.com/item-builder.html)
+	#  > name
+	#  > material / type
+	#  > custom-model-data (only the old variant)
+	#
+	# note: category items are always matched with the "OR" logic gate, which means that if any of the "items" sections match the item, it will be part of the category
+	#
+	# you should not include color codes as the plugin removes them before checking for matches,
+	# instead you should put names like this: "name: '*Name*'" meaning that if the item name contains the name, it will match it
+	# and of course, every field is case-sensitive!
+
+	# should the category system be enabled?
+	# note: the category selector item is disabled by default, you need to uncomment the section as well (in the main-gui.yml and my-items.yml) to make it work!
+	enabled: false
+
+	# the "all" category just matches all materials
+	all:
+	  # formatted name of the category, can contain colors
+	  name: "All"
+	  items:
+		- material: "*"
+
+	tools:
+	  name: "Tools"
+	  items:
+		- material: "*_PICKAXE" # match items with their material ending in _PICKAXE
+		- material: "*_AXE"
+		- material: "*_SHOVEL"
+		- material: "*_HOE"
+
+	weapons:
+	  name: "Weapons"
+	  items:
+		- material: "*_SWORD"
+		- material: "*_AXE"
+		- material: "SHIELD"
+		- material: "TRIDENT"
+		- material: "*BOW"
+		- material: "*ARROW"
+
+	armors:
+	  name: "Armors"
+	  items:
+		- material: "*_HELMET"
+		- material: "*_CHESTPLATE"
+		- material: "*_LEGGINGS"
+		- material: "*_BOOTS"
+
+	minerals:
+	  name: "Minerals"
+	  items:
+		- material: "*_ORE"
+		- material: "*_INGOT"
+		- material: "DIAMOND"
+		- material: "EMERALD"
+		- material: "COAL"
+		- material: "QUARTZ"
+		- material: "REDSTONE"
+		- material: "ANCIENT_DEBRIS"
+
+	custom:
+	  name: "Custom"
+	  items:
+		- custom-model-data: 100
+		  name: "*Some custom item*"
+		- custom-model-data: 150
+		  name: "*Another custom item*"
+
+	# do not change this
+	version: 1
 	]]>
 </code-block></step>
 </procedure>
@@ -598,12 +724,27 @@
 	rows: 6
 	# how many items should be shown on a single page?
 	page-size: 45
-	# auto update the menu?
+	# should the gui auto update?
 	# in ticks, 20 ticks = 1 second
-    # set to -1 to disable auto updater
+	# set to -1 to disable auto updater
 	auto-update-ticks: -1
 
 	# ----- ITEMS -----
+
+	## disabled by default, uncomment it to enable it!
+	#category:
+	#  slot: 40
+	#  material: "NOTE_BLOCK"
+	#  name: "&#00DDFF&lᴄᴀᴛᴇɢᴏʀʏ"
+	#  lore:
+	#    - " "
+	#    - " &#00DDFFCurrently selected:"
+	#    - "  &#444444❙ &#AAFFAA%selected_category%"
+	#    - " "
+	#    - "&#00DDFF&lClick &#DDDDDD» &#AAFFFFChange Category"
+	#  actions:
+	#    - "[CATEGORY]"
+	#    - "[SOUND] ui.button.click|1|1"
 
 	my-items:
 	  slot: 45
@@ -750,7 +891,6 @@
 	#  lore:
 	#    - ' '
 	#    - ' &fWoah, what a cool decoration!'
-	
 	]]>
 </code-block></step>
 </procedure>
