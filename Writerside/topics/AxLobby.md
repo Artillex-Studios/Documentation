@@ -10,7 +10,7 @@
 
 ## Most Important Features
 - Modular design: Easily turn off features you don't need and make them use 0 resources
-- 20+ modules: The plugin comes with a lot of modules and more are planned.
+- 15+ modules: The plugin comes with a lot of modules and more are planned.
 - Command Aliases
 ![image_64.png](image_64.png)
 - Launch Pads

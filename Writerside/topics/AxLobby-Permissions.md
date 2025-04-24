@@ -17,3 +17,6 @@
 | axlobby.lockchat | /axlobby lockchat | op |
 | axlobby.clearchat | /axlobby clearchat | op |
 | axlobby.bypass.lock-chat | Ability to bypass the locked chat | op |
+| axlobby.clearchat | /axlobby clearchat | op |
+| axlobby.menu | /axlobby menu | op |
+| axlobby.menu.others | Ability to open menus for other players | op |
