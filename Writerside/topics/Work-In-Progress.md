@@ -23,9 +23,11 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 | AxSellChest            | 🔨     |
 | AxVouchers             | 🔎     |
 | AxParties              | ⭐      |
+| AxVanish               | ⭐      |
 | AxCoupons              | ⭐      |
-| AxDungeons             | 🔎     |
+| AxDungeons             | 🔨     |
 | AxCustomBlocks         | ❌      |
 | AxMinions V2 (rewrite) | 🔨     |
 | AxLobby                | ⭐      |
-| AxPearls               | ⭐      |
+| AxPearls               | 🐛     |
+| AxChatGames            | ⭐      |

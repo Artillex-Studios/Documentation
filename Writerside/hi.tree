@@ -259,5 +259,8 @@
             <toc-element topic="AxPearls-Configuration.md"/>
             <toc-element topic="AxPearls-Supported-Plugins.md"/>
         </toc-element>
+        <toc-element topic="AxChatGames.md">
+            <toc-element topic="AxChatGames-Commands.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>
