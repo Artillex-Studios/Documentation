@@ -16,5 +16,5 @@
 | %axboosters_active_#_lengthraw% | The length of of the booster in seconds |
 | %axboosters_active_#_time% | The formatted time left from the booster |
 | %axboosters_active_#_timeraw% | The time left from the booster in seconds |
-| %axboosters_multiplier_[\<booster hook>](https://docs.artillex-studios.com/axboosters-supported-plugins.html#booster-hooks)% | Get the multiplier for a certain booster type |
-| %axboosters_multiplier_[\<booster hook>](https://docs.artillex-studios.com/axboosters-supported-plugins.html#booster-hooks)_decimal% | Get the multiplier (in decimal format) for a certain booster type |
+| %axboosters_multiplier_[&lt;booster hook>](https://docs.artillex-studios.com/axboosters-supported-plugins.html#booster-hooks)% | Get the multiplier for a certain booster type |
+| %axboosters_multiplier_[&lt;booster hook>](https://docs.artillex-studios.com/axboosters-supported-plugins.html#booster-hooks)_decimal% | Get the multiplier (in decimal format) for a certain booster type |

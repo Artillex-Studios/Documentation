@@ -4,7 +4,7 @@
 
 |-|-|
 | PlaceholderAPI | Builtin |
-| %axsumo_&lt;SUMO\>_name\% | %\name% |
+| %axsumo_&lt;SUMO>_name% | %\name% |
 
 ## List of placeholders:
 |-|-|
@@ -21,10 +21,10 @@
 | %axsumo_&lt;SUMO>_time_formatted% | The time related to the current state, formatted |
 | %axsumo_&lt;SUMO>_state% | The state of the sumo arena |
 | %\axsumo_player_wins% | wins of the player |
-| %axsumo_top_[\[time\]](AxSumo-Time.md)_&lt;placement\>_player_name% | leaderboard |
-| %axsumo_top_[\[time\]](AxSumo-Time.md)_&lt;placement\>_player_wins% | leaderboard |
-| %axsumo_top_&lt;placement\>_player_name% | leaderboard |
-| %axsumo_top_&lt;placement\>_player_wins% | leaderboard |
+| %axsumo_top_[[time]](AxSumo-Time.md)_&lt;placement>_player_name% | leaderboard |
+| %axsumo_top_[[time]](AxSumo-Time.md)_&lt;placement>_player_wins% | leaderboard |
+| %axsumo_top_&lt;placement>_player_name% | leaderboard |
+| %axsumo_top_&lt;placement>_player_wins% | leaderboard |
 | %axsumo_&lt;SUMO>_next% | next sumo schedule run time, in seconds |
 | %axsumo_&lt;SUMO>_next_formatted% | time until next sumo event, formatted |
 | %axsumo_next_&lt;SCHEDULE>% | schedule next run time, in seconds |

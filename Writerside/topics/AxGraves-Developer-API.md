@@ -40,6 +40,10 @@ Add the following to your **dependencies** section:
 </tabs>
 <p>Replace <b>CHANGE-THIS</b> to the latest version: <a href="https://repo.artillex-studios.com/#/releases/com/artillexstudios/AxGraves"><img src="https://repo.artillex-studios.com/api/badge/latest/releases/com/artillexstudios/AxGraves?color=40c14a&amp;name=AxGraves" alt=""/></a></p>
 
+> Make sure that you are NOT including the api jar in your plugin!
+> <br><br>Check that the scope is set to **provided** in maven or that you use **compileOnly** on gradle!
+{style="warning"}
+
 ## API Usage
 
 ### Events
