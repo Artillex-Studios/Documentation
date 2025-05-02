@@ -5,6 +5,7 @@
 | /axchatgames help                                  | axchatgames.help       | View help                              | true                       |
 | /axchatgames reload                                | axchatgames.reload     | Reload plugin                          | OP                         |
 | /axchatgames start [game]                          | axchatgames.start      | Start chat game                        | OP                         |
+| /axchatgames custom <game> <settings..>            | axchatgames.custom     | Start game with custom answer          | OP                         |
 | /axchatgames stop [game]                           | axchatgames.stop       | Stop chat game                         | OP                         |
 | /axchatgames stopall                               | axchatgames.stopall    | Stop all chat games                    | OP                         |
 | /axchatgames statistics [player]                   | axchatgames.statistics | Show statistics of player              | true (player parameter op) |
