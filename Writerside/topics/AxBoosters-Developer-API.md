@@ -41,7 +41,7 @@ Add the following to your **dependencies** section:
 <p>Replace <b>CHANGE-THIS</b> to the latest version: <a href="https://repo.artillex-studios.com/#/releases/com/artillexstudios/AxBoostersAPI"><img src="https://repo.artillex-studios.com/api/badge/latest/releases/com/artillexstudios/AxBoostersAPI?color=40c14a&amp;amp;name=AxBoostersAPI" alt=""/></a></p>
 
 > Make sure that you are NOT including the api jar in your plugin!
-> <br><br>Check that the scope is set to **provided** in maven or that you use **compileOnly** on gradle!
+> <br><br>Check that the scope is set to **provided** in maven or that you use **compileOnly** on gradle!</br></br>
 {style="warning"}
 
 ## API Usage
