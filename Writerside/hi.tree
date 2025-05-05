@@ -267,5 +267,10 @@
             <toc-element topic="AxChatGames-Custom-Games.md"/>
             <toc-element topic="AxChatGames-Developer-API.md"/>
         </toc-element>
+        <toc-element topic="AxCrates.md">
+            <toc-element topic="AxCrates-Commands.md"/>
+            <toc-element topic="AxCrates-Placeholders.md"/>
+            <toc-element topic="AxCrates-Model-Support.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>

@@ -5,7 +5,7 @@
 
 
 ## What is AxPlayerWarps?
-- A lightweight party system, perfect for minigame server.
+- A lightweight party system, perfect for minigame servers.
 
 ## Supported platforms:
 - Spigot (and forks, like, Paper, Purpur)
