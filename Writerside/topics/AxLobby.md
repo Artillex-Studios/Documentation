@@ -1,11 +1,8 @@
-# AxLobby 🛠️
-
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
+# AxLobby
 
 ## What is AxLobby?
 - A feature rich lobby plugin with easily customizable modules.
-- 
+
 ![image_53.png](image_53.png)
 
 ## Most Important Features

@@ -124,6 +124,30 @@
             <toc-element topic="AxKoth-Enabling-Features.md"/>
             <toc-element topic="AxKoth-Developer-API.md"/>
         </toc-element>
+        <toc-element topic="AxLobby.md">
+            <toc-element topic="AxLobby-Modules.md">
+                <toc-element topic="AxLobby-Modules-Announcements.md"/>
+                <toc-element topic="AxLobby-Modules-Anti-Spam.md"/>
+                <toc-element topic="AxLobby-Modules-Anti-Swear.md"/>
+                <toc-element topic="AxLobby-Modules-Bossbar.md"/>
+                <toc-element topic="AxLobby-Modules-Chat.md"/>
+                <toc-element topic="AxLobby-Modules-Command-Aliases.md"/>
+                <toc-element topic="AxLobby-Modules-Command-Blocker.md"/>
+                <toc-element topic="AxLobby-Modules-Double-Jump.md"/>
+                <toc-element topic="AxLobby-Modules-Items.md"/>
+                <toc-element topic="AxLobby-Modules-Join-Actions.md"/>
+                <toc-element topic="AxLobby-Modules-Join-Leave-Messages.md"/>
+                <toc-element topic="AxLobby-Modules-Launchpads.md"/>
+                <toc-element topic="AxLobby-Modules-Protection.md"/>
+                <toc-element topic="AxLobby-Modules-Scoreboard.md"/>
+                <toc-element topic="AxLobby-Modules-Tablist.md"/>
+                <toc-element topic="AxLobby-Modules-Title-Actionbar.md"/>
+                <toc-element topic="AxLobby-Modules-Void-Spawn.md"/>
+            </toc-element>
+            <toc-element topic="AxLobby-Common-Questions.md"/>
+            <toc-element topic="AxLobby-Commands.md"/>
+            <toc-element topic="AxLobby-Permissions.md"/>
+        </toc-element>
         <toc-element topic="AxMines.md">
             <toc-element topic="Commands_axmines.md"/>
             <toc-element topic="Configuration_axmines.md"/>
@@ -230,30 +254,6 @@
         <toc-element topic="AxCoupons.md">
             <toc-element topic="AxCoupons-Commands.md"/>
             <toc-element topic="AxCoupons-Configuration.md"/>
-        </toc-element>
-        <toc-element topic="AxLobby.md">
-            <toc-element topic="AxLobby-Modules.md">
-                <toc-element topic="AxLobby-Modules-Announcements.md"/>
-                <toc-element topic="AxLobby-Modules-Anti-Spam.md"/>
-                <toc-element topic="AxLobby-Modules-Anti-Swear.md"/>
-                <toc-element topic="AxLobby-Modules-Bossbar.md"/>
-                <toc-element topic="AxLobby-Modules-Chat.md"/>
-                <toc-element topic="AxLobby-Modules-Command-Aliases.md"/>
-                <toc-element topic="AxLobby-Modules-Command-Blocker.md"/>
-                <toc-element topic="AxLobby-Modules-Double-Jump.md"/>
-                <toc-element topic="AxLobby-Modules-Items.md"/>
-                <toc-element topic="AxLobby-Modules-Join-Actions.md"/>
-                <toc-element topic="AxLobby-Modules-Join-Leave-Messages.md"/>
-                <toc-element topic="AxLobby-Modules-Launchpads.md"/>
-                <toc-element topic="AxLobby-Modules-Protection.md"/>
-                <toc-element topic="AxLobby-Modules-Scoreboard.md"/>
-                <toc-element topic="AxLobby-Modules-Tablist.md"/>
-                <toc-element topic="AxLobby-Modules-Title-Actionbar.md"/>
-                <toc-element topic="AxLobby-Modules-Void-Spawn.md"/>
-            </toc-element>
-            <toc-element topic="AxLobby-Common-Questions.md"/>
-            <toc-element topic="AxLobby-Commands.md"/>
-            <toc-element topic="AxLobby-Permissions.md"/>
         </toc-element>
         <toc-element topic="AxPearls.md">
             <toc-element topic="AxPearls-Configuration.md"/>
