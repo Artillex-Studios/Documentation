@@ -28,6 +28,6 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 | AxDungeons             | 🔨     |
 | AxCustomBlocks         | ❌      |
 | AxMinions V2 (rewrite) | 🔨     |
-| AxLobby                | ⭐      |
 | AxPearls               | 🐛     |
 | AxChatGames            | ⭐      |
+| AxCosmetics            | ⭐      |
