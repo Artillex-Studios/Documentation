@@ -274,6 +274,9 @@
         </toc-element>
         <toc-element topic="AxCosmetics.md">
             <toc-element topic="AxCosmetics-Commands.md"/>
+            <toc-element topic="AxCosmetics-Configuration.md"/>
+            <toc-element topic="AxCosmetics-Supported-Plugins.md"/>
+            <toc-element topic="AxCosmetics-Developer-API.md"/>
         </toc-element>
     </toc-element>
 </instance-profile>
