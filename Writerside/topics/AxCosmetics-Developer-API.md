@@ -42,7 +42,7 @@ Add the following to your **dependencies** section:
 <p>Replace <b>CHANGE-THIS</b> to the latest version: <a href="https://repo.artillex-studios.com/#/releases/com/artillexstudios/axcosmetics/axcosmetics"><img src="https://repo.artillex-studios.com/api/badge/latest/releases/com/artillexstudios/axcosmetics/axcosmetics?color=40c14a&amp;amp;name=AxAuctionsAPI" alt=""/></a></p>
 
 > Make sure that you are NOT including the api jar in your plugin!
-> <br><br>Check that the scope is set to **provided** in maven or that you use **compileOnly** on gradle!
+> <br><br>Check that the scope is set to **provided** in maven or that you use **compileOnly** on gradle!</br></br>
 {style="warning"}
 
 ## API Usage
@@ -63,11 +63,11 @@ softdepend:
 CosmeticSlots are useful for allowing users to have cosmetics in different places.
 Registering a new slot is pretty simple!
 
-You can register new slots in your onLoad, onEnable, or even later on!
+You can register new slots in your onLoad.
 ```java
 
 @Override
-public void onEnable() {
+public void onLoad() {
     CosmeticSlot slot = new CosmeticSlot("YOUR_SLOT");
     AxCosmeticsAPI.instance().cosmeticSlots().register(slot);   
 }
