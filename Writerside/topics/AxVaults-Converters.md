@@ -6,7 +6,7 @@
 ### How to use?
 
 1. Make sure to have both the plugin that you are converting from and AxVaults running on the server.
-2. Run `/axvaultsadmin converter \<plugin>` (Use the tab completer for the \<plugin> part!)
+2. Run `/axvaultsadmin converter &lt;plugin>` (Use the tab completer for the &lt;plugin> part!)
 3. The converter should have done its job, make sure to check the console for any errors!
 4. If there are no errors, remove the other plugin and enjoy AxVaults!
 

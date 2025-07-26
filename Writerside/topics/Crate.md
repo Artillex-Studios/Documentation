@@ -72,7 +72,7 @@ Whether or not the collection of this crate should be broadcasted
 
 ## block
 The type of the block that you'd like the spawned crate to have. You can use ItemsAdder or Oraxen 
-materials here! For Oraxen: `oraxen:\<block_id>`, and for ItemsAdder: `itemsadder:\<block_id>`
+materials here! For Oraxen: `oraxen:&lt;block_id>`, and for ItemsAdder: `itemsadder:&lt;block_id>`
 
 ## required-interactions
 The amount of times the crate has to be clicked to be collected. If the player attempting to collect it is

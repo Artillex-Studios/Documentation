@@ -1,6 +1,6 @@
 # Configuration
 
-## \<chest>.yml
+## &lt;chest>.yml
 
 ### block: (default: chest)
 

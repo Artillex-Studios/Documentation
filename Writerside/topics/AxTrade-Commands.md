@@ -9,3 +9,4 @@
 | /axtrade toggle | Toggle trade requests | axtrade.toggle |
 | /axtrade reload | Reload plugin | axtrade.admin |
 | /axtrade force &lt;player> | Force a trade | axtrade.admin |
+| /axtrade preview | Open the trade gui for testing | axtrade.admin |

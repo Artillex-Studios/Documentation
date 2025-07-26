@@ -6,7 +6,7 @@
 ### How to use?
 
 1. Make sure to have the plugin that you are converting from **running on the server**. (Not all the converters require it, read the table at the bottom of the page)
-2. Run `/axpwadmin converter \<plugin>` (Use the tab completer for the \<plugin> part!)
+2. Run `/axpwadmin converter &lt;plugin>` (Use the tab completer for the &lt;plugin> part!)
 3. The converter should have done its job, make sure to check the console for any errors!
 4. If there are no errors, remove the other plugin and enjoy axplayerwarps!
 

@@ -9,4 +9,4 @@
 | axgraves.tp              | /axgraves tp (only to own graves)         | op      |
 | axgraves.tp.bypass       | Allows you to teleport to any location    | op      |
 | axgraves.allowgraves     | Should the player be able to have graves? | true    |
-| axgraves.limit.\<number> | Override the grave limit                  | false   |
+| axgraves.limit.&lt;number> | Override the grave limit                  | false   |

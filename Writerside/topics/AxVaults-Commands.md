@@ -12,8 +12,8 @@
 | Command | Description | Permission |
 | /axvaultsadmin [help] | Shows help | axvaults.admin |
 | /axvaultsadmin reload | Reload plugin | axvaults.admin.reload |
-| /axvaultsadmin forceopen \<player> | Open selector to a player | axvaults.admin.forceopen |
+| /axvaultsadmin forceopen &lt;player> | Open selector to a player | axvaults.admin.forceopen |
 | /axvaultsadmin set \[number] | Add a vault to a block | axvaults.admin.set |
-| /axvaultsadmin view \<player> \<number> | View vault of a player | axvaults.admin.view |
-| /axvaultsadmin delete \<player> \<number> | Delete vault of a player | axvaults.admin.delete |
-| /axvaultsadmin converter \<plugin> | Convert from another plugin | axvaults.admin.converter |
+| /axvaultsadmin view &lt;player> &lt;number> | View vault of a player | axvaults.admin.view |
+| /axvaultsadmin delete &lt;player> &lt;number> | Delete vault of a player | axvaults.admin.delete |
+| /axvaultsadmin converter &lt;plugin> | Convert from another plugin | axvaults.admin.converter |

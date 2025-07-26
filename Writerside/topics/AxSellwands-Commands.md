@@ -5,4 +5,4 @@
 |-|-|
 | Command | Description |
 | /axsellwands reload | Reload plugin |
-| /axsellwands give \<player> \<sellwand> [amount] | Give sellwands |
+| /axsellwands give &lt;player> &lt;sellwand> [amount] | Give sellwands |

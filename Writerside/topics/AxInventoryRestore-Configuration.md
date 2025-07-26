@@ -23,7 +23,7 @@
 
 * You can customize the row amount of the guis
 * This can be a value between 2 and 6
-* main-menu - First menu that appears when using /axir view \<name\>
+* main-menu - First menu that appears when using /axir view &lt;name\>
 * backup-selector - Second menu, appears after selecting a category
 
 ### compact-database (default: true)
