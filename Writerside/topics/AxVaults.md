@@ -3,8 +3,7 @@
 * A lightweight permission based vault plugin that can store ANY item
 
 ### Features:
-* 3 Databases supported: H2, SQLite, MySQL
-* Multi server support with SQL messaging
+* 3 Databases supported: H2, SQLite
 * 100% Dupe proof by design when using embedded databases (H2 or SQLite)
 * Selector menu (supports unlimited vaults)
 * Permission based (axvaults.vault.&lt;number>)
