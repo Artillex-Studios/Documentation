@@ -12,16 +12,17 @@
 
 ### Supported Plugins:
 
-| Plugin         | Converter | Requires Plugin |
-|----------------|-----------|-----------------|
-| AuctionHouse   | SQLite    | no              |
-| CrazyAuctions  | YAML      | no              |
-| zAuctionHouse  | JSON      | yes             |
-| PlayerAuctions | SQLite    | yes             |
-| PlayerShopGUI+ | SQLite    | yes             |
+| Plugin                          | Converter(s)  | Requires Plugin |
+|---------------------------------|---------------|-----------------|
+| AuctionHouse (from klugemonkey) | SQLite        | no              |
+| CrazyAuctions                   | YAML          | no              |
+| zAuctionHouse                   | SQLite, MySQL | no              |
+| Fadah                           | MySQL, SQLite | no              |
+| PlayerAuctions                  | SQLite        | yes             |
+| PlayerShopGUI+                  | SQLite        | yes             |
 * Plugin - name of the plugin
-* Converter - we can only convert if you use this database type in the plugin you are converting from (you can set axauctions' database to anything)
+* Converter - we can only convert if you use this database type in the plugin you are converting from (you can set axauctions' database to any supported type)
 * Requires Plugin - do you need to have the plugin running on the server when you run the converter?
 
-> Is there another auction plugin that you would like to have a converter for? Open a ticket on our discord:
-<font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>
+> Is there another auction plugin that you would like to have a converter for? Open a new feature request on our GitHub:
+<font color="#1f67ff">[github.com/Artillex-Studios/Issues](https://github.com/Artillex-Studios/Issues)</font>
