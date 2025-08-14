@@ -1,4 +1,4 @@
-# AxCosmetics-Supported-Plugins
+# Supported Plugins
 
 AxCosmetics currently supports just a few external plugins.
 

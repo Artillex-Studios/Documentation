@@ -1,7 +1,4 @@
-# AxChatGames 🛠️
-
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
+# AxChatGames
 
 ### What is AxChatGames?
 - A feature rich chat game plugin with 7 games and many variations.
@@ -54,50 +51,50 @@
 - Some letters of the word will be missing (example: Gol__n _p__e) and players have to figure out which was the original word.
 - **Configurable**: It is possible configure the percent (%) of missing characters.
 
-![image_91.png](image_91.png)
+![g1.webp](g1.webp)
 
 **Guess The Number**:
 - a random number will be generated and the first to guess it wins
 - **Configurable**: You can set the range in which the numbers will be generated.
 
-![image_94.png](image_94.png)
+![g2.webp](g2.webp)
 
 **Math**:
 - a randomly generated math equation will be generated and players have to solve them to win.
 
-![image_92.png](image_92.png)
+![g3.webp](g3.webp)
 
 - **Configurable**: You can fully customize what kind of math questions are generated.
 
-![image_97.png](image_97.png)
+![g4.webp](g4.webp)
 
 **Trivia**:
 - A question will be sent in the chat and players have to answer it.
 - **Configurable**: Create any number of questions.
 - The default config comes with more than 50 minecraft related questions.
 
-![image_93.png](image_93.png)
+![g5.webp](g5.webp)
 
 **Type**:
 - A random word will be picked and players just have to write them out.
 
-![image_90.png](image_90.png)
+![g6.webp](g6.webp)
 
 - **Configurable**: Randomized Text Option
 
-![image_100.png](image_100.png)
+![g7.webp](g7.webp)
 
 **Unreverse**:
 - A random word will be picked and players have to write them out backwards.
 
-![image_95.png](image_95.png)
+![g8.webp](g8.webp)
 
 - **Configurable**: Randomized Text Option
 
-![image_100.png](image_100.png)
+![g9.webp](g9.webp)
 
 **Unscramble**:
 - A random word will be picked and scrambled and players have to figure out the original word.
 - **Smart Scramble** option: When a word contains a space, the different sections won't be mixed up, for example: "Jungle Sapling" will always be something like: "lgeJun alSignp", instead of: "aSplgiJg lunne"
 
-![image_96.png](image_96.png)
+![g10.webp](g10.webp)

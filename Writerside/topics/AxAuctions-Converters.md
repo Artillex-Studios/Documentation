@@ -17,7 +17,7 @@
 | AuctionHouse (from klugemonkey) | SQLite        | no              |
 | CrazyAuctions                   | YAML          | no              |
 | zAuctionHouse                   | SQLite, MySQL | no              |
-| Fadah                           | MySQL, SQLite | no              |
+| Fadah                           | SQLite, MySQL | no              |
 | PlayerAuctions                  | SQLite        | yes             |
 | PlayerShopGUI+                  | SQLite        | yes             |
 * Plugin - name of the plugin
