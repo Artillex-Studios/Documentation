@@ -242,6 +242,11 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Work-In-Progress.md">
+        <toc-element topic="AxVanish.md">
+            <toc-element topic="AxVanish-Commands.md"/>
+            <toc-element topic="AxVanish-Groups.md"/>
+            <toc-element topic="AxVanish-Placeholders.md"/>
+        </toc-element>
         <toc-element topic="AxSellChest.md">
             <toc-element topic="Commands.md"/>
             <toc-element topic="Configuration.md"/>
