@@ -12,4 +12,5 @@
 - Vanish groups based on permissions.
 - Support for multiple databases including MySQL, H2 and SQLite.
 - Silent chest opening, action bars, effects.
+- Folia support.
 
