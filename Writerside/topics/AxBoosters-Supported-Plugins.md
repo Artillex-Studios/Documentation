@@ -105,6 +105,12 @@
 
 `wildchests:sell_money`
 
+`axspawners:sell_money`
+
+`axspawners:xp_withdraw`
+
+`axspawners:xp_generate`
+
 ## Team Hooks
 * BentoBox
 * IridiumSkyBlock

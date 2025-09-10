@@ -243,7 +243,14 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Work-In-Progress.md">
-        <toc-element topic="AxSpawners.md"/>
+        <toc-element topic="AxSpawners.md">
+            <toc-element topic="AxSpawners-Configuration.md"/>
+            <toc-element topic="AxSpawners-Supported-Plugins.md"/>
+            <toc-element topic="AxSpawners-Commands.md">
+            </toc-element>
+            <toc-element topic="AxSpawners-Permissions.md"/>
+            <toc-element topic="AxSpawners-Developer-API.md"/>
+        </toc-element>
         <toc-element topic="AxVanish.md">
             <toc-element topic="AxVanish-Commands.md"/>
             <toc-element topic="AxVanish-Groups.md"/>
