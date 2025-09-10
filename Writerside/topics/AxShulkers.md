@@ -2,7 +2,7 @@
 
 ## What is AxShulkers?
 
-*A highly customizable shulker viewer plugin that is dupe free by design! Open your shulkers anywhere, you don't even need to place them.
+*A highly customizable shulker viewer plugin which aims to provide maximum security! Open your shulkers anywhere, you don't even need to place them.
 *Just right click with a shulker to open it!
 
 ## How it works:
