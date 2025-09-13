@@ -7,9 +7,11 @@
 - An All-In-One Virtual Spawner Plugin
 
 ![image_91.png](image_91.png)
+![image_127.png](image_127.png)
 
 ## Most Important Features
 - Folia support
+- 26 premade spawners
 - Performant: The spawners are 100% virtual and have no effect on TPS.
 ![image_90.png](image_90.png)
 - Customizable: You can change every message and create your own spawners.
@@ -20,6 +22,7 @@
 - Make your own spawners: You can make spawners drop any item.
 - Loot-table support: It is possible to use minecraft loot-tables instead of having to set up loot manually.
 - Smart lore generator: When using loot-tables the plugin can auto generate the list of items with chance percentages.
+![image_126.png](image_126.png)
 - Spawner level and upgrade system: Any amount of spawner levels can be created, which can increase spawning speed, storage, drops, etc.
 ![image_93.png](image_93.png)
 - Efficient: The plugin can handle trillions of items in spawners without crashing the server.
@@ -36,7 +39,9 @@
 ![image_125.png](image_125.png)
 - Whitelist system: You can add your frends to spawners even if they can't place blocks nearby.
 ![image_124.png](image_124.png)
-- Advanced etlogging: All interactions with spawners are tracked and they can be viewed inside a gui ingame.
+- Advanced logging: All interactions with spawners are tracked and they can be viewed inside a gui ingame.
+![image_129.png](image_129.png)
 - Holograms: Make it easy to see how many items are in spawners (can be changed or disabled)
 ![image_96.png](image_96.png)
 - Language system: Auto translate drop item names in spawner lores.
+![image_128.png](image_128.png)
