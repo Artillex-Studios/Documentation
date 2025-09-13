@@ -8,11 +8,13 @@
 
 ![image_91.png](image_91.png)
 
-![image_127.png](image_127.png)
+
 
 ## Most Important Features
 - Folia support
-- 26 premade spawners
+- 27 premade spawners
+
+![image_127.png](image_127.png)
 - Performant: The spawners are 100% virtual and have no effect on TPS.
 
 - ![image_90.png](image_90.png)
@@ -33,8 +35,17 @@
 
 ![image_93.png](image_93.png)
 - Efficient: The plugin can handle trillions of items in spawners without crashing the server.
+
+![image_135.png](image_135.png)
 - My Spawners gui: You can monitor your spawners straight from an easy to use gui.
+
+![image_134.png](image_134.png)
+
 - Builtin shop: Sell spawners and boosters within the builtin shop (supports multiple pages)
+
+![image_130.png](image_130.png)
+
+![image_131.png](image_131.png)
 - Instant selling: Players can sell the loot in the spawners with just one click.
 
 ![image_95.png](image_95.png)
@@ -44,6 +55,8 @@
 - Stacked spawners: The plugin supports stacking spawners for increased drops.
 - Limits: You can set spawner & stack limits with a permission or with a command.
 - Builtin boosters: Loot, Speed and XP boosters which can be placed on a spawner to increase their generation.
+
+![image_133.png](image_133.png)
 
 ![image_92.png](image_92.png)
 
