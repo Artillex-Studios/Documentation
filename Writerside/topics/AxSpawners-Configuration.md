@@ -554,7 +554,7 @@
 </code-block></step>
 </procedure>
 
-### Example Booster configuration (the plugin comes with 3 included)
+Example Booster configuration (the plugin comes with 3 included)
 <procedure title="boosters/speed-booster.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[
@@ -588,7 +588,51 @@
 </code-block></step>
 </procedure>
 
-### Example Spawner configuration (the plugin comes with 27 included)
+Example Wand configuration (the plugin comes with 2 included)
+<procedure title="wands/sell-wand.yml" collapsible="true"><step>
+<code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
+    <![CDATA[
+	# DOCUMENTATION: https://docs.artillex-studios.com/axspawners.html
+	# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+	# list of wand types: sell, xp
+	type: sell
+
+	item:
+	  material: STICK
+	  name: "<#FFBB77>%multiplier%x <#FF7700>ꜱᴇʟʟ <white>Wand <#AAAAAA>(%uses% uses)"
+	  lore:
+		- ""
+		- "<#FF7700>ꜱᴛᴀᴛꜱ"
+		- " <#555555>❙ <#FFFFFF>Multiplier: <#FF7700>%multiplier%x"
+		- " <#555555>❙ <#FFFFFF>Uses: <#FF7700>%uses%"
+		- " <#555555>❙ <#FFFFFF>Radius: <#FF7700>%radius% blocks"
+		- " <#555555>❙ <#FFFFFF>Allowed spawners: <#FF7700>all"
+		- ""
+		- "<#FF7700>ᴇᴀʀɴɪɴɢꜱ"
+		- " <#555555>❙ <#FFFFFF>Items sold: <#FF7700>%items-sold%"
+		- " <#555555>❙ <#FFFFFF>Money made: <#FF7700>$%money-made%"
+		- ""
+		- "<#FF7700><bold>></bold> <#FFBB77>Right click to sell all items from nearby spawners."
+
+	# which spawners can this wand be used on?
+	# the spawner names must be the same as the file name in the spawners folder (without the .yml)
+	# use * to allow the wand to be used on all spawners
+	allowed-spawners:
+	  - "*"
+
+	# how often should the sellwand be usable?
+	# in milliseconds, set to -1 to disable
+	usage-cooldown: 1000
+
+	# when using the wand, what particle color should be used?
+	# format: <RED>;<GREEN>;<BLUE>
+	particle-color: "255;119;0"
+]]>
+</code-block></step>
+</procedure>
+
+Example Spawner configuration (the plugin comes with 27 included)
 <procedure title="spawners/_example.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[
@@ -789,7 +833,7 @@
 </code-block></step>
 </procedure>
 
-### Example GUI configuration (there are 5 diffent configurable guis)
+Example GUI configuration (there are 5 diffent configurable guis)
 <procedure title="guis/spawner-gui.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[

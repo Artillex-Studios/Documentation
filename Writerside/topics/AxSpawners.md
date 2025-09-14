@@ -8,8 +8,6 @@
 
 ![image_91.png](image_91.png)
 
-
-
 ## Most Important Features
 - Folia support
 - 27 premade spawners
@@ -43,9 +41,9 @@
 
 - Builtin shop: Sell spawners and boosters within the builtin shop (supports multiple pages)
 
-![image_130.png](image_130.png)
+![image_136.png](image_136.png)
 
-![image_131.png](image_131.png)
+![image_137.png](image_137.png)
 - Instant selling: Players can sell the loot in the spawners with just one click.
 
 ![image_95.png](image_95.png)
@@ -61,6 +59,13 @@
 ![image_92.png](image_92.png)
 
 ![image_125.png](image_125.png)
+- Builtin Sell & XP wands: Create wands that can sell loot or withdraw XP in a radius when used.
+
+![image_130.png](image_130.png)
+
+![image_131.png](image_131.png)
+
+![wands.gif](wands.gif)
 - Whitelist system: You can add your frends to spawners even if they can't place blocks nearby.
 
 ![image_124.png](image_124.png)
