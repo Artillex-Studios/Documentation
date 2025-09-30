@@ -18,6 +18,8 @@
 | %axkoth_&lt;KOTH>_z% | z coordinate of the koth (center location) |
 | %axkoth_next_&lt;SCHEDULE NAME>% | next time the schedule starts, in seconds |
 | %axkoth_next_&lt;SCHEDULE NAME>_formatted% | next time the schedule starts, formatted |
+| %\axkoth_next% | time until the next schedule going to run |
+| %\axkoth_next_formatted% | time until the next schedule going to run, formatted |
 | %axkoth_&lt;KOTH>_next% | next koth schedule run time, in seconds |
 | %axkoth_&lt;KOTH>_next_formatted% | time until next start, formatted |
 | %axkoth_&lt;KOTH>_capturer% | name and team of the capturer |

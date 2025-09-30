@@ -217,6 +217,15 @@
             <toc-element topic="AxShulkers-Configuration.md"/>
             <toc-element topic="AxShulkers-Developer-API.md"/>
         </toc-element>
+        <toc-element topic="AxSpawners.md">
+            <toc-element topic="AxSpawners-Placeholders.md"/>
+            <toc-element topic="AxSpawners-Configuration.md"/>
+            <toc-element topic="AxSpawners-Supported-Plugins.md"/>
+            <toc-element topic="AxSpawners-Commands.md"/>
+            <toc-element topic="AxSpawners-Permissions.md"/>
+            <toc-element topic="ShopGUIPlus-Support.md"/>
+            <toc-element topic="AxSpawners-Developer-API.md"/>
+        </toc-element>
         <toc-element topic="AxSumo.md">
             <toc-element topic="AxSumo-Creating-Schedulers.md"/>
             <toc-element topic="AxSumo-Commands.md"/>
@@ -243,16 +252,6 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Work-In-Progress.md">
-        <toc-element topic="AxSpawners.md">
-            <toc-element topic="AxSpawners-Placeholders.md"/>
-            <toc-element topic="AxSpawners-Configuration.md"/>
-            <toc-element topic="AxSpawners-Supported-Plugins.md"/>
-            <toc-element topic="AxSpawners-Commands.md">
-            </toc-element>
-            <toc-element topic="AxSpawners-Permissions.md"/>
-            <toc-element topic="ShopGUIPlus-Support.md"/>
-            <toc-element topic="AxSpawners-Developer-API.md"/>
-        </toc-element>
         <toc-element topic="AxVanish.md">
             <toc-element topic="AxVanish-Commands.md"/>
             <toc-element topic="AxVanish-Groups.md"/>

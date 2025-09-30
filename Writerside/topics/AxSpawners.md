@@ -1,10 +1,8 @@
-# AxSpawners 🛠️
-
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
+# AxSpawners
 
 ### What is AxSpawners?
 - An All-In-One Virtual Spawner Plugin
+- Are regular spawners too slow or laggy? AxSpawners skips the mob spawning step and gives you the loot directly into the spawner's builtin inventory.
 
 ![image_91.png](image_91.png)
 
