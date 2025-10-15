@@ -10,3 +10,4 @@
 | /axafkzone create &lt;zone> | Create zone |
 | /axafkzone delete &lt;zone> | Delete zone |
 | /axafkzone redefine &lt;zone> | Redefine area of zone |
+| /axafkzone tp &lt;zone> | Teleport to zone |

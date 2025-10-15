@@ -21,6 +21,7 @@
 | %\axchatgames_record%                          | Record of player |
 | %axchatgames_wins_&lt;GAME TYPE>%           | Get wins of player in given GAME TYPE |
 | %axchatgames_record_&lt;GAME TYPE>%         | Get record of player in given GAME TYPE |
+| %\axchatgames_enabled%         | Does the player have chat games toggled on? (true or false) |
 
 ### Game Start Placeholders
 | Placeholder         | Description                       |
