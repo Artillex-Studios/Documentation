@@ -12,6 +12,7 @@
 
 ## Most Important Features
 - H2 and MySQL Database support: The plugin will remember your glow/visibility/toggle preferences even after a restart.
+- Folia Supported
 - Multi server support: Preferences are remembered between servers when using MySQL.
 - Fully customizable gui: Interactive glow gui where glows can be enabled/removed.
 - Fast & packet based: The plugin won't affect your server's performance.
