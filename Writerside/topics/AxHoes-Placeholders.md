@@ -17,7 +17,7 @@
 | %\axhoes_player_progress_bar%                     | The progress towards the next player level displayed with a progress bar.     |
 | %axhoes_last_&lt;statistic>%                      | Displays the amount of collected statistic. (this is used for the action bar) |
 
-> Most numerical placeholders have a raw version, for example `%axhoes_broken_blocks_raw%`
+> Most numerical placeholders have a raw version, for example `&lt;axhoes_broken_blocks_raw%`
 
 ### Leaderboards:
 - blocksbroken (blocks broken leaderboard)
