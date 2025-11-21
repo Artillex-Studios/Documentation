@@ -55,4 +55,3 @@
 - Tool protection options: Protects the player's tool from being lost. (can be turned off)
 
 ![image_152.png](image_152.png)
-- Captcha system: Stop AFK farmers using the simple builtin captcha system.

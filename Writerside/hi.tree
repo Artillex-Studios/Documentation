@@ -303,8 +303,10 @@
         </toc-element>
         <toc-element topic="AxHoes.md">
             <toc-element topic="AxHoes-Commands.md"/>
+            <toc-element topic="AxHoes-Configuration.md"/>
             <toc-element topic="AxHoes-Supported-Plugins.md"/>
             <toc-element topic="AxHoes-Placeholders.md"/>
+            <toc-element topic="AxHoes-Enchant-Types.md"/>
             <toc-element topic="AxHoes-ShopGUIPlus-Support.md"/>
         </toc-element>
     </toc-element>
