@@ -24,5 +24,5 @@
 * Converter - we can only convert if you use this database type in the plugin you are converting from (you can set axauctions' database to any supported type)
 * Requires Plugin - do you need to have the plugin running on the server when you run the converter?
 
-> Is there another auction plugin that you would like to have a converter for? Open a new feature request on our GitHub:
-<font color="#1f67ff">[github.com/Artillex-Studios/Issues](https://github.com/Artillex-Studios/Issues)</font>
+> Is there another plugin that you would like support for? Open a new feature request on our
+<font color="#1f67ff">[GitHub](https://github.com/Artillex-Studios/Issues)</font>

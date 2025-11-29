@@ -14,6 +14,7 @@
 - PlotSquared
 - SuperiorSkyBlock2
 - WorldGuard
+- Towny
 
 ### Shop
 - CMI

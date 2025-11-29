@@ -44,5 +44,5 @@
 ### Other:
 * [PlaceholderAPI](AxGens-Placeholders.md)
 
-> Is there a plugin that isn't supported? Suggest it in the #ideas channel on our discord server:
-<font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>
+> Is there another plugin that you would like support for? Open a new feature request on our
+<font color="#1f67ff">[GitHub](https://github.com/Artillex-Studios/Issues)</font>

@@ -119,8 +119,8 @@
 * BetterTeams
 * UltimateClans
 
-> Is there a plugin that isn't supported? Suggest it in the #ideas channel on our discord server:
-<font color="#1f67ff">[dc.artillex-studios.com](https://dc.artillex-studios.com/)</font>
+> Is there another plugin that you would like support for? Open a new feature request on our
+<font color="#1f67ff">[GitHub](https://github.com/Artillex-Studios/Issues)</font>
 
 **Some plugins that we will never be able to add:** (there are some exceptions to these)
 - economy plugin like vault, as they only manage the economy, not give currency to players (however, we can add other plugins, like shop plugins)
