@@ -15,9 +15,9 @@
 | /axboosteradmin activate &lt;PLAYER> &lt;BOOSTER TYPE> &lt;AUDIENCE> &lt;MULTIPLIER> &lt;[LENGTH](AxBoosters-Booster-Length.md)> | Activate a booster for the player |
 | /axboosteradmin activateserver &lt;BOOSTER TYPE> &lt;MULTIPLIER> &lt;[LENGTH](AxBoosters-Booster-Length.md)> | Activate a server booster |
 | /axboosteradmin reload | Reload the plugin |
-| /axboosteradmin listboosters &lt;PLAYER> | List the unused boosters of a player (and optionally remove them) |
-| /axboosteradmin stop &lt;PLAYER> | Stop all boosters of a player |
-| /axboosteradmin stopall | Stop all boosters |
+| /axboosteradmin listboosters &lt;PLAYER> | List the unused boosters of the player (and optionally remove them) |
+| /axboosteradmin stop &lt;PLAYER> [BOOSTER TYPE] | Stop all boosters of the player |
+| /axboosteradmin stopall [BOOSTER TYPE] | Stop all boosters |
 | /axboosteradmin apply hand/offhand/armor/inventory &lt;BOOSTER TYPE> &lt;MULTIPLIER> | Apply a booster to an item |
 | /axboosteradmin unapply [BOOSTER TYPE] | Remove a booster from an item |
 | /axboosteradmin item &lt;name> [player] [amount] | Give boosted item |
