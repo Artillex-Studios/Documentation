@@ -9,9 +9,9 @@
 ## List of placeholders:
 |-|-|
 | Placeholder | Description |
-| %axplayerwarps_total_warps% | the number of warps on the server |
-| %axplayerwarps_player_warps% | the number of warps the player has |
-| %axplayerwarps_player_warp_limit% | the amount of warps that the player can have |
+| %\axplayerwarps_total_warps% | the number of warps on the server |
+| %\axplayerwarps_player_warps% | the number of warps the player has |
+| %\axplayerwarps_player_warp_limit% | the amount of warps that the player can have |
 | %axplayerwarps_&lt;WARP>_name% | name of the warp |
 | %axplayerwarps_&lt;WARP>_owner% | owner of the warp |
 | %axplayerwarps_&lt;WARP>_created% | when was the warp created |
