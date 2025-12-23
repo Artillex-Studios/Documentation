@@ -1,3 +1,3 @@
 # 🌳 Plugin Documentations
 
-Select a plugin in the left panel!
+Select a plugin from the left panel!

@@ -6,7 +6,6 @@
 |---------------------------------------------------|-------------------------------------------------------------------------------|
 | %axhoes_top_&lt;leaderboard>_&lt;position>_name%  | Name of the top # player                                                      |
 | %axhoes_top_&lt;leaderboard>_&lt;position>_value% | Value of the top # position                                                   |
-| %axhoes_top_xp_&lt;position>_level%               | Displays the level of the player (use the `value` for the raw xp)             |
 | %axhoes_broken_&lt;crop>%                         | The number of the given crop the player has broken.                           |
 | %\axhoes_broken_blocks%                           | The number of crops the player has broken.                                    |
 | %\axhoes_essence%                                 | The essence balance of the player.                                            |
@@ -22,7 +21,8 @@
 ### Leaderboards:
 - blocksbroken (blocks broken leaderboard)
 - essence (essence leaderboard)
-- xp (player xp leaderboard)
+- level (player level leaderboard)
+- xp (player xp leaderboard - note: this only show xp since last level up)
 - ... every other crop type (from the crops.yml, like wheat, carrots, beetroots)
 
 ### Position:

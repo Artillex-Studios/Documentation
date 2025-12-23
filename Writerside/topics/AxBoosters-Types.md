@@ -9,7 +9,7 @@
 
 ## Permission Boosters
 - You need a permission plugin for this (for example LuckPerms)
-- They are very simple, you can activate them by setting the following permission: axboosters.boost.<\Booster Type>.<\multiplier>
+- They are very simple, you can activate them by setting the following permission: axboosters.boost.&lt;booster type>.&lt;multiplier>
 - Example: `axboosters.boost.mybooster.200` - this will give a +200% (or 3x) booster of the `mybooster` type
 
 ## Item Boosters

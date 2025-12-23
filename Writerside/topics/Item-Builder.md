@@ -4,7 +4,7 @@ On this page you can find every item related configuration that is possible to c
 
 Note that you don't need to use all of these values at once, only material is required!
 
-### Example:
+### Example
 
 ```yaml
     material: STICK
@@ -15,20 +15,20 @@ Note that you don't need to use all of these values at once, only material is re
     - "&eit can be multiple lines!"
 ```
 
-### Material:
+### Material
 
 ```yaml
   material: DIAMOND
 ```
 * List of materials: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
 
-### Item Name:
+### Item Name
 
 ```yaml
   name: "<red>Name"
 ```
 
-### Item Lore:
+### Item Lore
 
 ```yaml
   # you can define as many lines as minecraft allows
@@ -37,7 +37,7 @@ Note that you don't need to use all of these values at once, only material is re
     - "&eline 2"
 ```
 
-### Item Amount:
+### Item Amount
 
 ```yaml
   # amount can be a number between 1 and 64
@@ -45,32 +45,32 @@ Note that you don't need to use all of these values at once, only material is re
   amount: 1
 ```
 
-### Glowing Items:
+### Glowing Items
 
 ```yaml
   # should the item be enchanted? can be true of false
   glow: true
 ```
 
-### Unbreakable Items:
+### Unbreakable Items
 
 ```yaml
   # make the item unbreakable
   unbreakable: true
 ```
 
-### Item Model (1.21.4+)
-
+### Item Model
+(since 1.21.4)
 ```yaml
   # set the item model to a diamond
   # format: namespace:key (namespace defaults to minecraft)
   item-model: "minecraft:diamond"
 ```
 
-### Custom Model Data:
+### Custom Model Data
 
 <tabs>
-<tab title="Old (1.18.2-1.21.3)">
+<tab title="Old (until 1.21.3)">
 
 ```yaml
   # this value is used to display textured items, can be any integer
@@ -79,16 +79,14 @@ Note that you don't need to use all of these values at once, only material is re
 
 </tab>
 
-<tab title="New (1.21.4+)">
+<tab title="New (since 1.21.4)">
 
-In 1.21.4, mojang reworked how custom model datas work and they made it significantly more difficult to use, however if you still need them, you can find all the types here.
+**Legacy**
 
-**Old**
-
-The item builder works with legacy custom model datas, if they are used, the plugin will put as the first "floats" value
 ```yaml
   custom-model-data: 1
 ```
+- This is the exact same as adding 1 to the floats section.
 
 **Floats**
 ```yaml
@@ -123,7 +121,7 @@ The item builder works with legacy custom model datas, if they are used, the plu
 </tab>
 </tabs>
 
-### Enchants:
+### Enchants
 
 ```yaml
   # you can add as many enchants as you want
@@ -133,7 +131,7 @@ The item builder works with legacy custom model datas, if they are used, the plu
 ```
 * List of enchantments: [CLICK](https://www.digminecraft.com/lists/enchantment_list_pc.php) - use the 'Minecraft ID Name' parts
 
-### Item Flags:
+### Item Flags
 
 ```yaml
   # you can add as many item flags as you want
@@ -142,7 +140,7 @@ The item builder works with legacy custom model datas, if they are used, the plu
 ```
 * List of item flags: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html)
 
-### Player Heads:
+### Player Heads
 
 ```yaml
     # the material must be PLAYER_HEAD
@@ -151,7 +149,7 @@ The item builder works with legacy custom model datas, if they are used, the plu
     texture: "base64-here"
 ```
 
-### Potions:
+### Potions
 
 ```yaml
     # the material must be POTION
@@ -161,7 +159,7 @@ The item builder works with legacy custom model datas, if they are used, the plu
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
 
-### Leather Armors:
+### Leather Armors
 
 ```yaml
     # the material must be a leather armor piece
@@ -171,7 +169,7 @@ The item builder works with legacy custom model datas, if they are used, the plu
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
 
-### Tipped Arrows:
+### Tipped Arrows
 
 ```yaml
     # the material must be TIPPED_ARROW
@@ -180,6 +178,13 @@ The item builder works with legacy custom model datas, if they are used, the plu
     color: "255, 255, 0"
 ```
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
+
+### Tooltip Style
+(Since 1.21.2)
+
+```yaml
+    tooltip-style: "minecraft:special_sword"
+```
 
 ## Advanced
 

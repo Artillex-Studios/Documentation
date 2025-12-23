@@ -37,8 +37,8 @@
 | %axkoth_&lt;KOTH>_timeLeft% | time left until a win |
 | %axkoth_&lt;KOTH>_timeLeft_formatted% | time left until a win |
 | %axkoth_&lt;KOTH>_score% | score of player |
-| %axkoth_&lt;KOTH>_score_&lt;placement>_player% | name of top # player |
-| %axkoth_&lt;KOTH>_score_&lt;placement>_points% | points of top # player |
+| %axkoth_&lt;KOTH>\_score_&lt;placement>_player% | name of top # player |
+| %axkoth_&lt;KOTH>\_score_&lt;placement>_points% | points of top # player |
 | %\axkoth_player_wins% | wins of the player |
 | %\axkoth_team_wins% | wins of a team |
 | %axkoth_top_[[time]](AxKoth-Time.md)_&lt;placement>_player_name% | leaderboard |
