@@ -35,7 +35,7 @@
 - Essence shop: Sell items for essence. Multi page support.
 
 ![image_149.png](image_149.png)
-- Harvester events: Create 
+- Harvester events: Host events where your players can compete to collect the most crops to receive rewards.
 
 ![image_154.png](image_154.png)
 ![image_155.png](image_155.png)
