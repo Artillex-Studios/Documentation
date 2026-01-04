@@ -38,6 +38,7 @@
 - Harvester events: Host events where your players can compete to collect the most crops to receive rewards.
 
 ![image_154.png](image_154.png)
+
 ![image_155.png](image_155.png)
 - Customizable: It is possible change ingame messages, menus, enchants.
 
