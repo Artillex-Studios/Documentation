@@ -26,6 +26,7 @@ There is also no guaranteed support for modded platforms.
 | 🪶 AxEnvoys           | ❌       | 🔨 (last: 2.6.0)  | 🔨 (last: 2.6.0)  | ✅                       |
 | 🪶 AxGens             | ❌       | 🔨 (last: 2.25.1) | 🔨 (last: 2.27.3) | ✅                       |
 | 🪶 AxGraves           | ❌       | 🔨 (last: 1.16.0) | 🔨 (last: 1.18.0) | ✅                       |
+| 🪶 AxHoes             | ❌       | ❌                 | ❌                 | ✅                       |
 | 🪶 AxInventoryRestore | ❌       | 🔨 (last: 3.4.0)  | 🔨 (last: 3.5.2)  | ✅                       |
 | 🪶 AxKills            | ✅ 1.8+  | ✅                 | ✅                 | ✅                       |
 | 🪶 AxKoth             | ❌       | 🔨 (last: 2.10.1) | 🔨 (last: 2.13.0) | ✅                       |

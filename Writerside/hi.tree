@@ -106,6 +106,15 @@
             <toc-element topic="AxGraves-Configuration.md"/>
             <toc-element topic="AxGraves-Developer-API.md"/>
         </toc-element>
+        <toc-element topic="AxHoes.md">
+            <toc-element topic="AxHoes-Commands.md"/>
+            <toc-element topic="AxHoes-Configuration.md"/>
+            <toc-element topic="AxHoes-Supported-Plugins.md"/>
+            <toc-element topic="AxHoes-Placeholders.md"/>
+            <toc-element topic="AxHoes-Enchant-Types.md"/>
+            <toc-element topic="AxHoes-Performance-Optimizations.md"/>
+            <toc-element topic="AxHoes-ShopGUIPlus-Support.md"/>
+        </toc-element>
         <toc-element topic="AxInventoryRestore.md">
             <toc-element topic="AxInventoryRestore-Commands.md"/>
             <toc-element topic="AxInventoryRestore-Permissions.md"/>
@@ -301,14 +310,6 @@
             <toc-element topic="AxGlow-Commands.md"/>
             <toc-element topic="AxGlow-Placeholders.md"/>
             <toc-element topic="AxGlow-Configuration.md"/>
-        </toc-element>
-        <toc-element topic="AxHoes.md">
-            <toc-element topic="AxHoes-Commands.md"/>
-            <toc-element topic="AxHoes-Configuration.md"/>
-            <toc-element topic="AxHoes-Supported-Plugins.md"/>
-            <toc-element topic="AxHoes-Placeholders.md"/>
-            <toc-element topic="AxHoes-Enchant-Types.md"/>
-            <toc-element topic="AxHoes-ShopGUIPlus-Support.md"/>
         </toc-element>
     </toc-element>
 </instance-profile>
