@@ -103,6 +103,7 @@
             <toc-element topic="AxGraves-How-to-Edit-the-Configuration.md"/>
             <toc-element topic="AxGraves-Commands.md"/>
             <toc-element topic="AxGraves-Permissions.md"/>
+            <toc-element topic="AxGraves-Placeholders.md"/>
             <toc-element topic="AxGraves-Configuration.md"/>
             <toc-element topic="AxGraves-Developer-API.md"/>
         </toc-element>
