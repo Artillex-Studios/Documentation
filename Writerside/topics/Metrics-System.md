@@ -6,11 +6,11 @@
 * Both of the used systems can be disabled, read below to see how.
 
 <tabs>
-    <tab title="BStats">
+    <tab title="bStats">
         <h2 id="where-can-be-found-bstats">Where can the collected data be found?</h2>
         <a href="https://bstats.org/">bstats.org</a>
         <tip>
-            BStats is not owned by us, so we suggest reading their own policies as information here might not be 100% accurate.
+            bStats is not owned by us, so we suggest reading their own policies as information here might not be 100% accurate.
         </tip>
         <h2 id="collected-data-bstats">What data is collected?</h2>
         <list type="bullet">
