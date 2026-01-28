@@ -1,4 +1,7 @@
-#    AxPickaxes 🛠️
+# AxPickaxes 🛠️
+
+> This plugin has not released yet, some things are subject to change!
+{style="warning"}
 
 ### What is AxPickaxes?
 - An all-in-one custom pickaxe plugin focused on performance & customizability.
