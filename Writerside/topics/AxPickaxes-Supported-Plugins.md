@@ -7,7 +7,7 @@
 - ShopGUIPlus
 
 ### Currency
-- [AxPickaxes](AxPickaxes.md)
+- [AxHoes](AxHoes.md)
 - AxQuestBoard
 - BeastTokens
 - CoinsEngine

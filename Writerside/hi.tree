@@ -313,5 +313,14 @@
             <toc-element topic="AxGlow-Placeholders.md"/>
             <toc-element topic="AxGlow-Configuration.md"/>
         </toc-element>
+        <toc-element topic="AxPickaxes.md">
+            <toc-element topic="AxPickaxes-Commands.md"/>
+            <toc-element topic="AxPickaxes-Configuration.md"/>
+            <toc-element topic="AxPickaxes-Supported-Plugins.md"/>
+            <toc-element topic="AxPickaxes-Placeholders.md"/>
+            <toc-element topic="AxPickaxes-Enchant-Types.md"/>
+            <toc-element topic="AxPickaxes-Performance-Optimizations.md"/>
+            <toc-element topic="AxPickaxes-ShopGUIPlus-Support.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>
