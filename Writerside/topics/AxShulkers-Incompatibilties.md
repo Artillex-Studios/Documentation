@@ -3,7 +3,7 @@
 
 ## Total incompatibilities
 - **EconomyShopGui**: Shulker quick sell can be used to duplicate items (solution: set `sell-shulker-boxes` to false in the economyshopgui config.yml)
-- Any Plugin that modifies shulkers in your inventory. Their actions will be overwritten by axshulkers.
+- Any Plugin that removes/adds items or modifies them inside shulkers. Their actions will be overwritten by axshulkers, which can cause items to dupe or allow players to farm money.
 - Other shulker viewers (for obvious reasons)
 
 ## Minor incompatibilities
