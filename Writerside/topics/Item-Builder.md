@@ -60,7 +60,8 @@ Note that you don't need to use all of these values at once, only material is re
 ```
 
 ### Item Model
-(since 1.21.4)
+> Supported Minecraft Versions: 1.21.4+
+{style="warning"}
 ```yaml
   # set the item model to a diamond
   # format: namespace:key (namespace defaults to minecraft)
@@ -132,7 +133,8 @@ Note that you don't need to use all of these values at once, only material is re
 * List of enchantments: [CLICK](https://www.digminecraft.com/lists/enchantment_list_pc.php) - use the 'Minecraft ID Name' parts
 
 ### Item Flags
-
+> Supported Minecraft Versions: 1.20.2-1.20.4
+{style="warning"}
 ```yaml
   # you can add as many item flags as you want
   item-flags:
@@ -180,7 +182,8 @@ Note that you don't need to use all of these values at once, only material is re
 * RGB generator: [CLICK](https://htmlcolorcodes.com/color-picker/)
 
 ### Tooltip Style
-(Since 1.21.2)
+> Supported Minecraft Versions: 1.21.2+
+{style="warning"}
 
 ```yaml
     tooltip-style: "minecraft:special_sword"
