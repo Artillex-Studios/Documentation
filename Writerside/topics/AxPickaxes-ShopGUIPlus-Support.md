@@ -6,7 +6,7 @@
 
 ```yaml
 item:
-  axhoes: "ore-<type>-<index>"
+  axhoes: "<type>-<index>"
 ```
 > `type` is the name of the ore from the ores.yml
 
@@ -18,7 +18,7 @@ item:
     0:
       type: item
       item:
-        ores: "ore-diamond-0"
+        ores: "diamond-0"
         quantity: 1
       buyPrice: 1000
       sellPrice: 50

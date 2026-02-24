@@ -6,7 +6,7 @@
 
 ```yaml
 item:
-  axhoes: "crop-<type>-<index>"
+  axhoes: "<type>-<index>"
 ```
 > `type` is the name of the crop from the crops.yml
 
@@ -18,7 +18,7 @@ item:
     0:
       type: item
       item:
-        axhoes: "crop-wheat-0"
+        axhoes: "wheat-0"
         quantity: 1
       buyPrice: 1000
       sellPrice: 50
