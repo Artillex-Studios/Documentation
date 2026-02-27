@@ -20,6 +20,8 @@
 * ~~DeluxeSellwands~~ (Currently broken)
 
 ### Levels: (you can use these instead of the builtin one)
+* [AxHoes](AxHoes.md)
+* [AxPickaxes](AxPickaxes.md)
 * CyberLevels
 * AlonsoLevels
 

@@ -29,6 +29,6 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 | AxCustomBlocks         | ❌      |
 | AxMinions V2 (rewrite) | 🔨     |
 | AxPearls               | ❌      |
-| AxCosmetics            | ⭐      |
+| AxCosmetics            | 🔎     |
 | AxGlow                 | ⭐      |
-| AxHoes                 | 🔎     |
+| AxPickaxes             | ⭐      |
