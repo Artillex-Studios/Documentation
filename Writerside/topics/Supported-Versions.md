@@ -10,7 +10,7 @@
 🪶 Folia Support (even plugins marked with supporting Folia might have issues, but feel free to report them)
 
 ⭐ All plugins support Spigot/Paper/Pufferfish/Purpur, we can't guarantee compatibility with other forks.
-However if they are based off one of the previously mentioned forks, they will most likely work.
+However, if they are based off one of the previously mentioned forks, they will most likely work.
 There is also no guaranteed support for modded platforms.
 
 ### Version chart:
