@@ -6,4 +6,20 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="265fc2b9">
+        <description>Created after removal of "Commands" from Artillex-Studios Documentation</description>
+        <accepts>Commands.html</accepts>
+    </rule>
+    <rule id="5c569a84">
+        <description>Created after removal of "Configuration" from Artillex-Studios Documentation</description>
+        <accepts>Configuration.html</accepts>
+    </rule>
+    <rule id="4cfb648c">
+        <description>Created after removal of "Supported plugins" from Artillex-Studios Documentation</description>
+        <accepts>Supported-plugins_axsc.html</accepts>
+    </rule>
+    <rule id="4da63a5">
+        <description>Created after removal of "AxSellChest 🛠️" from Artillex-Studios Documentation</description>
+        <accepts>AxSellChest.html</accepts>
+    </rule>
 </rules>

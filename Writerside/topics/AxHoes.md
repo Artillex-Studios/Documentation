@@ -1,4 +1,4 @@
-# AxHoes (❗NEW)
+# AxHoes
 
 ### What is AxHoes?
 - An all-in-one harvester hoes plugin focused on performance & customizability.

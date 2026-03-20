@@ -64,7 +64,7 @@
 ![image_131.png](image_131.png)
 
 ![wands.gif](wands.gif)
-- Whitelist system: You can add your frends to spawners even if they can't place blocks nearby.
+- Whitelist system: You can add your friends to spawners even if they can't place blocks nearby.
 
 ![image_124.png](image_124.png)
 - Advanced logging: All interactions with spawners are tracked and they can be viewed inside a gui ingame.

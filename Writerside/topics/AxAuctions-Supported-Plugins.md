@@ -4,6 +4,7 @@
 * Experience (builtin, vanilla minecraft xp)
 * Vault
 * CoinsEngine
+* ExcellentEconomy
 * PlayerPoints
 * RoyaleEconomy
 * SuperMobCoins

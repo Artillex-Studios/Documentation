@@ -1,8 +1,8 @@
 # Supported Plugins
 
-### Special
-- AxSellwands (ability to sell items directly from spawners)
-- AxBoosters (3 included boosters: `axspawners:sell_money`, `axspawners:xp_withdraw`, `axspawners:xp_generate`)
+### Bank
+- BentoBox
+- SuperiorSkyBlock2
 
 ### Protection
 - BentoBox

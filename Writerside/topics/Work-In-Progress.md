@@ -20,7 +20,7 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 
 | Plugin                 | Status |
 |------------------------|--------|
-| AxSellChest            | 🔨     |
+| AxSellChests           | ⭐      |
 | AxVouchers             | 🔎     |
 | AxParties              | ⭐      |
 | AxVanish               | ⭐      |
@@ -30,5 +30,4 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 | AxMinions V2 (rewrite) | 🔨     |
 | AxPearls               | ❌      |
 | AxCosmetics            | 🔎     |
-| AxGlow                 | ⭐      |
 | AxPickaxes             | ⭐      |

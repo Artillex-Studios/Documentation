@@ -833,7 +833,7 @@ Example Spawner configuration (the plugin comes with 27 included)
 </code-block></step>
 </procedure>
 
-Example GUI configuration (there are 5 diffent configurable guis)
+Example GUI configuration (there are 5 different configurable guis)
 <procedure title="guis/spawner-gui.yml" collapsible="true"><step>
 <code-block lang="yaml" ignore-vars="true" collapsible="false" validate="false">
     <![CDATA[

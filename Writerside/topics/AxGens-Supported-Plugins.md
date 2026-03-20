@@ -29,6 +29,7 @@
 * Vault
 * PlayerPoints
 * CoinsEngine
+* ExcellentEconomy
 * RoyaleEconomy
 * EcoBits
 
