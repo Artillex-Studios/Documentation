@@ -80,8 +80,10 @@ example:
 format:
 
 `[PAGE] next`
+
 `[PAGE] previous`
-`[PAGE] page number`
+
+`[PAGE] <page number>`
 
 example:
 
@@ -93,3 +95,51 @@ example:
 format:
 
 `[REFRESH]`
+
+### Category
+- Switch the selected category.
+- The &lt;category> value is the lowercase name or id or the category.
+
+format:
+
+`[CATEGORY]` (switches to the next category)
+
+`[CATEGORY] <category>` (switches to the set category by clicking)
+
+`[CATEGORY] <left click category>|<right click category>` (switches to the set category with left/right click - useful for going back and forth)
+
+example:
+
+`[CATEGORY] tools|minerals`
+
+### Currency
+- Switch the selected currency
+- The &lt;category> value is the lowercase name of the currency. (for multi currency plugins: &lt;plugin>-&lt;currency>)
+
+format:
+
+`[CURRENCY]` (switches to the next currency)
+
+`[CURRENCY] <currency>` (switches to the set currency by clicking)
+
+`[CURRENCY] <left click currency>|<right click currency>` (switches to the set currency with left/right click - useful for going back and forth)
+
+example:
+
+`[CURRENCY] tools|minerals`
+
+### Sorting
+- Switch the selected sorting
+- The &lt;sorting> value is one of the following: `newest`, `oldest`, `cheapest`, `priciest`
+
+format:
+
+`[SORTING]` (switches to the next sorting)
+
+`[SORTING] <sorting>` (switches to the set sorting by clicking)
+
+`[SORTING] <left click sorting>|<right click sorting>` (switches to the set sorting with left/right click - useful for going back and forth)
+
+example:
+
+`[SORTING] newest|cheapest`
