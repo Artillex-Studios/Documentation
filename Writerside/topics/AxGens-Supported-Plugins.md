@@ -53,8 +53,8 @@
 ### Quests provided by AxGens:
 | Quest Type             | Variable   |
 |------------------------|------------|
-| axhoes_generator_spawn | tier       |
-| axhoes_place_generator | tier       |
+| axgens_generator_spawn | tier       |
+| axgens_place_generator | tier       |
 
 > Is there another plugin that you would like support for? Open a new feature request on our
 <font color="#1f67ff">[GitHub](https://github.com/Artillex-Studios/Issues)</font>
