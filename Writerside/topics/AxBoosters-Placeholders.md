@@ -8,6 +8,7 @@
 
 |-|-|
 | Placeholder | Description |
+| %axboosters_active_#_active% | Is the booster active? true or false |
 | %axboosters_active_#_audience% | Audience of the booster |
 | %axboosters_active_#_type% | Type of the booster |
 | %axboosters_active_#_multiplier% | Multiplier of the booster (example: +50%) |
