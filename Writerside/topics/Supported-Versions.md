@@ -15,7 +15,7 @@ There is also no guaranteed support for modded platforms.
 
 ### Version chart:
 
-|                       | Older   | 1.18.X            | 1.19.2-1.20.1     | 1.20.2-26.1.1    |
+|                       | Older   | 1.18.X            | 1.19.2-1.20.1     | 1.20.2-26.1.2    |
 |-----------------------|---------|-------------------|-------------------|------------------|
 | 🪶 AxAFKZone          | ❌       | 🔨 (last: 1.3.1)  | 🔨 (last: 1.5.0)  | ✅️               |
 | 🪶 AxAuctions         | ❌       | 🔨 (last: 1.14.0) | 🔨 (last: 1.19.6) | ✅                |

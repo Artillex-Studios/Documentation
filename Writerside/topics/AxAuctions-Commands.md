@@ -17,9 +17,9 @@
 *permission: axauctions.admin*
 
 |-|-|
-| Command | Description |
-| /ahadmin reload | Reload plugin |
-| /ahadmin forceopen &lt;player> [menu] | Forcefully open menu |
-| /ahadmin history &lt;player> | Check transaction history of player |
-| /ahadmin limit set/give/take/reset | Modify the auction limit of player |
-| /ahadmin convert &lt;plugin> | Convert data from another plugin, you must have the other plugin loaded as well |
+| Command | Description | Permission |
+| /ahadmin reload | Reload plugin | axauctions.reload |
+| /ahadmin forceopen &lt;player> [menu] | Forcefully open menu | axauctions.forceopen |
+| /ahadmin history &lt;player> | Check transaction history of player | axauctions.history.admin |
+| /ahadmin limit set/give/take/reset | Modify the auction limit of player | axauctions.limit |
+| /ahadmin convert &lt;plugin> | Convert data from another plugin, you must have the other plugin loaded as well | axauctions.convert |
