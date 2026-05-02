@@ -1,4 +1,4 @@
-# AxGlow (❗NEW)
+# AxGlow
 
 ### What is AxGlow?
 - AxGlow is a lightweight plugin which allows players to set their glow outline.

@@ -34,6 +34,7 @@ There is also no guaranteed support for modded platforms.
 | 🪶 AxLobby            | ❌       | ❌                 | ❌                 | ✅                |
 | ❌ AxMines             | ❌       | 🔨 (last: 1.3.0)  | 🔨 (last: 1.3.0)  | ✅                |
 | 🪶AxMinions           | ❌       | 🔨 (last: 1.0.13) | 🔨 (last: 1.0.13) | ✅ (except 26.1+) |
+| 🪶 AxPickaxes         | ❌       | ❌                 | ❌                 | ✅                |
 | 🪶 AxPlayerWarps      | ❌       | 🔨 (last: 1.2.1)  | 🔨 (last: 1.7.0)  | ✅                |
 | 🪶 AxQuestBoard       | ❌       | 🔨 (last: 1.9.1)  | 🔨 (last: 1.11.3) | ✅                |
 | 🪶 AxRankMenu         | ❌       | 🔨 (last: 1.8.0)  | 🔨 (last: 1.9.0)  | ✅                |
