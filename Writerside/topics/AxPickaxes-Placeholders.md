@@ -15,6 +15,15 @@
 | %\axpickaxes_player_progress_percentage%              | The percentage of progress towards the next player level.                     |
 | %\axpickaxes_player_progress_bar%                     | The progress towards the next player level displayed with a progress bar.     |
 | %axpickaxes_last_&lt;statistic>%                      | Displays the amount of collected statistic. (this is used for the action bar) |
+| %\axpickaxes_event_running%                           | Is the event active? true or false                                            |
+| %\axpickaxes_event_statistic%                         | Returns the total collected statistic                                         |
+| %\axpickaxes_event_statistic_raw%                     | Returns the total collected statistic without formatting                      |
+| %\axpickaxes_event_time_left%                         | How much time is left from the event?                                         |
+| %\axpickaxes_event_next%                              | When is the next event happening?                                             |
+| %\axpickaxes_event_next_raw%                          | When will the next event happen? (without formatting)                         |
+| %\axpickaxes_event_value%                             | How much did the player collect since the start of the event                  |
+| %axpickaxes_event_top_&lt;position>_name%             | The event top # player's name                                                 |
+| %axpickaxes_event_top_&lt;position>_value%            | How much did the event top # player collected                                 |
 
 > Most numerical placeholders have a raw version, for example `&lt;axpickaxes_broken_blocks_raw%`
 
