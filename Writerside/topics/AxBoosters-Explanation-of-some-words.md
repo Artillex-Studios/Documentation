@@ -1,4 +1,4 @@
-# Explanation of Some Words
+# Explanation of Some Terms
 
 ### Active Booster
 - Active boosters always refer to the boosters that were activated by either a player or the server.
