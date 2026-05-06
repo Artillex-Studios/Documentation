@@ -3,6 +3,7 @@
 * We have created our [**AxIntegrations** library](https://github.com/Artillex-Studios/AxIntegrations/tree/master), which allows us to support third party plugins across all of our resources.
 * If you are a developer, feel free to open a pull request adding an integration to your plugin. If you are adding a paid plugin, and it isn't an api only jar, make sure to turn it into an [empty (stub) jar](https://github.com/Artillex-Studios/JarStubGenerator) first.
 * Note that it is almost impossible trying to keep all of these hooks up to date, so if you notice any issues with any of the integrations, please report them!
+* You don't have to download anything as AxIntegrations is included in our plugin jars.
 
 ## Where are these integrations used?
 ✅ - this plugin is using this system<br></br>
@@ -18,6 +19,7 @@
 
 * The list of supported plugins by each category. Next to the plugin name you can find the creator's username, so you figure out which exact plugin is supported.
 > Is any plugin missing? Please let us know by creating a feature request on our [github issue tracker](https://github.com/Artillex-Studios/Issues/issues)! (Note that we can only add plugins that have a public api)
+* Click on the category to open the list of supported plugins!
 
 ### Backpack {collapsible="true"}
 - ...
