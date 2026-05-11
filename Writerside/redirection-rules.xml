@@ -6,4 +6,12 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="350a9c3d">
+        <description>Created after removal of "V2 Update" from Artillex-Studios Documentation</description>
+        <accepts>V2-Update.html</accepts>
+    </rule>
+    <rule id="558fc37a">
+        <description>Created after removal of "Updating to V3" from Artillex-Studios Documentation</description>
+        <accepts>AxBoosters-Updating-to-V3.html</accepts>
+    </rule>
 </rules>
