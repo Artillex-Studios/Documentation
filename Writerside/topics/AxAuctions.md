@@ -1,9 +1,5 @@
 # AxAuctions
 
-> This page has been updated to the V2 version of the plugin which has not released yet!
-> You can read all the upcoming features [here](AxAuctions-V2-Update.md)!
-{style="warning"}
-
 * A feature rich auction house plugin with multi-server support.
 
 ![image_220.png](image_220.png)

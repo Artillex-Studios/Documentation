@@ -1,6 +1,6 @@
 # Configuration
 
-### Layout
+### Directory Structure
 <code-block lang="text">
 AxSellChests/
 ├── boosters/

@@ -12,7 +12,7 @@
 - BeastTokens
 - CoinsEngine
 - EcoBits
-- Vanilla Experience
+- Experience (vanilla minecraft xp)
 - KingdomsX
 - PlayerPoints
 - RedisEconomy
@@ -24,6 +24,11 @@
 - TokenManager
 - UltraEconomy
 - Vault
+
+### Player XP
+- [AxHoes](AxHoes.md)
+- AlonsoLevels
+- CyberLevels
 
 # BattlePass
 - Wiki: [battlepass.advancedplugins.net](https://battlepass.advancedplugins.net/)

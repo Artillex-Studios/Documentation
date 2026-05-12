@@ -143,3 +143,27 @@ format:
 example:
 
 `[SORTING] newest|cheapest`
+
+### Search
+- Open search input method
+- This action only works in a couple of menus
+
+format:
+
+`[SEARCH]`
+
+example:
+
+`[SEARCH]`
+
+### Back
+- Go back to the previous menu
+- This action only works in a couple of menus
+
+format:
+
+`[BACK]`
+
+example:
+
+`[BACK]`
