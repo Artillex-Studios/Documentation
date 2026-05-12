@@ -2,6 +2,11 @@
 
 - The goal of the update: Improve code quality and performance and add new features without breaking previous configurations.
 
+![image_220.png](image_220.png)
+
+![image_189.png](image_189.png)
+
+![image_219.png](image_219.png)
 ### Database
 - Recoded the entire database system to improve performance.
 > There are no changes to the existing structure, so no converter is needed and the database is 100% backwards compatible.
@@ -18,20 +23,34 @@
 - The plugin now stores if an item gets deleted due to the auction running out of time.
 - Players can see their deleted items with /ah deleted (`axauctions.deleted` permission, given by default) or staff can see the global deleted items list with /ahadmin deleted [player] (`axauctions.deleted.admin` permission)
 
+![image_205.png](image_205.png)
+
+![image_206.png](image_206.png)
 ### Auction House Logs
 - The plugin now tracks all interactions with the auction house and stores them in a new log viewer gui.
 - You can access it with the /ahadmin logs [player] command. (`axauctions.logs.admin` permission)
 - This gui can be used to track down player actions or to prevent staff abuse.
 
+![image_207.png](image_207.png)
+
+![image_208.png](image_208.png)
 ### Category Selector
 - A new category selector gui has been added, it will only work if categories are enabled.
 - Added a new `[MENU] category` gui action that can be used to open the category selector.
 - Made it possible to change the default gui, (config.yml → `default-menu`) so you can make it that the /ah opens the category selector by default.
 
+![image_190.png](image_190.png)
+
+![image_191.png](image_191.png)
+
+![image_214.png](image_214.png)
+
+![image_192.png](image_192.png)
 ### Statistics Update
 - The plugin now tracks and provides placeholders for a bunch of auction related statistics.
 - The best part is that all of these statistics were already tracked using the history menu, so even pre update statistics are visible.
 
+![image_204.png](image_204.png)
 ### Placeholders
 - Added **43** new placeholders.
 - Now all numberical placeholders are formatted by default. Added a `<..placeholder>_raw` variant for them that can be used to get the number without formatting.
@@ -42,12 +61,18 @@
 - The /ah search command now opens the selected input method.
 - Added a new `[SEARCH]` gui action that can be used to start the search.
 
+![image_198.png](image_198.png)
+
+![image_199.png](image_199.png)
 ### Quality of Life Improvements
 - Now clicking on items in the history and deleted menus gives the staff the item. (requires the new `axauctions.history.admin.take` or `axauctions.deleted.admin.take` permissions)
 - Added a line to shulkers and other storage items to all menus that tells the user that they can right-click to view their contents. 
 - The item that you are selling is now visible in the currency selector menu.
 - Added content limit options into the config, which can be used to limit the maximum size of items that can be placed on the auction house.
 
+![image_201.png](image_201.png)
+
+![image_202.png](image_202.png)
 ### Default Configuration Changes
 - Revamped all the default gui configuration files, improved their design and usability.
 - The default gui files now come with conditions (with the new `%\categories_enabled%` and `%\expired_items_enabled%` placeholders) for the category and expired item buttons, so people don't need to uncomment anything if they want to use these features.
