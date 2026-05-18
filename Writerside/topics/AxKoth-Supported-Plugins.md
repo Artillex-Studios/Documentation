@@ -12,6 +12,7 @@
 * UltimateClans
 * Parties
 * AxParties
+* ZelTeams
 
 ## Other Hooks
 * PlaceholderAPI
