@@ -9,7 +9,7 @@
 - Why? Because with the bukkit api, you can't get permissions of an offline player and the team mode combines team members' limits.
 - In the future we might add support for this with the luckperms or vault api, but because that requires external plugins, it feels not worth the effort, just use the `/axgens limit` command to give players higher limits!
 
-### Why are my generator upgrade prices so weired?
+### Why are my generator upgrade prices so weird?
 - In the tiers.yml you can only customize the price of generators, not their upgrade price
 - By default the upgrade prices are calculated like this: `price of next tier - price of current tier`
 - You can change this in the config.yml, search for the `generator-price-calculation` section!
