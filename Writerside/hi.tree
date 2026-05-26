@@ -330,6 +330,12 @@
             <toc-element topic="AxCosmetics-Supported-Plugins.md"/>
             <toc-element topic="AxCosmetics-Developer-API.md"/>
         </toc-element>
-        <toc-element topic="AxChat.md"/>
+        <toc-element topic="AxChat.md">
+            <toc-element topic="AxChat-Commands.md"/>
+            <toc-element topic="AxChat-Permissions.md"/>
+            <toc-element topic="AxChat-Placeholders.md">
+            </toc-element>
+            <toc-element topic="AxChat-Supported-Plugins.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>
