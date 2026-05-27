@@ -2,7 +2,7 @@
 
 ### Directory Structure
 <code-block lang="text">
-AxSellChests/
+AxAuctions/
 ├── guis/
 │   ├── admin-removal-gui.yml
 │   ├── category-gui.yml

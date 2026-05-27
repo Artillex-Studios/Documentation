@@ -24,6 +24,7 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 | AxChat                 | 🔨     |
 | AxVouchers             | 🔎     |
 | AxParties              | ⭐      |
+| AxTreasures            | ⭐      |
 | AxVanish               | ⭐      |
 | AxCoupons              | ⭐      |
 | AxDungeons             | ❌      |
