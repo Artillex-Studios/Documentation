@@ -124,16 +124,6 @@
             <toc-element topic="AxHoes-Placeholders.md"/>
             <toc-element topic="AxHoes-Enchant-Types.md"/>
             <toc-element topic="AxHoes-Performance-Optimizations.md">
-                <toc-element topic="AxPickaxes.md">
-                    <toc-element topic="AxPickaxes-Commands.md"/>
-                    <toc-element topic="AxPickaxes-Configuration.md"/>
-                    <toc-element topic="AxPickaxes-Other-Tools.md"/>
-                    <toc-element topic="AxPickaxes-Supported-Plugins.md"/>
-                    <toc-element topic="AxPickaxes-Placeholders.md"/>
-                    <toc-element topic="AxPickaxes-Enchant-Types.md"/>
-                    <toc-element topic="AxPickaxes-Performance-Optimizations.md"/>
-                    <toc-element topic="AxPickaxes-ShopGUIPlus-Support.md"/>
-                </toc-element>
             </toc-element>
             <toc-element topic="AxHoes-ShopGUIPlus-Support.md"/>
         </toc-element>
@@ -203,6 +193,16 @@
                 <toc-element topic="Creating-a-new-minion.md"/>
                 <toc-element topic="Source-code.md"/>
             </toc-element>
+        </toc-element>
+        <toc-element topic="AxPickaxes.md">
+            <toc-element topic="AxPickaxes-Commands.md"/>
+            <toc-element topic="AxPickaxes-Configuration.md"/>
+            <toc-element topic="AxPickaxes-Other-Tools.md"/>
+            <toc-element topic="AxPickaxes-Supported-Plugins.md"/>
+            <toc-element topic="AxPickaxes-Placeholders.md"/>
+            <toc-element topic="AxPickaxes-Enchant-Types.md"/>
+            <toc-element topic="AxPickaxes-Performance-Optimizations.md"/>
+            <toc-element topic="AxPickaxes-ShopGUIPlus-Support.md"/>
         </toc-element>
         <toc-element topic="AxPlayerWarps.md">
             <toc-element topic="AxPlayerWarps-Converters.md"/>
