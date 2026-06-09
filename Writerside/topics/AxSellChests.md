@@ -16,9 +16,15 @@
 - Auto Sell: The chests sell items in them every few seconds.
 
 ![image_173.png](image_173.png)
-- Chunk Collect: Collects all items in the chunk and adds them to the chest.
+- Chunk Collection: Collects all items in the chunk and adds them to the chest.
 
 ![image_174.png](image_174.png)
+
+- Chunk Collectors: You can make sell chests that only collect items.
+
+![image_227.png](image_227.png)
+
+![image_228.png](image_228.png)
 - Stacker Plugins Supported: The sell chest can sell all items from the ground without the chest overflowing.
 - Charge System: If enabled, sell chests will have a timer which when it expires, the selling stops and has to be recharged.
 
