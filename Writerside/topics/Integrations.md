@@ -92,7 +92,20 @@
 - WildStacker (Ome_R)
 
 ### Team {collapsible="true"}
-- ...
+- ~~AxParties (Artillex-Studios)~~ - ⚠️ not released
+- BetterTeams (booksaw123)
+- FactionsUUID (mbaxter)
+- GangsPlus (brc-plugins)
+- Guilds (Glare)
+- Guilds (Leo18bernese)
+- KingdomsX (CryptoMorin)
+- Parties (AlessioDP)
+- SaberFactions (SaberLLC)
+- SimpleClans (RoinujNosde)
+- SuperiorSkyBlock2 (Ome_R)
+- Towny (TownyAdvanced)
+- UltimateClans (TribeCraft Studio)
+- ZelTeams (Zeltuv Industries)
 
 ### Vanish {collapsible="true"}
 - EssentialsX (md678685)
