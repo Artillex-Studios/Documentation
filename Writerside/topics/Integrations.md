@@ -10,10 +10,10 @@
 ❌ - this plugin doesn't use this integration
 
 | Plugin       | Backpack | Bank | Container | Currency | Custom Block | Level | Protection | Shop | Stacker | Team | Vanish |
-|--------------|----------|------|-----------|----------|--------------|-------|------------|------|---------|------|--------|
-| AxSellChests | ❌        | ✅    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
-| AxSpawners   | ❌        | ❌    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
-| AxChat       | ❌        | ❌    | ❌         | ❌        | ❌            | ❌     | ❌          | ❌    | ❌       | ❌    | ✅      |
+|--------------|---------|------|-----------|----------|--------------|-------|------------|------|---------|------|--------|
+| AxKoth       | ❌       | ❌    | ❌         | ❌        | ❌            | ❌     | ❌          | ❌    | ❌       | ✅    | ❌      |
+| AxSellChests | ❌       | ✅    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
+| AxSpawners   | ❌       | ❌    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
 
 
 ## Supported Plugins {collapsible="false"}

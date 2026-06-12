@@ -46,6 +46,8 @@ Add the following to your **dependencies** section:
 
 ## API Usage
 
+> This plugin uses [AxIntegrations](Integrations.md), so if you are looking to create your own hook, then take a look at the "For Developers" section.
+
 Don't forget to add AxSpawners to your plugin's plugin.yml, like this:
 ```yaml
 depend:
