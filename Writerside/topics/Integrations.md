@@ -136,14 +136,42 @@ com.artillexstudios.axintegrations.api.AxIntegrationsAPI
 * In this example I will show a full working example creating a currency integration named `TestIntegration` and adding it to AxSpawners. 
 
 1. Add api jar into pom.yml (important: set the scope to `provided` so we are not including the api jar into our plugin)
+<tabs>
+<tab title="Maven">
+
 ```xml
 <dependency>
     <groupId>com.artillexstudios</groupId>
     <artifactId>AxSpawnersAPI</artifactId>
-    <version>4</version>
+    <version>CHANGE-THIS</version>
     <scope>provided</scope>
+    <exclusions> <!-- it is recommended to exclude the unshaded axintegrations dependency -->
+        <exclusion>
+            <groupId>com.artillexstudios.axintegrations</groupId>
+            <artifactId>*</artifactId>
+        </exclusion>
+    </exclusions>
 </dependency>
 ```
+</tab>
+<tab title="Gradle Groovy">
+
+```groovy
+compileOnly("com.artillexstudios:AxSpawnersAPI:CHANGE-THIS") {
+    exclude group: 'com.artillexstudios.axintegrations', module: '*'
+}
+```
+</tab>
+<tab title="Gradle Kotlin">
+
+```kotlin
+compileOnly("com.artillexstudios:AxSpawnersAPI:CHANGE-THIS") {
+    exclude(group = "com.artillexstudios.axintegrations", module = "*")
+}
+```
+</tab>
+</tabs>
+
 2. Add AxSpawners into the `softdepend` list:
 ```yaml
 softdepend:
