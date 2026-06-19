@@ -18,8 +18,8 @@ There is also no guaranteed support for modded platforms.
 |                       | Older   | 1.18.X            | 1.19.2-1.20.1     | 1.20.2-26.1.2    | 26.2        |
 |-----------------------|---------|-------------------|-------------------|------------------|-------------|
 | 🪶 AxAFKZone          | ❌       | 🔨 (last: 1.3.1)  | 🔨 (last: 1.5.0)  | ✅️               | coming soon |
-| 🪶 AxAuctions         | ❌       | 🔨 (last: 1.14.0) | 🔨 (last: 1.19.6) | ✅                | coming soon |
-| 🪶 AxBoosters         | ❌       | 🔨                | 🔨 (last: 3.7.3)  | ✅                | coming soon |
+| 🪶 AxAuctions         | ❌       | 🔨 (last: 1.14.0) | 🔨 (last: 1.19.6) | ✅                | ✅           |
+| 🪶 AxBoosters         | ❌       | 🔨                | 🔨 (last: 3.7.3)  | ✅                | ✅           |
 | 🪶 AxCalendar         | ❌       | 🔨 (last: 2.1.0)  | 🔨 (last: 2.2.0)  | ✅                | coming soon |
 | 🪶 AxChatGames        | ❌       | ❌                 | ❌                 | ✅                | coming soon |
 | 🪶 AxDarkAuctions     | ❌       | ❌                 | 🔨 (last: 1.2.2)  | ✅                | coming soon |

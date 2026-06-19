@@ -4,6 +4,8 @@
 | Plugin     | Version |
 |------------|---------|
 | AxAuctions | New     |
+| AxBoosters | New     |
+| AxKoth     | New     |
 (everything else uses the legacy system)
 
 <tabs>
