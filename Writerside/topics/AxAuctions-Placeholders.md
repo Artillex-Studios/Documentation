@@ -40,6 +40,7 @@
 |--------------------------------------|----------------------------------------------------------------------------------------------|
 | %\categories_enabled%                | Is the category system enabled? true or false                                                |
 | %\expired_items_enabled%             | Is the expired items gui enabled? true or false                                              |
+| %\auction_listing_confirmation_enabled% | Is the listing confirmation gui enabled? true or false |
 {style="none"}
 
 ### Statistics
