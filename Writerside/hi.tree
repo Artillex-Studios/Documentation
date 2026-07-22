@@ -233,6 +233,16 @@
             <toc-element topic="AxRewards-Configuration.md"/>
             <toc-element topic="AxRewards-Placeholders.md"/>
         </toc-element>
+        <toc-element topic="AxSellChests.md">
+            <toc-element topic="AxSellChests-Configuration.md">
+            </toc-element>
+            <toc-element topic="AxSellChests-Placeholders.md"/>
+            <toc-element topic="AxSellChests-Supported-Plugins.md"/>
+            <toc-element topic="AxSellChests-Commands.md"/>
+            <toc-element topic="AxSellChests-Permissions.md"/>
+            <toc-element topic="AxSellChests-ShopGUIPlus-Support.md"/>
+            <toc-element topic="AxSellChests-Developer-API.md"/>
+        </toc-element>
         <toc-element topic="AxSellwands.md">
             <toc-element topic="AxSellwands-Setting-price-provider.md"/>
             <toc-element topic="AxSellwands-Commands.md"/>
@@ -284,16 +294,6 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Work-In-Progress.md">
-        <toc-element topic="AxSellChests.md">
-            <toc-element topic="AxSellChests-Placeholders.md"/>
-            <toc-element topic="AxSellChests-Configuration.md"/>
-            <toc-element topic="AxSellChests-Supported-Plugins.md"/>
-            <toc-element topic="AxSellChests-Commands.md"/>
-            <toc-element topic="AxSellChests-Permissions.md"/>
-            <toc-element topic="AxSellChests-ShopGUIPlus-Support.md">
-            </toc-element>
-            <toc-element topic="AxSellChests-Developer-API.md"/>
-        </toc-element>
         <toc-element topic="AxVanish.md">
             <toc-element topic="AxVanish-Commands.md"/>
             <toc-element topic="AxVanish-Groups.md"/>

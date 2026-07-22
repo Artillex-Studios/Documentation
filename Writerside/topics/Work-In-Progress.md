@@ -20,15 +20,14 @@ Why is there a wiki if the plugin is not ready yet? It speeds up our work proces
 
 | Plugin                 | Status |
 |------------------------|--------|
-| AxSellChests           | ⭐      |
-| AxChat                 | 🔨     |
+| AxChat                 | ⭐     |
 | AxVouchers             | 🔎     |
-| AxParties              | ⭐      |
-| AxTreasures            | ⭐      |
-| AxVanish               | ⭐      |
-| AxCoupons              | ⭐      |
-| AxDungeons             | ❌      |
-| AxCustomBlocks         | ❌      |
+| AxParties              | ⭐     |
+| AxTreasures            | ⭐     |
+| AxVanish               | ⭐     |
+| AxCoupons              | ⭐     |
+| AxDungeons             | ❌     |
+| AxCustomBlocks         | ❌     |
 | AxMinions V2 (rewrite) | 🔨     |
-| AxPearls               | ❌      |
+| AxPearls               | ❌     |
 | AxCosmetics            | 🔎     |

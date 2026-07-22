@@ -9,6 +9,7 @@ AxSellChests/
 │   └── ... you can create more
 ├── chests/
 │   ├── basic.yml
+│   ├── chunk-collector.yml
 │   ├── legendary.yml
 │   ├── mythical.yml
 │   └── ... you can create more
