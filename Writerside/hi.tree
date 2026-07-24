@@ -337,6 +337,7 @@
             </toc-element>
             <toc-element topic="AxChat-Configuration.md"/>
             <toc-element topic="AxChat-Supported-Plugins.md"/>
+            <toc-element topic="AxChat-AI-Moderation.md"/>
         </toc-element>
         <toc-element topic="AxTreasures.md">
             <toc-element topic="AxTreasures-Commands.md"/>

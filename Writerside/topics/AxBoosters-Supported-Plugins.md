@@ -111,6 +111,26 @@
 
 `axspawners:xp_generate`
 
+`axhoes:essence_gain`
+
+`axhoes:money_gain`
+
+`axhoes:player_xp_gain`
+
+`axhoes:tool_xp_gain`
+
+`axpickaxes:essence_gain`
+
+`axpickaxes:money_gain`
+
+`axpickaxes:player_xp_gain`
+
+`axpickaxes:tool_xp_gain`
+
+`axsellchests:sell_money`
+
+`nextgens:sell_money`
+
 ## Team Hooks
 * BentoBox
 * IridiumSkyBlock
