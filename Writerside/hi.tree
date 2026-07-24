@@ -213,6 +213,7 @@
             <toc-element topic="AxPlayerWarps-Supported-Plugins.md"/>
             <toc-element topic="AxPlayerWarps-Custom-Currencies.md"/>
             <toc-element topic="AxPlayerWarps-Input-Types.md"/>
+            <toc-element topic="AxPlayerWarps-Developer-API.md"/>
         </toc-element>
         <toc-element topic="AxQuestBoard.md">
             <toc-element topic="AxQuestBoard-Commands.md"/>
