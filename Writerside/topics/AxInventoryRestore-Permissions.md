@@ -6,6 +6,7 @@
 * axinventoryrestore.teleport - Access to teleport to backup location
 * axinventoryrestore.restore - Access to use the quick restore feature
 * axinventoryrestore.export - Access to export items in a shulker box
+* axinventoryrestore.search - Permission to use /axir search
 * axinventoryrestore.reload - Permission to use /axir reload
 * axinventoryrestore.manualbackup - Permission to use /axir save &lt;player\> or /axir save *
 * axinventoryrestore.cleanup - Permission to use /axir cleanup
