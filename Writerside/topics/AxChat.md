@@ -18,7 +18,7 @@
 - Secure: Players can only add colors or click actions to their messages if they have special permissions.
 
 ![image_256.png](image_256.png)
-- Moderation: The plugin provides highly customizable checks that can be tweaked to prevent swearing, spamming, etc.
+- Moderation: The plugin provides highly customizable checks that can be tweaked to prevent swearing, spam or other unwanted content.
 
 ![image_255.png](image_255.png)
 - Filter Everything: The moderation system can watch writing signs, anvil item renames, books, etc.

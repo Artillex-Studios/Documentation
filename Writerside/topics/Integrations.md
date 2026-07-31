@@ -12,7 +12,7 @@
 | Plugin       | Backpack | Bank | Container | Currency | Custom Block | Level | Protection | Shop | Stacker | Team | Vanish |
 |--------------|---------|------|-----------|----------|--------------|-------|------------|------|---------|------|--------|
 | AxKoth       | ❌       | ❌    | ❌         | ❌        | ❌            | ❌     | ❌          | ❌    | ❌       | ✅    | ❌      |
-| AxSellChests | ❌       | ✅    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
+| AxSellChests | ❌       | ✅    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ✅       | ❌    | ❌      |
 | AxSellwands  | ❌       | ❌    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
 | AxSpawners   | ❌       | ❌    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
 
