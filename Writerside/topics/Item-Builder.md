@@ -87,7 +87,7 @@ Note that you don't need to use all of these values at once, only material is re
 ```yaml
   custom-model-data: 1
 ```
-- This is the exact same as adding 1 to the floats section.
+*This is the exact same as adding 1.0 to the floats section.
 
 **Floats**
 ```yaml
@@ -133,14 +133,17 @@ Note that you don't need to use all of these values at once, only material is re
 * List of enchantments: [CLICK](https://www.digminecraft.com/lists/enchantment_list_pc.php) - use the 'Minecraft ID Name' parts
 
 ### Item Flags
-> Supported Minecraft Versions: 1.20.2-1.20.4
+> Supported Minecraft Versions: 1.21.5+
 {style="warning"}
 ```yaml
   # you can add as many item flags as you want
   item-flags:
-      - HIDE_ENCHANTS
+    - attribute_modifiers
+    - enchantments
 ```
-* List of item flags: [CLICK](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html)
+* List of item flags: [CLICK](https://minecraft.wiki/w/Data_component_format#List_of_components)
+* In newer versions, item flags are just the list of components that you want to hide visually from being shown in the item's tooltip.
+* For example `attribute_modifiers` removes weapon damage information, however you can visually hide most things, like `enchantments`, `lore`. The game can't hide some elements.
 
 ### Player Heads
 
@@ -189,6 +192,22 @@ Note that you don't need to use all of these values at once, only material is re
     tooltip-style: "minecraft:special_sword"
 ```
 
+### Hide Tooltip
+```yaml
+    hide-tooltip: true
+```
+* true or false, if enabled, it completely removes the tooltip hover from the item
+
+### Rarity
+> Supported Minecraft Versions: 1.20.5+
+{style="warning"}
+
+```yaml
+    rarity: "epic"
+```
+* List of values: common, uncommon, rare, or epic
+* For example vanilla uses this value to color the golden apples' name
+
 ## Advanced
 
 ### SNBT
@@ -227,3 +246,4 @@ Note that you don't need to use all of these values at once, only material is re
         }
 ```
 * SNBT is the best format to use for complex (custom) items, it can store all nbt that minecraft supports, however, it is much more complicated than our item builder.
+* You can use /axapi snbt while holding an item to get its SNBT. Click on the chat messages to copy it.
