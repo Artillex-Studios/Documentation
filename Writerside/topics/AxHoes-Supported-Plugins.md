@@ -42,3 +42,9 @@
 | axhoes_collect_tool_xp   | ---               |
 | axhoes_break             | collectable name* |
 \* Material name in lowercase from the crops.yml, for example: `wheat`, `carrots`, `sugar_cane`
+
+# WorldGuard
+
+| Flag            | Description                                 |
+|-----------------|---------------------------------------------|
+| axhoes-tool-use | Controls if tools can be used in the region |
