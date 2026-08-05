@@ -47,4 +47,4 @@
 
 | Flag            | Description                                 |
 |-----------------|---------------------------------------------|
-| axhoes-tool-use | Controls if tools can be used in the region |
+| axpickaxes-tool-use | Controls if tools can be used in the region |
