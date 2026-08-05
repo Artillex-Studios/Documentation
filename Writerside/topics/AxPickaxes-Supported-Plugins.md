@@ -42,3 +42,9 @@
 | axpickaxes_collect_tool_xp   | ---               |
 | axpickaxes_break             | collectable name* |
 \* Material name in lowercase from the crops.yml, for example: `coal_ore`, `iron_ore`, `emerald_ore`
+
+# WorldGuard
+
+| Flag            | Description                                 |
+|-----------------|---------------------------------------------|
+| axhoes-tool-use | Controls if tools can be used in the region |
