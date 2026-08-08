@@ -1,0 +1,9 @@
+# Common Issues
+
+### The plugin isn't detecting my answers.
+- This is caused by some third party plugin modifying player messages, usually chat plugins, chat coloring (ChatColor2 is a common cause) plugins.
+> On Paper servers you can list all plugins that use this event with the `/paper dumplisteners org.bukkit.event.player.AsyncPlayerChatEvent` command. If you want to figure out which one is causing it, hover on them and look for ones with event priorities like LOWEST, LOW. Try removing them one by one until the issue is resolved.
+- If you know which plugin is causing the issue, search for a setting in that plugin's config to increase the event priority. You should try to increase the event priority of it to at least `NORMAL` to avoid conflicts. Some plugins don't allow for changing this.
+- You can also try to resolve this by lowering AxChatGames's event priority. Go to the `plugins/AxChatGames/config.yml` and set the `chat-listener-priority` setting to `LOWEST`. After that you have to restart the server for the changes to apply.
+- If the issue still persists after this, you will need to look for a plugin that also uses the `LOWEST` priority as something is likely still getting in front of AxChatGames.
+> Another good way to see what exactly is the issue is to enable the `debug` setting in the AxChatGames config. After that, run `/axchatgames reload` to apply the changes and you should see a lot of internal information printed in the console. Write something in the chat and look for a `...chat input detected...` text in the console. If that doesn't exactly match what you wrote or it has color codes in it, then a plugin is still modifying the chat input.
