@@ -7,15 +7,15 @@
 
 ## Where are these integrations used?
 ✅ - this plugin is using this system<br></br>
-❌ - this plugin doesn't use this integration
+❌ - this plugin doesn't use these integrations
 
-| Plugin       | Backpack | Bank | Container | Currency | Custom Block | Level | Protection | Shop | Stacker | Team | Vanish |
-|--------------|---------|------|-----------|----------|--------------|-------|------------|------|---------|------|--------|
-| AxKoth       | ❌       | ❌    | ❌         | ❌        | ❌            | ❌     | ❌          | ❌    | ❌       | ✅    | ❌      |
-| AxSellChests | ❌       | ✅    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ✅       | ❌    | ❌      |
-| AxSellwands  | ❌       | ❌    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
-| AxSpawners   | ❌       | ❌    | ❌         | ✅        | ❌            | ❌     | ✅          | ✅    | ❌       | ❌    | ❌      |
-
+| Plugin        | Backpack | Bank | Container | Currency | Custom Block | Level | Protection | Shop | Stacker | Team | Vanish |
+|---------------|----------|------|-----------|----------|--------------|-------|------------|------|---------|------|--------|
+| AxKoth        | ❌       | ❌   | ❌        | ❌       | ❌           | ❌    | ❌         | ❌   | ❌      | ✅   | ❌     |
+| AxPlayerWarps | ❌       | ❌   | ❌        | ✅       | ❌           | ❌    | ✅         | ❌   | ❌      | ❌   | ❌     |
+| AxSellChests  | ❌       | ✅   | ❌        | ✅       | ❌           | ❌    | ✅         | ✅   | ✅      | ❌   | ❌     |
+| AxSellwands   | ❌       | ❌   | ❌        | ✅       | ❌           | ❌    | ✅         | ✅   | ❌      | ❌   | ❌     |
+| AxSpawners    | ❌       | ❌   | ❌        | ✅       | ❌           | ❌    | ✅         | ✅   | ❌      | ❌   | ❌     |
 
 ## Supported Plugins {collapsible="false"}
 

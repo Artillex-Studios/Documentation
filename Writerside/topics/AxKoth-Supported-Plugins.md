@@ -1,18 +1,6 @@
 # Supported Plugins
 
-## Team Hooks
-* BetterTeams
-* FactionsUUID
-* GangsPlus
-* Guilds
-* KingdomsX
-* SaberFactions
-* SuperiorSkyblock2
-* Towny Advanced
-* UltimateClans
-* Parties
-* AxParties
-* ZelTeams
+> See the [**integrations**](Integrations.md) page for the team integrations.
 
 ## Other Hooks
 * PlaceholderAPI
