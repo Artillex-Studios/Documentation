@@ -9,6 +9,7 @@
 ### Currency
 - [AxHoes](AxHoes.md)
 - [AxQuestBoard](AxQuestBoard.md)
+- [AxShovels](AxShovels.md)
 - BeastTokens
 - CoinsEngine
 - EcoBits
@@ -27,6 +28,7 @@
 
 ### Player XP
 - [AxHoes](AxHoes.md)
+- [AxShovels](AxShovels.md)
 - AlonsoLevels
 - CyberLevels
 
@@ -41,7 +43,7 @@
 | axpickaxes_collect_player_xp | ---               |
 | axpickaxes_collect_tool_xp   | ---               |
 | axpickaxes_break             | collectable name* |
-\* Material name in lowercase from the crops.yml, for example: `coal_ore`, `iron_ore`, `emerald_ore`
+\* Material name in lowercase from the ores.yml, for example: `coal_ore`, `iron_ore`, `emerald_ore`
 
 # WorldGuard
 

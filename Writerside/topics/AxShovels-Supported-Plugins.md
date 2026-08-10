@@ -7,9 +7,9 @@
 - ShopGUIPlus
 
 ### Currency
+- [AxHoes](AxHoes.md)
 - [AxPickaxes](AxPickaxes.md)
 - [AxQuestBoard](AxQuestBoard.md)
-- [AxShovels](AxShovels.md)
 - BeastTokens
 - CoinsEngine
 - EcoBits
@@ -27,26 +27,26 @@
 - Vault
 
 ### Player XP
+- [AxHoes](AxHoes.md)
 - [AxPickaxes](AxPickaxes.md)
-- [AxShovels](AxShovels.md)
 - AlonsoLevels
 - CyberLevels
 
 # BattlePass
 - Wiki: [battlepass.advancedplugins.net](https://battlepass.advancedplugins.net/)
 
-### Quests provided by AxHoes:
-| Quest Type               | Variable          |
-|--------------------------|-------------------|
-| axhoes_collect_essence   | ---               |
-| axhoes_collect_money     | ---               |
-| axhoes_collect_player_xp | ---               |
-| axhoes_collect_tool_xp   | ---               |
-| axhoes_break             | collectable name* |
-\* Material name in lowercase from the crops.yml, for example: `wheat`, `carrots`, `sugar_cane`
+### Quests provided by AxShovels:
+| Quest Type                   | Variable          |
+|------------------------------|-------------------|
+| axshovels_collect_essence   | ---               |
+| axshovels_collect_money     | ---               |
+| axshovels_collect_player_xp | ---               |
+| axshovels_collect_tool_xp   | ---               |
+| axshovels_break             | collectable name* |
+\* Material name in lowercase from the blocks.yml, for example: `sand`, `red_sand`, `soul_soil`
 
 # WorldGuard
 
 | Flag            | Description                                 |
 |-----------------|---------------------------------------------|
-| axhoes-tool-use | Controls if tools can be used in the region |
+| axshovels-tool-use | Controls if tools can be used in the region |

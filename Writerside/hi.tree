@@ -346,5 +346,15 @@
             <toc-element topic="AxTreasures-Commands.md"/>
             <toc-element topic="AxTreasures-Configuration.md"/>
         </toc-element>
+        <toc-element topic="AxShovels.md">
+            <toc-element topic="AxShovels-Commands.md"/>
+            <toc-element topic="AxShovels-Configuration.md"/>
+            <toc-element topic="AxShovels-Other-Tools.md"/>
+            <toc-element topic="AxShovels-Supported-Plugins.md"/>
+            <toc-element topic="AxShovels-Placeholders.md"/>
+            <toc-element topic="AxShovels-Enchant-Types.md"/>
+            <toc-element topic="AxShovels-Performance-Optimizations.md"/>
+            <toc-element topic="AxShovels-ShopGUIPlus-Support.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>

@@ -9,7 +9,7 @@
 1. Pick one of the plugins that will be the primary source and storage for xp and essence. For example we will use AxHoes here. So the setup is going to be like this:
 ```
 AxHoes [primary, provides essence and player xp]
-AxPickaxes [secondary, uses AxHoes provided essence and player xp]
+AxShovels [secondary, uses AxHoes provided essence and player xp]
 ```
 2. Go to all of the other tool plugins and open the hooks.yml.
 3. Change the `essence-plugin` and `player-xp-plugin` to the name of your primary tool plugin. For example:

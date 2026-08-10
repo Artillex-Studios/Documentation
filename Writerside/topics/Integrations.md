@@ -38,6 +38,7 @@
 - AxHoes (Artillex-Studios) [[builtbybit]](https://builtbybit.com/resources/axhoes-the-ultimate-harvester-hoes.89421/) [[spigot]](https://www.spigotmc.org/resources/axhoes-the-ultimate-harvester-hoes.131779/)
 - AxPickaxes (Artillex-Studios) [[builtbybit]](https://builtbybit.com/resources/axpickaxes-the-ultimate-gens-pickaxes.106036/)
 - AxQuestBoard (Artillex-Studios) [[builtbybit]](https://builtbybit.com/resources/axquestboard-competitive-quests-plugin.41489/) [[spigot]](https://www.spigotmc.org/resources/axquestboard-competitive-quest-plugin.115847/)
+- AxShovels (Artillex-Studios) - ⚠️ not released
 - BeastTokens (MrAxeTv)
 - CoinsEngine (NightExpress) - ⚠️ replaced by ExcellentEconomy
 - EcoBits (Exanthiax)
@@ -63,6 +64,7 @@
 - AxGens (Artillex-Studios) [[builtbybit]](https://builtbybit.com/resources/axgens-the-all-in-one-gens-plugin.32783/) [[spigot]](https://www.spigotmc.org/resources/axgens-the-all-in-one-gens-plugin.113737/)
 - AxHoes (Artillex-Studios) [[builtbybit]](https://builtbybit.com/resources/axhoes-the-ultimate-harvester-hoes.89421/) [[spigot]](https://www.spigotmc.org/resources/axhoes-the-ultimate-harvester-hoes.131779/)
 - AxPickaxes (Artillex-Studios) [[builtbybit]](https://builtbybit.com/resources/axpickaxes-the-ultimate-gens-pickaxes.106036/)
+- AxShovels (Artillex-Studios) - ⚠️ not released
 
 ### Protection {collapsible="true"}
 - BentoBox (BentoBoxWorld)

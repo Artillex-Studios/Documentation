@@ -32,15 +32,15 @@
 - essence (essence leaderboard)
 - level (player level leaderboard)
 - xp (player xp leaderboard - note: this only show xp since last level up)
-- ... every other crop type (from the crops.yml, like wheat, carrots, beetroots)
+- ... every other ore type (from the ores.yml, like wheat, carrots, beetroots)
 
 ### Position:
 - Leaderboard positions start from 1.
 - You can customize how many positions do you need with the `config.yml -> leaderboard -> loaded-placements` setting.
 
-### Crops:
-- The crop name is the same as the material of the crop block. (in lowercase)
-- See the crops.yml for the list of crops.
+### Ores:
+- The ore name is the same as the material of the ore block. (in lowercase)
+- See the ores.yml for the list of ores.
 
 ### List of statistics:
 - money_gained,

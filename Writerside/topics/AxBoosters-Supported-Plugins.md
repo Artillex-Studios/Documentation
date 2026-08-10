@@ -127,6 +127,14 @@
 
 `axpickaxes:tool_xp_gain`
 
+`axshovels:essence_gain`
+
+`axshovels:money_gain`
+
+`axshovels:player_xp_gain`
+
+`axshovels:tool_xp_gain`
+
 `axsellchests:sell_money`
 
 `nextgens:sell_money`

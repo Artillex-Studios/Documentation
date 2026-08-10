@@ -3,6 +3,7 @@
 **The list of tool plugins that work best together:**
 - [AxHoes](AxHoes.md)
 - [AxPickaxes](AxPickaxes.md)
+- [AxShovels](AxShovels.md)
 
 **How to synchronize currencies and xp between plugins?**
 1. Pick one of the plugins that will be the primary source and storage for xp and essence. For example we will use AxHoes here. So the setup is going to be like this:
