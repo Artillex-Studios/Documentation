@@ -14,7 +14,7 @@
 | AxKoth        | ❌       | ❌   | ❌        | ❌       | ❌           | ❌    | ❌         | ❌   | ❌      | ✅   | ❌     |
 | AxPlayerWarps | ❌       | ❌   | ❌        | ✅       | ❌           | ❌    | ✅         | ❌   | ❌      | ❌   | ❌     |
 | AxSellChests  | ❌       | ✅   | ❌        | ✅       | ❌           | ❌    | ✅         | ✅   | ✅      | ❌   | ❌     |
-| AxSellwands   | ❌       | ❌   | ❌        | ✅       | ❌           | ❌    | ✅         | ✅   | ❌      | ❌   | ❌     |
+| AxSellwands   | ❌       | ❌   | ✅        | ✅       | ❌           | ❌    | ✅         | ✅   | ❌      | ❌   | ❌     |
 | AxSpawners    | ❌       | ❌   | ❌        | ✅       | ❌           | ❌    | ✅         | ✅   | ❌      | ❌   | ❌     |
 
 ## Supported Plugins {collapsible="false"}
@@ -24,7 +24,7 @@
 * Click on the category to open the list of supported plugins!
 
 ### Backpack {collapsible="true"}
-- ...
+- AxShulkers (Artillex-Studios) [[modrinth]](https://modrinth.com/plugin/axshulkers)
 
 ### Bank {collapsible="true"}
 - BentoBox (BentoBoxWorld) - ⚠️ requires bank addon
@@ -32,7 +32,7 @@
 - SuperiorSkyblock2 (Ome_R)
 
 ### Container {collapsible="true"}
-- AxShulkers (Artillex-Studios) [[modrinth]](https://modrinth.com/plugin/axshulkers)
+- ...
 
 ### Currency {collapsible="true"}
 - AxHoes (Artillex-Studios) [[builtbybit]](https://builtbybit.com/resources/axhoes-the-ultimate-harvester-hoes.89421/) [[spigot]](https://www.spigotmc.org/resources/axhoes-the-ultimate-harvester-hoes.131779/)
