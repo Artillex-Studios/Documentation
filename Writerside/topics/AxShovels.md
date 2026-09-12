@@ -26,7 +26,7 @@
 - Custom enchants: Create your own enchantments using the builtin 15+ triggers.
 
 ![image_148.png](image_148.png)
-- Leaderboards: Builtin all time leaderboards for all ore types/essence/money/block broken.
+- Leaderboards: Builtin all time leaderboards for all block types/essence/money/block broken.
 
 ![image_263.png](image_263.png)
 - Supported blocks: By default the plugin comes with 7 preconfigured block types, however it is fully configurable, so you can add new ones.

@@ -2,18 +2,18 @@
 
 * All commands require the `axdarkauctions.use` permission (given by default)
 
-|-|-|
-| Command | Description | Permission |
-| /axda [help] | Show help | axdarkauctions.use |
-| /axda join [auction] | Join running dark auction | axdarkauctions.use |
-| /axda leave | Join running dark auction | axdarkauctions.use |
-| /axda info [auction] | See when the dark auction will run next | axdarkauctions.use |
-| /axda create &lt;auction> | Create dark auction | axdarkauctions.admin |
-| /axda delete &lt;auction> | Delete dark auction | axdarkauctions.admin |
-| /axda schedulers | Open scheduler editor | axdarkauctions.admin |
-| /axda start &lt;auction> | Start dark auction | axdarkauctions.admin |
-| /axda stop &lt;auction> | Stop dark auction | axdarkauctions.admin |
-| /axda stopall | Stop all dark auctions | axdarkauctions.admin |
-| /axda forcejoin &lt;auction> &lt;player> | Make player force join dark auction | axdarkauctions.admin |
-| /axda view [auction] | Open auction gui | axdarkauctions.view |
-| /axda reload | Reload plugin configuration | axdarkauctions.admin |
+| Command                                  | Description                             | Permission                | Default |
+|------------------------------------------|-----------------------------------------|---------------------------|---------|
+| /axda [help]                             | Show help                               | axdarkauctions.use        | true    |
+| /axda join [auction]                     | Join running dark auction               | axdarkauctions.join       | true    |
+| /axda leave                              | Join running dark auction               | axdarkauctions.leave      | true    |
+| /axda info [auction]                     | See when the dark auction will run next | axdarkauctions.info       | true    |
+| /axda create &lt;auction>                | Create dark auction                     | axdarkauctions.create     | op      |
+| /axda delete &lt;auction>                | Delete dark auction                     | axdarkauctions.delete     | op      |
+| /axda schedulers                         | Open scheduler editor                   | axdarkauctions.schedulers | op      |
+| /axda start &lt;auction>                 | Start dark auction                      | axdarkauctions.start      | op      |
+| /axda stop &lt;auction>                  | Stop dark auction                       | axdarkauctions.stop       | op      |
+| /axda stopall                            | Stop all dark auctions                  | axdarkauctions.stopall    | op      |
+| /axda forcejoin &lt;auction> &lt;player> | Make player force join dark auction     | axdarkauctions.forcejoin  | op      |
+| /axda view [auction]                     | Open auction gui                        | axdarkauctions.view       | op      |
+| /axda reload                             | Reload plugin configuration             | axdarkauctions.reload     | op      |

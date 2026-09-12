@@ -17,6 +17,8 @@
 
 ![image_225.png](image_225.png)
 - Item Loss Prevention: Players can close and reopen treasure chest inventories for a while without losing the remaining loot.
+
+![image_274.png](image_274.png)
 - All Items Supported: The plugin can store and refresh even the most customized items.
 - Custom Gui Title: The treasure chest inventory's title can be customized.
 
