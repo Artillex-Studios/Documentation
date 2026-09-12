@@ -58,5 +58,3 @@ or:
 softdepend:
   - AxSellChests
 ```
-
-[Check the repository here!](https://github.com/Artillex-Studios/AxSellChestsAPI)
