@@ -3,7 +3,8 @@
 | Permission                    | Description                                                                                                                                                | Default |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
 | axauctions.use                | Ability to use the player commands                                                                                                                         | true    |
-| axauctions.admin              | Ability to use the admin commands                                                                                                                          | op      |
+| axauctions.admin              | Ability to use the admin commands and all admin actions                                                                                                    | op      |
+| axauctions.admin.removal      | Ability to remove any item from the auction house                                                                                                          | op      |
 | axauctions.limit.&lt;number>  | How many items can the player put in the auction house? This is calculated like this: permission + database limit (check out /ahadmin limit for more info) | 1       |
 | axauctions.history.admin.take | The required permission to take out items from the history viewer                                                                                          | op      |
 | axauctions.deleted.admin.take | The required permission to take out items from the delete item viewer                                                                                      | op      |
