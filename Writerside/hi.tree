@@ -287,6 +287,10 @@
             <toc-element topic="AxTrade-Multi-Currency-Plugins.md"/>
             <toc-element topic="AxTrade-Custom-Currencies.md"/>
         </toc-element>
+        <toc-element topic="AxTreasures.md">
+            <toc-element topic="AxTreasures-Commands.md"/>
+            <toc-element topic="AxTreasures-Configuration.md"/>
+        </toc-element>
         <toc-element topic="AxVaults.md">
             <toc-element topic="AxVaults-Converters.md"/>
             <toc-element topic="AxVaults-Commands.md"/>
@@ -342,10 +346,6 @@
             <toc-element topic="AxChat-Supported-Plugins.md"/>
             <toc-element topic="AxChat-AI-Moderation.md"/>
         </toc-element>
-        <toc-element topic="AxTreasures.md">
-            <toc-element topic="AxTreasures-Commands.md"/>
-            <toc-element topic="AxTreasures-Configuration.md"/>
-        </toc-element>
         <toc-element topic="AxShovels.md">
             <toc-element topic="AxShovels-Commands.md"/>
             <toc-element topic="AxShovels-Configuration.md"/>
@@ -355,6 +355,11 @@
             <toc-element topic="AxShovels-Enchant-Types.md"/>
             <toc-element topic="AxShovels-Performance-Optimizations.md"/>
             <toc-element topic="AxShovels-ShopGUIPlus-Support.md"/>
+        </toc-element>
+        <toc-element topic="AxDiscordLink.md">
+            <toc-element topic="AxDiscordLink-Commands.md"/>
+            <toc-element topic="AxDiscordLink-Configuration.md"/>
+            <toc-element topic="AxDiscordLink-Supported-Plugins.md"/>
         </toc-element>
     </toc-element>
 </instance-profile>

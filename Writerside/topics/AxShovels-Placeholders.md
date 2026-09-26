@@ -7,7 +7,7 @@
 | %axshovels_top_&lt;leaderboard>_&lt;position>_name%  | Name of the top # player                                                      |
 | %axshovels_top_&lt;leaderboard>_&lt;position>_value% | Value of the top # position                                                   |
 | %axshovels_broken_&lt;block>%                        | The number of the given blocks the player has broken.                         |
-| %\axshovels_broken_blocks%                           | The number of blocks the player has broken.                                         |
+| %\axshovels_broken_blocks%                           | The number of blocks the player has broken.                                   |
 | %\axshovels_essence%                                 | The essence balance of the player.                                            |
 | %\axshovels_player_xp%                               | The xp of the player.                                                         |
 | %\axshovels_player_level%                            | The level of the player.                                                      |
