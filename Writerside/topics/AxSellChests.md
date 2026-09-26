@@ -1,4 +1,4 @@
-# AxSellChests (❗NEW)
+# AxSellChests
 
 ### What is AxSellChests?
 - A fast & efficient sell chest and chunk collector plugin.

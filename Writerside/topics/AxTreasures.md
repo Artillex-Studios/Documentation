@@ -1,4 +1,4 @@
-# AxTreasures
+# AxTreasures (❗NEW)
 
 ### What is AxTreasures?
 - An easy to use & lightweight treasure chest plugin.
