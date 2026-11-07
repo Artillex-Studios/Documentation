@@ -15,6 +15,12 @@
 | /chattags [player]               | axchat.chattags.open (axchat.chattags.open.others for the player parameter)     | true, op         |
 | /chattags set &lt;tag> [player]  | axchat.chattags.set (axchat.chattags.set.others for the player parameter)       | true, op         |
 | /chattags remove [player]        | axchat.chattags.remove (axchat.chattags.remove.others for the player parameter) | true, op         |
+| /joinmessages [player]               | axchat.joinmessages.open (axchat.joinmessages.open.others for the player parameter)     | true, op         |
+| /joinmessages set &lt;tag> [player]  | axchat.joinmessages.set (axchat.joinmessages.set.others for the player parameter)       | true, op         |
+| /joinmessages remove [player]        | axchat.joinmessages.remove (axchat.joinmessages.remove.others for the player parameter) | true, op         |
+| /leavemessages [player]               | axchat.leavemessages.open (axchat.leavemessages.open.others for the player parameter)     | true, op         |
+| /leavemessages set &lt;tag> [player]  | axchat.leavemessages.set (axchat.leavemessages.set.others for the player parameter)       | true, op         |
+| /leavemessages remove [player]        | axchat.leavemessages.remove (axchat.leavemessages.remove.others for the player parameter) | true, op         |
 | /msg &lt;player> &lt;message>    | axchat.message                                                                  | true             |
 | /reply &lt;message>              | axchat.reply                                                                    | true             |
 | /clearchat                       | axchat.clearchat                                                                | op               |
