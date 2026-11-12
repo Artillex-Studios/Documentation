@@ -22,5 +22,8 @@
 | /axpickaxes xp reset [player]                    | axtools.xp.reset                                 | OP       | Reset player xp        |
 | /axpickaxes shop [player]                        | axtools.shop, axtools.shop.other                 | true, OP | Open shop gui          |
 | /axpickaxes leaderboard [player]                 | axtools.leaderboard, axtools.leaderboard.other   | true, OP | Open leaderboard gui   |
+| /axpickaxes stats get &lt;player> &lt;statistic>                 | axtools.stats.get   | OP | Get statistic of player   |
+| /axpickaxes stats set &lt;player> &lt;statistic> &lt;value>                 | axtools.stats.set   | OP | Set statistic of player   |
+| /axpickaxes stats reset &lt;player> &lt;statistic>                 | axtools.stats.reset   | OP | Reset statistic of player   |
 
 > Note that the permissions start with `axtools`, not axpickaxes!

@@ -22,5 +22,8 @@
 | /axshovels xp reset [player]                    | axtools.xp.reset                                 | OP       | Reset player xp        |
 | /axshovels shop [player]                        | axtools.shop, axtools.shop.other                 | true, OP | Open shop gui          |
 | /axshovels leaderboard [player]                 | axtools.leaderboard, axtools.leaderboard.other   | true, OP | Open leaderboard gui   |
+| /axshovels stats get &lt;player> &lt;statistic>                 | axtools.stats.get   | OP | Get statistic of player   |
+| /axshovels stats set &lt;player> &lt;statistic> &lt;value>                 | axtools.stats.set   | OP | Set statistic of player   |
+| /axshovels stats reset &lt;player> &lt;statistic>                 | axtools.stats.reset   | OP | Reset statistic of player   |
 
 > Note that the permissions start with `axtools`, not axshovels!
