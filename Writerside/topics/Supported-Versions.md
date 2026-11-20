@@ -7,13 +7,15 @@
 🔨 Currently not supported, however there is a previous version that supports this minecraft version\
 ❌ Currently not supported, and it might never be (if it is a newly released version, we will add support soon)
 
-🪶 Folia Support (even plugins marked with supporting Folia might have issues, but feel free to report them)
+🪶 Folia Support (even plugins marked with supporting Folia might have issues, but feel free to report them) \
+🦑 Velocity Support \
+➰ BungeeCord Support
 
-⭐ All plugins support Spigot/Paper/Pufferfish/Purpur, we can't guarantee compatibility with other forks.
+⭐ **All plugins support Spigot/Paper/Pufferfish/Purpur**, we can't guarantee compatibility with other forks.
 However, if they are based off one of the previously mentioned forks, they will most likely work.
 There is also no guaranteed support for modded platforms.
 
-### Version chart:
+### Version table:
 
 |                       | Older    | 1.18.X            | 1.19.2-1.20.1     | 1.20.2-26.3|
 |-----------------------|----------|-------------------|-------------------|-------------|
@@ -23,6 +25,7 @@ There is also no guaranteed support for modded platforms.
 | 🪶 AxCalendar         | ❌       | 🔨 (last: 2.1.0)  | 🔨 (last: 2.2.0)  | ✅          |
 | 🪶 AxChatGames        | ❌       | ❌                | ❌                | ✅          |
 | 🪶 AxDarkAuctions     | ❌       | ❌                | 🔨 (last: 1.2.2)  | ✅          |
+| 🪶🦑➰ AxDiscordLink     | ❌       | ❌                | ❌  | ✅          |
 | 🪶 AxEnvoys           | ❌       | 🔨 (last: 2.6.0)  | 🔨 (last: 2.6.0)  | ✅          |
 | 🪶 AxGens             | ❌       | 🔨 (last: 2.25.1) | 🔨 (last: 2.27.3) | ✅          |
 | 🪶 AxGlow             | ❌       | ❌                | ❌                | ✅          |
@@ -32,7 +35,7 @@ There is also no guaranteed support for modded platforms.
 | 🪶 AxKills            | ✅ 1.8+  | ✅                | ✅                | ✅          |
 | 🪶 AxKoth             | ❌       | 🔨 (last: 2.10.1) | 🔨 (last: 2.13.0) | ✅          |
 | 🪶 AxLobby            | ❌       | ❌                | ❌                | ✅          |
-| ❌ AxMines            | ❌       | 🔨 (last: 1.3.0)  | 🔨 (last: 1.3.0)  | ✅          |
+| AxMines            | ❌       | 🔨 (last: 1.3.0)  | 🔨 (last: 1.3.0)  | ✅          |
 | 🪶 AxMinions          | ❌       | 🔨 (last: 1.0.13) | 🔨 (last: 1.0.13) | ✅          |
 | 🪶 AxPickaxes         | ❌       | ❌                | ❌                | ✅          |
 | 🪶 AxPlayerWarps      | ❌       | 🔨 (last: 1.2.1)  | 🔨 (last: 1.7.0)  | ✅          |
