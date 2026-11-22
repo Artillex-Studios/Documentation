@@ -2,6 +2,8 @@
 
 > This plugin has not released yet, some things are subject to change!
 {style="warning"}
+
+> Available in BETA, get it from: [https://dc.artillex-studios.com](https://dc.artillex-studios.com)
  
 * A feature-filled voucher plugin!
 

@@ -1,4 +1,4 @@
-# AxDiscordLink
+# AxDiscordLink (❗NEW)
 
 ### What is AxDiscordLink?
 - An all-in-one Discord <-> Minecraft linking and 2FA plugin.

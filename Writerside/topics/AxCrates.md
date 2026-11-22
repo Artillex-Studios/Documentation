@@ -3,6 +3,8 @@
 > This plugin has not released yet, some things are subject to change!
 {style="warning"}
 
+> Available in BETA, get it from: [https://dc.artillex-studios.com](https://dc.artillex-studios.com)
+
 ### What is AxCrates?
 - AxCrates is an all in one crate plugins. You can create both crates and lootboxes, no need for multiple plugins. Customize crates and keys from an ingame editor.
 
