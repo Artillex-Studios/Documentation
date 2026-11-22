@@ -4,6 +4,8 @@
 
     <sitemap priority="0.35" change-frequency="monthly"/>
     <variables>
+        <generate-sitemap-url-prefix>https://docs.artillex-studios.com/</generate-sitemap-url-prefix>
+
         <custom-favicons>favicon.png</custom-favicons>
         <product-web-url>https://docs.artillex-studios.com/welcome.html</product-web-url>
         <header-logo>header.png</header-logo>
