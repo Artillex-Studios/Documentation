@@ -1,7 +1,4 @@
-# AxChat 🛠️
-
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
+# AxChat (❗NEW)
 
 ### What is AxChat?
 

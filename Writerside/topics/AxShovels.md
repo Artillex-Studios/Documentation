@@ -1,7 +1,4 @@
-# AxShovels 🛠️
-
-> This plugin has not released yet, some things are subject to change!
-{style="warning"}
+# AxShovels (❗NEW)
 
 ### What is AxShovels?
 - An all-in-one custom shovel plugin focused on performance & customizability.

@@ -23,6 +23,7 @@ There is also no guaranteed support for modded platforms.
 | 🪶 AxAuctions         | ❌       | 🔨 (last: 1.14.0) | 🔨 (last: 1.19.6) | ✅          |
 | 🪶 AxBoosters         | ❌       | 🔨                | 🔨 (last: 3.7.3)  | ✅          |
 | 🪶 AxCalendar         | ❌       | 🔨 (last: 2.1.0)  | 🔨 (last: 2.2.0)  | ✅          |
+| 🪶 AxChat        | ❌       | ❌                | ❌                | ✅          |
 | 🪶 AxChatGames        | ❌       | ❌                | ❌                | ✅          |
 | 🪶 AxDarkAuctions     | ❌       | ❌                | 🔨 (last: 1.2.2)  | ✅          |
 | 🪶🦑➰ AxDiscordLink     | ❌       | ❌                | ❌  | ✅          |
@@ -44,6 +45,7 @@ There is also no guaranteed support for modded platforms.
 | 🪶 AxRewards          | ❌       | 🔨 (last: 3.1.1)  | 🔨 (last: 3.3.0)  | ✅          |
 | 🪶 AxSellChests       | ❌       | ❌                | ❌                | ✅          |
 | 🪶 AxSellwands        | ❌       | 🔨 (last: 1.7.0)  | 🔨 (last: 1.8.3)  | ✅          |
+| 🪶 AxShovels       | ❌       | ❌                | ❌                | ✅          |
 | 🪶 AxShulkers         | ✅ 1.13+ | ✅                | ✅                | ✅          |
 | 🪶 AxSpawners         | ❌       | ❌                | ❌                | ✅          |
 | 🪶 AxSmithing         | ❌       | 🔨 (last: 1.9)    | 🔨 (last: 1.9)    | ✅          |
